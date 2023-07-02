@@ -11,7 +11,7 @@ export default class Support extends Component<Props, State> {
 
   render() {
     return (
-      <section>
+      <section className='supp'>
         <div className="sub-main-secon">
             <div className='color-effect section-title'> Support </div>
                 <div className='section-desc'> Support is available through <span className='color-effect-nontitle highlighted'> Discord Chat! </span></div>
