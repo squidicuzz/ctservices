@@ -101,7 +101,9 @@ section {
 }
 
 .landing-container {
-  background-image: url(/images/land-svg.svg), url(/images/bbblurry.svg);
+  background: radial-gradient(circle at right, transparent, rgb(9, 10, 29) 60%),
+    url(/images/land-svg.svg), url(/images/bbblurry.svg),
+    url(/images/5096157.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -554,7 +556,7 @@ li {
 }
 
 .sales {
-  box-shadow: 0px -100px 75px #050421;
+  box-shadow: 0px -100px 75px #050421, 0px 100px 75px #050421 inset;
 }
 
 .supp {
