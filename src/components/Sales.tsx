@@ -10,7 +10,7 @@ export default class Sales extends Component<Props, State> {
 
   render() {
     return (
-      <section>
+      <section className='sales'>
         <div className="sub-main-secon">
             <div className='color-effect section-title'> Sales </div>
           <div className='section-desc'> Estimated Quotes for <span className='color-effect-nontitle highlighted'> Sales Services. </span></div>

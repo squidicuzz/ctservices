@@ -97,7 +97,7 @@ main {
 }
 
 .landing-container {
-  background-image: url(/images/land-svg.svg);
+  background-image: url(/images/land-svg.svg), url(/images/bbblurry.svg);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -541,6 +541,10 @@ li {
 .to-flex {
   display: flex;
   align-items: center;
+}
+
+.sales {
+  box-shadow: 0px -100px 75px #050421;
 }
 
 .supp {
