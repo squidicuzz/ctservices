@@ -24,7 +24,8 @@ export default class Support extends Component<Props, State> {
                     src="/images/support-block.png"
                     width="900" height="900"
                     />
-                <div className='section-desc supp-text-border'> Please contact <span className='color-effect-nontitle highlighted'> SQUIDICUZ </span> if it is urgent, or contact another admin to attempt to resolve your issue. <span className='color-effect-nontitle highlighted'> Thank you. </span> </div>
+                <div data-aos="fade-right"
+                    data-aos-duration="1500" className='section-desc supp-text-border'> Please contact <span className='color-effect-nontitle highlighted'> SQUIDICUZ </span> if it is urgent, or contact another admin to attempt to resolve your issue. <span className='color-effect-nontitle highlighted'> Thank you. </span> </div>
                 </div>
                 </div>
       </section>

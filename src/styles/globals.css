@@ -80,6 +80,10 @@ main {
   align-items: center;
 }
 
+section {
+  min-height: 100vh;
+}
+
 .sub-main-secon {
   max-width: 55vw;
   margin-left: auto;
@@ -255,6 +259,11 @@ main {
 
 .contact-name {
   font-size: 2.5em;
+  margin-left: 0.5rem;
+}
+
+.contact-name-1 {
+  font-size: 1.75em;
   margin-left: 0.5rem;
 }
 
@@ -577,4 +586,164 @@ li {
   filter: drop-shadow(0px 0px 15px rgb(var(--jekz-secon)));
   text-align: center;
   padding-top: 4.1rem;
+}
+
+.contacts-border {
+  box-shadow: 0px -100px 200px #06080b, 0px 100px 200px #06080b inset;
+  background-color: #06080b;
+}
+
+.to-center {
+  text-align: center;
+}
+
+.service-package-1 {
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--squid-secon)),
+      rgb(var(--squid-secon))
+    )
+    1;
+  width: 55%;
+  background-color: rgba(var(--squid));
+}
+
+.service-package-1::after {
+  content: "Package 1";
+  position: absolute;
+  font-size: 2rem;
+  margin-top: -13.5rem;
+  background-color: #06080b;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--squid-secon)),
+      rgb(var(--squid-secon))
+    )
+    1;
+}
+
+.service-package-1::before {
+  content: "❖";
+  font-size: 5em;
+  position: absolute;
+  margin-left: 50.8rem;
+  color: rgb(var(--squid-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--squid-secon)));
+  text-align: center;
+  z-index: 2;
+}
+
+.service-package-sub {
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgb(13, 17, 23, 0.95);
+  min-height: 10rem;
+  padding-top: none;
+  padding: 0.5rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  margin-bottom: -1.5rem;
+  -webkit-clip-path: polygon(75% 0%, 100% 25%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(75% 0%, 100% 25%, 100% 100%, 0 100%, 0 0);
+  transition: 0.5s linear;
+}
+
+.service-package-2 {
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--valor-secon)),
+      rgb(var(--valor-secon))
+    )
+    1;
+  width: 55%;
+  background-color: rgba(var(--valor));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-package-2::after {
+  content: "Package 2";
+  position: absolute;
+  font-size: 2rem;
+  margin-top: -13.5rem;
+  background-color: #06080b;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--valor-secon)),
+      rgb(var(--valor-secon))
+    )
+    1;
+}
+
+.service-package-2::before {
+  content: "❖";
+  font-size: 5em;
+  position: absolute;
+  margin-left: 50.8rem;
+  color: rgb(var(--valor-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--valor-secon)));
+  text-align: center;
+  z-index: 2;
+}
+
+.service-package-3 {
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--seqsee-secon)),
+      rgb(var(--seqsee-secon))
+    )
+    1;
+  width: 55%;
+  background-color: rgba(var(--seqsee));
+  margin-left: auto;
+}
+
+.service-package-3::after {
+  content: "Package 3";
+  position: absolute;
+  font-size: 2rem;
+  margin-top: -13.5rem;
+  background-color: #06080b;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--seqsee-secon)),
+      rgb(var(--seqsee-secon))
+    )
+    1;
+}
+
+.service-package-3::before {
+  content: "❖";
+  font-size: 5em;
+  position: absolute;
+  margin-left: 50.8rem;
+  color: rgb(var(--seqsee-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--seqsee-secon)));
+  z-index: 2;
+}
+
+.packages {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
 }

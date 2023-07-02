@@ -11,7 +11,7 @@ export default class Contacts extends Component<Props, State> {
 
   render() {
     return (
-      <section>
+      <section className='contacts-border'>
         <div className="sub-main-secon">
             <div className='color-effect section-title'> Cryptech Team </div>
         <div className='section-desc'> Site <span className='color-effect-nontitle highlighted'> Administrators </span> & <span className='color-effect-nontitle highlighted'> Support </span> </div>
