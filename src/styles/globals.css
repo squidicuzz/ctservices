@@ -749,4 +749,5 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 4rem;
+  background-image: url(/images/llline1.svg);
 }
