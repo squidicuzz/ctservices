@@ -609,6 +609,7 @@ li {
     1;
   width: 55%;
   background-color: rgba(var(--squid));
+  filter: drop-shadow(0px 0px 5px rgb(var(--squid-secon)));
 }
 
 .service-package-1::after {
@@ -668,6 +669,7 @@ li {
   background-color: rgba(var(--valor));
   margin-left: auto;
   margin-right: auto;
+  filter: drop-shadow(0px 0px 5px rgb(var(--valor-secon)));
 }
 
 .service-package-2::after {
@@ -711,6 +713,7 @@ li {
   width: 55%;
   background-color: rgba(var(--seqsee));
   margin-left: auto;
+  filter: drop-shadow(0px 0px 5px rgb(var(--seqsee-secon)));
 }
 
 .service-package-3::after {
