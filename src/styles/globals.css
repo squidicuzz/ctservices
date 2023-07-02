@@ -86,6 +86,16 @@ main {
   margin-right: auto;
 }
 
+@media screen and (max-width: 1920px) {
+  .sub-main {
+    max-width: 90vw;
+  }
+
+  .sub-main-secon {
+    max-width: 90vw;
+  }
+}
+
 .landing-container {
   background-image: url(/images/land-svg.svg);
   background-position: center right;
@@ -504,6 +514,7 @@ li {
 
 .support-image {
   background: url("/images/support-bg.svg"), url("/images/support-bg-2.svg");
+  background-position: center;
   background-size: cover;
 }
 
