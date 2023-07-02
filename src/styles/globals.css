@@ -743,6 +743,31 @@ li {
   z-index: 2;
 }
 
+.service-package-4 {
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--jekz-secon)),
+      rgb(var(--jekz-secon))
+    )
+    1;
+  width: 55%;
+  background-color: rgba(var(--jekz));
+  filter: drop-shadow(0px 0px 5px rgb(var(--jekz-secon)));
+}
+
+.service-package-4::before {
+  content: "❖";
+  font-size: 5em;
+  position: absolute;
+  margin-left: 50.8rem;
+  color: rgb(var(--jekz-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--jekz-secon)));
+  z-index: 2;
+}
+
 .packages {
   margin-top: 3rem;
   display: flex;
