@@ -22,9 +22,9 @@ export default class Support extends Component<Props, State> {
                     data-aos-duration="1500"
                     alt='front-logo'
                     src="/images/support-block.png"
-                    width="1024" height="1024"
+                    width="900" height="900"
                     />
-                <div className='section-desc'> Please contact <span className='color-effect-nontitle highlighted'> SQUIDICUZ </span> if it is urgent, or contact another admin to attempt to resolve your issue. <span className='color-effect-nontitle highlighted'> Thank you. </span> </div>
+                <div className='section-desc supp-text-border'> Please contact <span className='color-effect-nontitle highlighted'> SQUIDICUZ </span> if it is urgent, or contact another admin to attempt to resolve your issue. <span className='color-effect-nontitle highlighted'> Thank you. </span> </div>
                 </div>
                 </div>
       </section>
