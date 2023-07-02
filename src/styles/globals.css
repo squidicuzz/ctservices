@@ -98,7 +98,7 @@ main {
 
 .landing-container {
   background-image: url(/images/land-svg.svg), url(/images/bbblurry.svg);
-  background-position: center right;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -550,5 +550,5 @@ li {
 .supp {
   background-image: url(/images/supp-bg.svg);
   background-size: cover;
-  box-shadow: 0px -100px 200px #06080b;
+  box-shadow: 0px -100px 200px #06080b, 0px 100px 200px #06080b inset;
 }
