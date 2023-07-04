@@ -34,12 +34,12 @@ export default class Cryptectest extends Component<Props, State> {
 
                                <div className="carousel-container">
                   <div className="carousel">
-                     <Image alt='ships' className="squid" src="images/structures/chunkloader_m.webp" width="750" height="750"/>
-                     <Image alt='ships' className="squid" src="images/structures/kelpfarm_m.webp" width="750" height="750"/>
-                     <Image alt='ships' className="squid" src="images/structures/mobfarm_m.webp" width="750" height="750"/>
-                     <Image alt='ships' className="squid" src="images/structures/rosenbridge_m.webp" width="750" height="750"/>
-                     <Image alt='ships' className="squid" src="images/structures/smokehouse_m.webp" width="750" height="750"/>
-                     <Image alt='ships' className="squid" src="images/structures/wallet_m.webp" width="750" height="750"/>
+                     <Image alt='ships' className="squid" src="/images/1.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid" src="/images/2.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid" src="/images/3.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid" src="/images/4.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid" src="/images/5.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid" src="/images/6.png" width="3620" height="1969"/>
                   </div>
 
                 </div>
