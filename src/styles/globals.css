@@ -556,12 +556,12 @@ li {
 }
 
 .sales {
-  box-shadow: 0px -100px 75px #050421, 0px 100px 75px #050421 inset;
+  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
 }
 
 .supp {
   background: radial-gradient(circle at center, transparent, rgb(9, 10, 29)),
-    url(/images/4562472.png);
+    url(/images/4562472.png), url(/images/6985678.png);
   box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
 }
 
@@ -604,7 +604,7 @@ li {
 
 .services {
   background: radial-gradient(circle at left, transparent, rgb(9, 10, 29)),
-    url(/images/5096157.png);
+    url(/images/5555228.png);
   box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
 }
 
@@ -797,7 +797,7 @@ li {
     url(/images/BG-B.webp);
   background-position: center;
   background-size: cover;
-  box-shadow: 0px -100px 200px #0a0b28, 0px 100px 200px #0a0b28 inset;
+  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
 }
 
 .to-border {
