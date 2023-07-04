@@ -151,7 +151,7 @@ section {
 }
 
 .home-welcome-border {
-  border: 2px solid;
+  border-left: 2px solid;
   border-image: linear-gradient(
       to bottom,
       transparent,
@@ -160,7 +160,6 @@ section {
       transparent
     )
     1;
-  border-right: none;
   padding-left: 2rem;
   width: 50%;
 }
