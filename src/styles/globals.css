@@ -881,16 +881,9 @@ li {
   height: 25rem;
   overflow: hidden;
   border: 3px solid;
-  border-image: linear-gradient(
-      180deg,
-      transparent,
-      rgb(var(--seqsee-secon)),
-      rgb(var(--seqsee-secon)),
-      rgb(var(--seqsee-secon)),
-      transparent
-    )
-    1;
+  border-image: linear-gradient(to bottom, rgb(var(--seqsee-secon))) 1;
   border-top: none;
+  border-bottom: none;
 }
 
 .carousel-container::after {
