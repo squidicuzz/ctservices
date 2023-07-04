@@ -34,12 +34,12 @@ export default class Cryptectest extends Component<Props, State> {
 
                                <div className="carousel-container">
                   <div className="carousel">
-                     <Image alt='ships' className="squid" src="/images/1.png" width="3620" height="1969"/>
-                     <Image alt='ships' className="squid" src="/images/2.png" width="3620" height="1969"/>
-                     <Image alt='ships' className="squid" src="/images/3.png" width="3620" height="1969"/>
-                     <Image alt='ships' className="squid" src="/images/4.png" width="3620" height="1969"/>
-                     <Image alt='ships' className="squid" src="/images/5.png" width="3620" height="1969"/>
-                     <Image alt='ships' className="squid" src="/images/6.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid-anim" src="/images/1.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid-anim" src="/images/2.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid-anim" src="/images/3.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid-anim" src="/images/4.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid-anim" src="/images/5.png" width="3620" height="1969"/>
+                     <Image alt='ships' className="squid-anim" src="/images/6.png" width="3620" height="1969"/>
                   </div>
 
                 </div>

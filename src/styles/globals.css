@@ -906,7 +906,7 @@ li {
   gap: 3rem;
 }
 
-.squid {
+.squid-anim {
   margin-top: 2rem;
   margin-bottom: 2rem;
   -webkit-clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 10%);
