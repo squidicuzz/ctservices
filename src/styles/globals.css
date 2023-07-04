@@ -76,8 +76,8 @@ main {
   margin-right: auto;
   background-color: rgb(9, 10, 29) !important;
   overflow-y: scroll;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
+  /* height: 100vh;
+  scroll-snap-type: y mandatory; */
 }
 
 main::-webkit-scrollbar {
