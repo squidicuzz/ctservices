@@ -19,13 +19,15 @@ export default class Support extends Component<Props, State> {
                 <Image
                     className='support-image sp-image'
                     data-aos="fade-left"
-                    data-aos-duration="1500"
+              data-aos-duration="1500"
+              data-aos-anchor-placement="bottom-bottom"
                     alt='front-logo'
                     src="/images/support-block.png"
-                    width="900" height="900"
+                    width="750" height="750"
                     />
                 <div data-aos="fade-right"
-                    data-aos-duration="1500" className='section-desc supp-text-border'> Please contact <span className='color-effect-nontitle highlighted'> SQUIDICUZ </span> if it is urgent, or contact another admin to attempt to resolve your issue. <span className='color-effect-nontitle highlighted'> Thank you. </span> </div>
+              data-aos-duration="1500"
+              data-aos-anchor-placement="bottom-bottom" className='section-desc supp-text-border'> Please contact <span className='color-effect-nontitle highlighted'> SQUIDICUZ </span> if it is urgent, or contact another admin to attempt to resolve your issue. <span className='color-effect-nontitle highlighted'> Thank you. </span> </div>
                 </div>
                 </div>
       </section>

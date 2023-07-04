@@ -61,6 +61,12 @@ body {
     radial-gradient(35% 56% at 91% 74%, #090b1c 9%, #073aff00 100%),
     radial-gradient(74% 86% at 67% 38%, #090b1c 24%, #073aff00 100%),
     linear-gradient(359deg, #090b1c 1%, #090b1c 100%); */
+  /* overflow: hidden; */
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+  margin: 0 0;
 }
 
 main {
@@ -68,6 +74,27 @@ main {
   font-family: "Ysabeau", sans-serif !important;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(9, 10, 29) !important;
+  /* overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory; */
+}
+
+main::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 100px;
+  margin: 1vh 0;
+}
+
+/* Track */
+main::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Handle */
+main::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
 }
 
 .sub-main {
@@ -82,8 +109,10 @@ main {
 
 section {
   display: flex;
-  min-height: 100vh;
   align-items: center;
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
 }
 
 .sub-main-secon {
@@ -135,6 +164,7 @@ section {
   border-bottom: none;
   border-right: none;
   padding-left: 2rem;
+  width: 50%;
 }
 
 .color-effect {
@@ -556,13 +586,15 @@ li {
 }
 
 .sales {
-  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
+  background: radial-gradient(circle at center, transparent, rgb(9, 10, 29) 40%),
+    url(/images/3084542.png);
+  box-shadow: 0px -100px 150px #0a0b28, 0px 150px 100px #0a0b28 inset;
 }
 
 .supp {
   background: radial-gradient(circle at center, transparent, rgb(9, 10, 29)),
     url(/images/4562472.png), url(/images/6985678.png);
-  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
+  box-shadow: 0px -100px 150px #0a0b28, 0px 150px 100px #0a0b28 inset;
 }
 
 .supp-text-border {
@@ -578,6 +610,8 @@ li {
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-right: 2rem;
+  width: 50%;
+  line-height: 1.5em;
 }
 
 .supp-text-border:after {
@@ -586,12 +620,12 @@ li {
   position: absolute;
   color: rgb(var(--jekz-secon));
   filter: drop-shadow(0px 0px 15px rgb(var(--jekz-secon)));
-  text-align: center;
-  padding-top: 4.1rem;
+  padding-top: 4.45rem;
+  width: 1rem;
 }
 
 .contacts-border {
-  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
+  box-shadow: 0px -100px 150px #0a0b28, 0px 150px 100px #0a0b28 inset;
   background: radial-gradient(circle at center 10%, transparent, rgb(9, 10, 29)),
     url(/images/3199.png);
   background-position: center;
@@ -605,7 +639,7 @@ li {
 .services {
   background: radial-gradient(circle at left, transparent, rgb(9, 10, 29)),
     url(/images/5555228.png);
-  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
+  box-shadow: 0px -100px 150px #0a0b28, 0px 150px 100px #0a0b28 inset;
 }
 
 .service-package-1 {
@@ -779,6 +813,13 @@ li {
   z-index: 2;
 }
 
+.service-package-sub:hover {
+  transform: scale(1.05);
+  -webkit-clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0%, 100% 0, 100% 100%, 0 100%, 0 0);
+  cursor: pointer;
+}
+
 .packages {
   margin-top: 3rem;
   display: flex;
@@ -813,6 +854,8 @@ li {
   gap: 1rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  width: 50%;
+  padding-right: 1rem;
 }
 
 .to-border:after {
@@ -821,5 +864,9 @@ li {
   position: absolute;
   color: rgb(var(--valor-secon));
   filter: drop-shadow(0px 0px 15px rgb(var(--valor-secon)));
-  text-align: center;
+  padding-top: 0.25rem;
+  margin-left: 25rem;
+}
+
+.ships {
 }
