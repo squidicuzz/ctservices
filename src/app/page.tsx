@@ -4,6 +4,7 @@ import Services from '@/components/Services';
 import Contacts from '@/components/Contacts';
 import Support from '@/components/Support';
 import Footer from '@/components/Footer';
+import Cryptectest from '@/components/Cryptectest';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <Contacts />
       <Support />
+      <Cryptectest />
       <Footer />
     </main>
   )

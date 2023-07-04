@@ -81,7 +81,9 @@ main {
 }
 
 section {
+  display: flex;
   min-height: 100vh;
+  align-items: center;
 }
 
 .sub-main-secon {
@@ -101,9 +103,8 @@ section {
 }
 
 .landing-container {
-  background: radial-gradient(circle at right, transparent, rgb(9, 10, 29) 60%),
-    url(/images/land-svg.svg), url(/images/bbblurry.svg),
-    url(/images/5096157.png);
+  background: radial-gradient(circle at right, transparent, rgb(9, 10, 29) 75%),
+    url(/images/bbblurry.svg), url(/images/5096157.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,7 +240,7 @@ section {
 .section-title {
   font-size: 3em;
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .section-desc {
@@ -559,9 +560,9 @@ li {
 }
 
 .supp {
-  background-image: url(/images/supp-bg.svg);
-  background-size: cover;
-  box-shadow: 0px -100px 200px #06080b, 0px 100px 200px #06080b inset;
+  background: radial-gradient(circle at center, transparent, rgb(9, 10, 29)),
+    url(/images/4562472.png);
+  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
 }
 
 .supp-text-border {
@@ -590,12 +591,21 @@ li {
 }
 
 .contacts-border {
-  box-shadow: 0px -100px 200px #06080b, 0px 100px 200px #06080b inset;
-  background-color: #06080b;
+  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
+  background: radial-gradient(circle at center 10%, transparent, rgb(9, 10, 29)),
+    url(/images/3199.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .to-center {
   text-align: center;
+}
+
+.services {
+  background: radial-gradient(circle at left, transparent, rgb(9, 10, 29)),
+    url(/images/5096157.png);
+  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
 }
 
 .service-package-1 {
@@ -775,5 +785,41 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 4rem;
-  background-image: url(/images/llline1.svg);
+  /* background-image: url(/images/llline1.svg); */
+}
+
+.ctgame {
+  background: radial-gradient(
+      circle at right 50%,
+      transparent,
+      rgb(9, 10, 29) 75%
+    ),
+    url(/images/BG-B.webp);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px -100px 200px #0a0b28, 0px 100px 200px #0a0b28 inset;
+}
+
+.to-border {
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      0deg,
+      transparent,
+      transparent,
+      rgb(var(--valor-secon))
+    )
+    1;
+  margin: 2rem;
+  gap: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.to-border:after {
+  content: "❖";
+  font-size: 5em;
+  position: absolute;
+  color: rgb(var(--valor-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--valor-secon)));
+  text-align: center;
 }

@@ -13,7 +13,7 @@ export default class Support extends Component<Props, State> {
     return (
       <section className='supp'>
         <div className="sub-main-secon">
-            <div className='color-effect section-title'> Support </div>
+            <div className='color-effect section-title'> SUPPORT </div>
                 <div className='section-desc'> Support is available through <span className='color-effect-nontitle highlighted'> Discord Chat! </span></div>
                 <div className='to-flex seryo-image'>
                 <Image

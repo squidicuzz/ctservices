@@ -13,10 +13,10 @@ export default class Contacts extends Component<Props, State> {
     return (
       <section className='contacts-border'>
         <div className="sub-main-secon">
-            <div className='color-effect section-title'> Cryptech Team </div>
+            <div className='color-effect section-title'> CRYPTECH TEAM </div>
         <div className='section-desc'> Site <span className='color-effect-nontitle highlighted'> Administrators </span> & <span className='color-effect-nontitle highlighted'> Support </span> </div>
         <div className='contacts-content contact-div'>
-        <div data-aos="fade-up" data-aos-duration="1500" className='contacts-container'>
+        <div data-aos="fade-up" data-aos-duration="1000" className='contacts-container'>
             <Image
               className='contact-mug'
                     alt='front-logo'
@@ -42,7 +42,7 @@ export default class Contacts extends Component<Props, State> {
               <a className="contact-button valor" href="#explorecourses"><div><button type="button" className="home-button-txt">Contact</button></div></a>
               </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1500" className='contacts-container'>
+        <div data-aos="fade-up" data-aos-duration="2000" className='contacts-container'>
             <Image
               className='contact-mug'
                     alt='front-logo'
@@ -55,7 +55,7 @@ export default class Contacts extends Component<Props, State> {
               <a className="contact-button seqsee" href="#explorecourses"><div><button type="button" className="home-button-txt">Contact</button></div></a>
             </div>
             </div>
-        <div data-aos="fade-down" data-aos-duration="1500" className='contacts-container'>
+        <div data-aos="fade-down" data-aos-duration="2500" className='contacts-container'>
             <Image
               className='contact-mug'
                     alt='front-logo'
