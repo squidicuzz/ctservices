@@ -19,7 +19,8 @@ export default class Landing extends Component<Props, State> {
                     <p className='home-welcome-sub-message'> We provide web3 and fullstack development services and support, primarily focusing on cryptocurrency, blockchain technology and cyber security. </p>
                     <a className="home-button" href="#explorecourses"><div><button type="button" className="home-button-txt">Inquire</button></div></a>
                 </div>
-                <Image
+                    <Image
+                        className="land-photo"
                     data-aos="fade-left"
                         data-aos-duration="1500"
                         data-aos-anchor-placement="bottom-bottom"

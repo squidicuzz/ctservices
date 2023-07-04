@@ -569,6 +569,8 @@ li {
     )
     1;
   margin: 2rem;
+  width: 50%;
+  height: 50%;
 }
 
 .seryo-image:after {
@@ -616,13 +618,13 @@ li {
 
 .supp-text-border:after {
   content: "❖";
-  font-size: 2.5em;
+  font-size: 3em;
   position: absolute;
   color: rgb(var(--jekz-secon));
   filter: drop-shadow(0px 0px 15px rgb(var(--jekz-secon)));
   padding-top: 1.9rem;
-  width: 1rem;
-  margin-left: 23rem;
+  width: 50rem;
+  text-align: center;
 }
 
 .contacts-border {
@@ -866,8 +868,16 @@ li {
   color: rgb(var(--valor-secon));
   filter: drop-shadow(0px 0px 15px rgb(var(--valor-secon)));
   padding-top: 0.25rem;
-  margin-left: 25rem;
+  width: 30rem;
+  text-align: end;
 }
 
 .ships {
+  width: 50%;
+  height: 50%;
+}
+
+.land-photo {
+  width: 50%;
+  height: 50%;
 }

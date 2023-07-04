@@ -31,7 +31,19 @@ export default class Cryptectest extends Component<Props, State> {
                         <a className="home-button" href="https://cryptechtest.xyz/" target='_blank'><div><button type="button" className="home-button-txt">Join Us!</button></div></a>
                 </div>
                 </div>
-                                </div>
+
+                               <div className="carousel-container">
+                  <div className="carousel">
+                     <Image alt='ships' className="squid" src="images/structures/chunkloader_m.webp" width="750" height="750"/>
+                     <Image alt='ships' className="squid" src="images/structures/kelpfarm_m.webp" width="750" height="750"/>
+                     <Image alt='ships' className="squid" src="images/structures/mobfarm_m.webp" width="750" height="750"/>
+                     <Image alt='ships' className="squid" src="images/structures/rosenbridge_m.webp" width="750" height="750"/>
+                     <Image alt='ships' className="squid" src="images/structures/smokehouse_m.webp" width="750" height="750"/>
+                     <Image alt='ships' className="squid" src="images/structures/wallet_m.webp" width="750" height="750"/>
+                  </div>
+
+                </div>
+                </div>
       </section>
     )
   }
