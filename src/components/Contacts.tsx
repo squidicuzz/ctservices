@@ -78,7 +78,7 @@ export default class Contacts extends Component<Props, State> {
             <div className='details-bg'>
             <div className='contact-name seq-name'> Ercknard </div>
               <div className='contact-description'> <ul> <li> Developer </li> <li> Front-End </li> <li> </li></ul></div>
-              <a className="contact-button seqsee" href="https://discord.com/users/412122437954830337" target='_blank'><div><button type="button" className="home-button-txt">Contact</button></div></a>
+              <a className="contact-button ercknard" href="https://discord.com/users/412122437954830337" target='_blank'><div><button type="button" className="home-button-txt">Contact</button></div></a>
             </div>
             </div>
           </div>

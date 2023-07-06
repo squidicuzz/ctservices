@@ -20,11 +20,12 @@
   --valor: 65, 76, 148;
   --seqsee: 49, 101, 136;
   --jekz: 58, 125, 113;
-  --ercnard-secon: 182, 67, 174;
+  --ercnard: 147, 56, 150;
   --squid-secon: 176, 117, 248;
   --valor-secon: 123, 143, 252;
   --seqsee-secon: 92, 194, 228;
   --jekz-secon: 110, 240, 188;
+  --ercnard-secon: 182, 67, 174;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -257,6 +258,14 @@ section {
     180deg,
     rgb(80, 163, 254),
     rgb(var(--jekz))
+  );
+}
+
+.ercknard {
+  background: -webkit-linear-gradient(
+    180deg,
+    rgb(80, 163, 254),
+    rgb(var(--ercnard))
   );
 }
 
