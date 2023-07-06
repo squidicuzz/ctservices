@@ -68,6 +68,19 @@ export default class Contacts extends Component<Props, State> {
               <a className="contact-button jekz" href="https://discord.com/users/294414250376429569" target='_blank'><div><button type="button" className="home-button-txt">Contact</button></div></a>
             </div>
             </div>
+             <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="bottom-bottom" className='contacts-container'>
+            <Image
+              className='contact-mug'
+                    alt='front-logo'
+                    src="/images/ercknard.png"
+                    width="512" height="512"
+            />
+            <div className='details-bg'>
+            <div className='contact-name seq-name'> Ercknard </div>
+              <div className='contact-description'> <ul> <li> Developer </li> <li> Front-End </li> <li> </li></ul></div>
+              <a className="contact-button seqsee" href="https://discord.com/users/412122437954830337" target='_blank'><div><button type="button" className="home-button-txt">Contact</button></div></a>
+            </div>
+            </div>
           </div>
           </div>
       </section>

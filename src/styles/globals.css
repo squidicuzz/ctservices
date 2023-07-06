@@ -20,6 +20,7 @@
   --valor: 65, 76, 148;
   --seqsee: 49, 101, 136;
   --jekz: 58, 125, 113;
+  --ercnard-secon: 182, 67, 174;
   --squid-secon: 176, 117, 248;
   --valor-secon: 123, 143, 252;
   --seqsee-secon: 92, 194, 228;
@@ -348,6 +349,19 @@ section {
   margin-bottom: 0.5rem;
 }
 
+.ercknard-name {
+  border-bottom: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      transparent,
+      rgb(var(--jekz-secon)),
+      transparent
+    )
+    1;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
 .contact-description {
   font-size: 1.25em;
 }
@@ -356,7 +370,7 @@ section {
   padding: 1rem;
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
-  width: 23%;
+  width: 18.5%;
   transition: 0.5s linear;
 }
 
@@ -509,6 +523,33 @@ section {
   filter: drop-shadow(0px 0px 15px rgb(var(--jekz-secon)));
 }
 
+.contacts-container:nth-child(5) {
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      45deg,
+      transparent,
+      rgb(var(--ercnard-secon)),
+      rgb(var(--ercnard-secon)),
+      transparent
+    )
+    1;
+
+  background-color: rgb(182, 67, 174, 0.5);
+  margin-bottom: 5rem;
+  filter: drop-shadow(0px 0px 5px rgb(var(--ercnard-secon)));
+}
+
+.contacts-container:nth-child(5)::after {
+  content: "❖";
+  font-size: 4em;
+  position: absolute;
+  color: rgb(var(--ercnard-secon));
+  top: -3.25rem;
+  text-align: center;
+  width: 90%;
+  filter: drop-shadow(0px 0px 15px rgb(var(--ercnard-secon)));
+}
+
 .details-bg {
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
@@ -545,9 +586,9 @@ li {
 }
 
 .contact-div {
-  background-image: url(/images/contact-svg.svg);
+  /* background-image: url(/images/contact-svg.svg);
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .support-image {
