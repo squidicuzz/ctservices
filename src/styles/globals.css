@@ -16,16 +16,16 @@
   --secon-color: 179, 116, 248;
   --ter-color: 114, 250, 179;
   --accent-color: 44, 104, 208;
-  --squid: 91, 64, 143;
-  --valor: 65, 76, 148;
-  --seqsee: 49, 101, 136;
-  --jekz: 58, 125, 113;
-  --ercnard: 147, 56, 150;
-  --squid-secon: 176, 117, 248;
-  --valor-secon: 123, 143, 252;
-  --seqsee-secon: 92, 194, 228;
-  --jekz-secon: 110, 240, 188;
-  --ercnard-secon: 182, 67, 174;
+  --squid: 147, 56, 150;
+  --valor: 91, 64, 143;
+  --seqsee: 65, 76, 148;
+  --jekz: 49, 101, 136;
+  --ercnard: 58, 125, 113;
+  --squid-secon: 182, 67, 174;
+  --valor-secon: 176, 117, 248;
+  --seqsee-secon: 123, 143, 252;
+  --jekz-secon: 92, 194, 228;
+  --ercnard-secon: 110, 240, 188;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -169,9 +169,11 @@ section {
 .color-effect {
   background: -webkit-linear-gradient(
     180deg,
-    rgb(var(--ter-color)) 40%,
-    rgb(var(--prim-color)),
-    rgb(var(--secon-color))
+    rgb(var(--ercnard-secon)) 20%,
+    rgb(var(--jekz-secon)),
+    rgb(var(--seqsee-secon)),
+    rgb(var(--valor-secon)),
+    rgb(var(--squid-secon))
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -180,9 +182,11 @@ section {
 .color-effect-nontitle {
   background: -webkit-linear-gradient(
     180deg,
-    rgb(var(--ter-color)),
-    rgb(var(--prim-color)),
-    rgb(var(--secon-color))
+    rgb(var(--ercnard-secon)) 20%,
+    rgb(var(--jekz-secon)),
+    rgb(var(--seqsee-secon)),
+    rgb(var(--valor-secon)),
+    rgb(var(--squid-secon))
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -230,43 +234,48 @@ section {
 }
 
 .squid {
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     180deg,
     rgb(80, 163, 254),
     rgb(var(--squid))
-  );
+  ); */
+  background: rgb(var(--squid));
 }
 
 .valor {
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     180deg,
     rgb(80, 163, 254),
     rgb(var(--valor))
-  );
+  ); */
+  background: rgb(var(--valor));
 }
 
 .seqsee {
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     180deg,
     rgb(80, 163, 254),
     rgb(var(--seqsee))
-  );
+  ); */
+  background: rgb(var(--seqsee));
 }
 
 .jekz {
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     180deg,
     rgb(80, 163, 254),
     rgb(var(--jekz))
-  );
+  ); */
+  background: rgb(var(--jekz));
 }
 
 .ercknard {
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     180deg,
     rgb(80, 163, 254),
     rgb(var(--ercnard))
-  );
+  ); */
+  background: rgb(var(--ercnard));
 }
 
 .home-button-txt {
@@ -297,7 +306,7 @@ section {
 }
 
 .contact-name {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-left: 0.5rem;
 }
 
@@ -363,7 +372,7 @@ section {
   border-image: -webkit-linear-gradient(
       180deg,
       transparent,
-      rgb(var(--jekz-secon)),
+      rgb(var(--ercnard-secon)),
       transparent
     )
     1;
@@ -435,7 +444,7 @@ section {
     )
     1;
 
-  background-color: rgb(176, 117, 248, 0.5);
+  background-color: rgb(182, 67, 174, 0.5);
   margin-bottom: 5rem;
   filter: drop-shadow(0px 0px 5px rgb(var(--squid-secon)));
 }
@@ -462,7 +471,7 @@ section {
     )
     1;
 
-  background-color: rgb(123, 143, 252, 0.5);
+  background-color: rgb(176, 117, 248, 0.5);
   margin-top: 5rem;
   filter: drop-shadow(0px 0px 5px rgb(var(--valor-secon)));
 }
@@ -489,7 +498,7 @@ section {
     )
     1;
 
-  background-color: rgb(92, 194, 228, 0.5);
+  background-color: rgb(123, 143, 252, 0.5);
   margin-bottom: 5rem;
   filter: drop-shadow(0px 0px 5px rgb(var(--seqsee-secon)));
 }
@@ -516,7 +525,7 @@ section {
     )
     1;
 
-  background-color: rgb(110, 240, 188, 0.5);
+  background-color: rgb(92, 194, 228, 0.5);
   margin-top: 5rem;
   filter: drop-shadow(0px 0px 5px rgb(var(--jekz-secon)));
 }
@@ -543,7 +552,7 @@ section {
     )
     1;
 
-  background-color: rgb(182, 67, 174, 0.5);
+  background-color: rgb(110, 240, 188, 0.5);
   margin-bottom: 5rem;
   filter: drop-shadow(0px 0px 5px rgb(var(--ercnard-secon)));
 }
@@ -578,7 +587,6 @@ section {
 .contacts-container:hover .details-bg {
   -webkit-clip-path: polygon(100% 0%, 100% 100%, 100% 100%, 0 100%, 0 0);
   clip-path: polygon(100% 0%, 100% 100%, 100% 100%, 0 100%, 0 0);
-  transform: scale(1.05);
 }
 
 ul {
@@ -588,6 +596,26 @@ ul {
 li:before {
   content: "❖";
   margin-right: 0.5rem;
+}
+
+.squid-list:before {
+  color: rgb(var(--squid));
+}
+
+.valor-list:before {
+  color: rgb(var(--valor));
+}
+
+.seqsee-list:before {
+  color: rgb(var(--seqsee));
+}
+
+.jekz-list:before {
+  color: rgb(var(--jekz));
+}
+
+.ercknard-list:before {
+  color: rgb(var(--ercnard));
 }
 
 li {
@@ -676,8 +704,8 @@ li {
 
 .contacts-border {
   box-shadow: 0px -100px 150px #0a0b28, 0px 150px 100px #0a0b28 inset;
-  background: radial-gradient(circle at center 10%, transparent, rgb(9, 10, 29)),
-    url(/images/3199.png);
+  /* background: radial-gradient(circle at center 10%, transparent, rgb(9, 10, 29)),
+    url(/images/3199.png); */
   background-position: center;
   background-size: cover;
 }

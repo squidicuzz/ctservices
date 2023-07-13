@@ -1,10 +1,10 @@
-import Landing from '@/components/Landing';
-import Sales from '@/components/Sales';
-import Services from '@/components/Services';
-import Contacts from '@/components/Contacts';
-import Support from '@/components/Support';
+import Landing from '@/layout/Landing';
+import Sales from '@/layout/Sales';
+import Services from '@/layout/Services';
+import Contacts from '@/layout/Contacts';
+import Support from '@/layout/Support';
 import Footer from '@/components/Footer';
-import Cryptectest from '@/components/Cryptectest';
+import Cryptectest from '@/layout/Cryptectest';
 
 export default function Home() {
   return (
