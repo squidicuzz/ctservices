@@ -16,6 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var image_1 = require("next/image");
 var react_1 = require("react");
+var scripts_1 = require("@/layout/components/scripts");
 var Landing = /** @class */ (function (_super) {
     __extends(Landing, _super);
     function Landing() {
@@ -24,14 +25,19 @@ var Landing = /** @class */ (function (_super) {
         return _this;
     }
     Landing.prototype.render = function () {
-        return (react_1["default"].createElement("section", { className: "landing-container" },
-            react_1["default"].createElement("div", { className: "to-width to-height to-center home-specs" },
-                react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'home-welcome-border' },
-                    react_1["default"].createElement("div", { className: 'home-welcome-message' },
-                        react_1["default"].createElement("div", { className: 'color-effect' }, " \u2756 "),
-                        " Welcome to ",
-                        react_1["default"].createElement("div", { className: 'color-effect' }, "Cryptech Services. ")))),
-            react_1["default"].createElement(image_1["default"], { className: "front-land-pic", alt: 'front-logo', src: "/images/frontss.png", width: "3620", height: "1671" })));
+        return (react_1["default"].createElement(react_1["default"].Fragment, null,
+            react_1["default"].createElement("section", { id: "particles-js" },
+                react_1["default"].createElement(scripts_1["default"], null)),
+            react_1["default"].createElement("section", { className: "landing-container" },
+                react_1["default"].createElement(image_1["default"], { className: "back-land-pic", alt: 'front-logo', src: "/images/back-5.png", width: "3620", height: "1671" }),
+                react_1["default"].createElement("div", { className: "to-width to-height to-center home-specs" },
+                    react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'home-welcome-border' },
+                        react_1["default"].createElement("div", { className: 'home-welcome-message' },
+                            react_1["default"].createElement("div", { className: 'text-motion' }, " \u2756 "),
+                            " Welcome to ",
+                            react_1["default"].createElement("div", { className: 'color-effect' }, "CRYPTECH SERVICES. ")))),
+                react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/frontss.png", width: "3620", height: "1671" }),
+                react_1["default"].createElement(scripts_1["default"], null))));
     };
     ;
     return Landing;
