@@ -5,12 +5,13 @@ type Props = {}
 
 type State = {}
 
-export default class Footer extends Component<Props, State> {
+export default class Services extends Component<Props, State> {
   state = {}
 
   render() {
     return (
-      <div>Footer</div>
+      <section>
+      </section>
     )
   }
 }
