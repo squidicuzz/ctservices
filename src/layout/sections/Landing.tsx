@@ -35,7 +35,7 @@ export default class Landing extends Component<Props, State> {
                     
 
                 <Image
-                    className="sales-land-pic reflect"
+                    className="front-land-pic reflect"
                 alt='front-logo'
                 src="/images/frontss.png"
                 width="3620" height="1671"
