@@ -3,7 +3,7 @@
 exports.__esModule = true;
 exports.metadata = void 0;
 
-require("../styles/globals.css");
+require("@/styles/globals.css");
 
 var google_1 = require("next/font/google");
 
@@ -14,11 +14,11 @@ var Aos_1 = require("@/layout/components/Aos");
 var head_1 = require("next/head");
 
 var inter = google_1.Inter({
-  subsets: ['latin']
+  subsets: ["latin"]
 });
 exports.metadata = {
-  title: 'Cryptech Services',
-  description: 'We provide web3 and fullstack development services and support, primarily focusing on cryptocurrency, blockchain technology and cyber security.'
+  title: "Cryptech Services",
+  description: "We provide web3 and fullstack development services and support, primarily focusing on cryptocurrency, blockchain technology and cyber security."
 };
 
 function RootLayout(_a) {
