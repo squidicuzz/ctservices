@@ -66,7 +66,7 @@ export default class Team extends Component<Props, State> {
             />
             <div className='details-bg'>
             <div className='contact-name jekz-name'> Jekz </div>
-              <div className='contact-description'> <ul> <li className='jekz-list'> Security Researcher </li> <li className='jekz-list'>Graphic Artist  </li> <li className='jekz-list'>Penetration Tester</li></ul> </div>
+              <div className='contact-description'> <ul> <li className='jekz-list'> Security Researcher </li> <li className='jekz-list'> Graphic Artist  </li> <li className='jekz-list'> Penetration Tester</li></ul> </div>
               <a className="contact-button jekz" href="https://discord.com/users/294414250376429569" target='_blank'><div><button type="button" className="home-button-txt">Contact</button></div></a>
             </div>
             </div>
