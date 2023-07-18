@@ -27,7 +27,7 @@ var Team = /** @class */ (function (_super) {
         return (react_1["default"].createElement("section", { className: 'team-container' },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", null,
-                    react_1["default"].createElement("div", { className: 'text-motion section-title-logo reflect' }, " \u2756 "),
+                    react_1["default"].createElement("div", { className: 'text-motion section-title-logo' }, " \u2756 "),
                     react_1["default"].createElement("div", { className: 'text-motion section-title' }, " CRYPTECH SERVICES TEAM ")),
                 react_1["default"].createElement("div", { className: 'to-flex' },
                     react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1000", "data-aos-anchor-placement": "bottom-bottom", className: 'contacts-container' },

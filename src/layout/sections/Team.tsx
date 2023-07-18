@@ -14,7 +14,7 @@ export default class Team extends Component<Props, State> {
       <section className='team-container'>
         <div className="to-width to-height to-center to-flex-column">
           <div>
-            <div className='text-motion section-title-logo reflect'> ❖ </div>
+            <div className='text-motion section-title-logo'> ❖ </div>
           <div className='text-motion section-title'> CRYPTECH SERVICES TEAM </div>
 </div>
         <div className='to-flex'>

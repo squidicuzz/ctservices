@@ -59,6 +59,13 @@ export default class Sales extends Component<Props, State> {
                 alt='front-logo'
                 src="/images/sales-1.png"
                 width="3620" height="1671"
+        />
+        
+                                <Image
+                    className="sales-land-pic reflect"
+                alt='front-logo'
+                src="/images/sales-2.png"
+                width="3620" height="1671"
                 />
       </section>
     )
