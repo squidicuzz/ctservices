@@ -316,6 +316,15 @@ section {
   z-index: 0;
 }
 
+.team-land-pic {
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  bottom: 0;
+  z-index: -1;
+  opacity: 85%;
+}
+
 /*------------------------------------------------------------------*/
 
 .we-do-container {

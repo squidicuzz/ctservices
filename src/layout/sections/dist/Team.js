@@ -111,7 +111,8 @@ var Team = /** @class */ (function (_super) {
                                     react_1["default"].createElement("li", { className: 'ercknard-list' }, " "))),
                             react_1["default"].createElement("a", { className: "contact-button ercknard", href: "https://discord.com/users/412122437954830337", target: '_blank' },
                                 react_1["default"].createElement("div", null,
-                                    react_1["default"].createElement("button", { type: "button", className: "home-button-txt" }, "Contact")))))))));
+                                    react_1["default"].createElement("button", { type: "button", className: "home-button-txt" }, "Contact"))))))),
+            react_1["default"].createElement(image_1["default"], { className: "team-land-pic reflect", alt: 'front-logo', src: "/images/team-1.png", width: "3620", height: "1670" })));
     };
     return Team;
 }(react_1.Component));

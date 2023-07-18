@@ -84,7 +84,13 @@ export default class Team extends Component<Props, State> {
             </div>
             </div>
           </div>
-          </div>
+        </div>
+                                        <Image
+                    className="team-land-pic reflect"
+                alt='front-logo'
+                src="/images/team-1.png"
+                width="3620" height="1670"
+                />
       </section>
     )
   }
