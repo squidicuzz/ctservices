@@ -4,7 +4,6 @@ import ContactPageOutlinedIcon from "@mui/icons-material/ContactPageOutlined";
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { StyledEngineProvider } from "@mui/material/styles";
-import Demo from "@/layout/components/Theme";
 
 function NavLink({ to, children }) {
   return (
