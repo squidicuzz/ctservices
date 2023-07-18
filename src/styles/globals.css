@@ -104,6 +104,11 @@ main {
   font-weight: bolder !important;
 }
 
+.to-column {
+  flex-direction: column;
+  justify-content: center;
+}
+
 .color-effect {
   background: -webkit-linear-gradient(
     180deg,
@@ -119,7 +124,11 @@ main {
 
 .reflect {
   -webkit-box-reflect: below 0px
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+}
+
+.reflect-v2 {
+  -webkit-box-reflect: below -175px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
 }
 
 .text-motion {
@@ -223,14 +232,14 @@ section {
   content: "";
   position: absolute;
   top: 0;
-  margin-top: -5rem;
+  margin-top: -8rem;
   width: 100%;
-  height: 200px;
+  height: 300px;
   background: linear-gradient(
     to top,
     transparent,
     rgba(7, 19, 55, 1),
-    rgba(7, 19, 55, 1),
+    rgba(28, 80, 129, 1),
     transparent
   );
 }
@@ -304,7 +313,7 @@ section {
 }
 
 .we-do {
-  width: 30%;
+  width: 10rem;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -322,11 +331,21 @@ section {
 }
 
 .we-logo-second {
+  color: rgb(var(--secondary-secon));
+  filter: drop-shadow(0px 0px 5px rgb(var(--secondary-secon)));
+}
+
+.we-logo-third {
   color: rgb(var(--tertiary-secon));
   filter: drop-shadow(0px 0px 5px rgb(var(--tertiary-secon)));
 }
 
-.we-logo-third {
+.we-logo-fourth {
+  color: rgb(var(--quaternary-secon));
+  filter: drop-shadow(0px 0px 5px rgb(var(--quaternary-secon)));
+}
+
+.we-logo-fifth {
   color: rgb(var(--quinary-secon));
   filter: drop-shadow(0px 0px 5px rgb(var(--quinary-secon)));
 }
@@ -342,10 +361,24 @@ section {
       transparent
     )
     1;
-  margin-top: -5rem;
+  margin-top: -105px;
 }
 
 .we-do:nth-child(2) {
+  background-color: rgb(176, 117, 248, 0.5);
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      45deg,
+      transparent,
+      rgb(var(--secondary-secon)),
+      rgb(var(--secondary-secon)),
+      transparent
+    )
+    1;
+  margin-top: 105px;
+}
+
+.we-do:nth-child(3) {
   background-color: rgb(123, 143, 252, 0.5);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
@@ -356,9 +389,24 @@ section {
       transparent
     )
     1;
+  margin-top: -105px;
 }
 
-.we-do:nth-child(3) {
+.we-do:nth-child(4) {
+  background-color: rgb(92, 194, 228, 0.5);
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      45deg,
+      transparent,
+      rgb(var(--quaternary-secon)),
+      rgb(var(--quaternary-secon)),
+      transparent
+    )
+    1;
+  margin-top: 105px;
+}
+
+.we-do:nth-child(5) {
   background-color: rgb(110, 240, 188, 0.5);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
@@ -369,7 +417,7 @@ section {
       transparent
     )
     1;
-  margin-top: 5rem;
+  margin-top: -105px;
 }
 
 .we-do-title {

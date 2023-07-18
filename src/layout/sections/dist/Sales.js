@@ -19,6 +19,8 @@ var image_1 = require("next/image");
 var CurrencyBitcoinOutlined_1 = require("@mui/icons-material/CurrencyBitcoinOutlined");
 var PrecisionManufacturingOutlined_1 = require("@mui/icons-material/PrecisionManufacturingOutlined");
 var ShieldOutlined_1 = require("@mui/icons-material/ShieldOutlined");
+var DesignServicesOutlined_1 = require("@mui/icons-material/DesignServicesOutlined");
+var SupportAgentOutlined_1 = require("@mui/icons-material/SupportAgentOutlined");
 var Sales = /** @class */ (function (_super) {
     __extends(Sales, _super);
     function Sales() {
@@ -38,8 +40,12 @@ var Sales = /** @class */ (function (_super) {
                         react_1["default"].createElement("span", { className: 'we-logo-first' }, "cryptocurrency "),
                         ", ",
                         react_1["default"].createElement("span", { className: 'we-logo-second' }, "blockchain technology "),
-                        "and ",
-                        react_1["default"].createElement("span", { className: 'we-logo-third' }, " cyber security. "))),
+                        ", ",
+                        react_1["default"].createElement("span", { className: 'we-logo-third' }, " cyber security "),
+                        ", ",
+                        react_1["default"].createElement("span", { className: 'we-logo-fourth' }, " web designing "),
+                        " and ",
+                        react_1["default"].createElement("span", { className: 'we-logo-fifth' }, " technical support. "))),
                 react_1["default"].createElement("div", { className: 'we-do-container' },
                     react_1["default"].createElement("div", { className: 'we-do', "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement(CurrencyBitcoinOutlined_1["default"], { className: 'we-logo we-logo-first' }),
@@ -49,7 +55,13 @@ var Sales = /** @class */ (function (_super) {
                         react_1["default"].createElement("div", { className: 'we-do-title' }, " Blockchain Tech. ")),
                     react_1["default"].createElement("div", { className: 'we-do', "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement(ShieldOutlined_1["default"], { className: 'we-logo we-logo-third' }),
-                        react_1["default"].createElement("div", { className: 'we-do-title' }, " Cyber Security ")))),
+                        react_1["default"].createElement("div", { className: 'we-do-title' }, " Cyber Security ")),
+                    react_1["default"].createElement("div", { className: 'we-do', "data-aos": "fade-down", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
+                        react_1["default"].createElement(DesignServicesOutlined_1["default"], { className: 'we-logo we-logo-fourth' }),
+                        react_1["default"].createElement("div", { className: 'we-do-title' }, " Web Design ")),
+                    react_1["default"].createElement("div", { className: 'we-do', "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
+                        react_1["default"].createElement(SupportAgentOutlined_1["default"], { className: 'we-logo we-logo-fifth' }),
+                        react_1["default"].createElement("div", { className: 'we-do-title' }, " Tech. Support ")))),
             react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-1.png", width: "3620", height: "1671" })));
     };
     return Sales;

@@ -36,7 +36,7 @@ var Landing = /** @class */ (function (_super) {
                             react_1["default"].createElement("div", { className: 'text-motion' }, " \u2756 "),
                             " Welcome to ",
                             react_1["default"].createElement("div", { className: 'color-effect' }, "CRYPTECH SERVICES. ")))),
-                react_1["default"].createElement(image_1["default"], { className: "front-land-pic reflect", alt: 'front-logo', src: "/images/frontss.png", width: "3620", height: "1671" }),
+                react_1["default"].createElement(image_1["default"], { className: "front-land-pic reflect-v2", alt: 'front-logo', src: "/images/frontss.png", width: "3620", height: "1671" }),
                 react_1["default"].createElement(scripts_1["default"], null))));
     };
     ;
