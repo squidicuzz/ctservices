@@ -100,11 +100,6 @@ export default function Navbar() {
           </div>
         </div>
         <div className="w-1/5 flex justify-end items-end">
-          {/* <React.StrictMode>
-            <StyledEngineProvider injectFirst>
-              <Demo />
-            </StyledEngineProvider>
-          </React.StrictMode> */}
           <a className="home-button" href="#explorecourses">
             <div>
               <button type="button">

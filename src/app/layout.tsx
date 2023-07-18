@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '@/styles/globals.css';
 import { Inter } from 'next/font/google';
 import '@fontsource/ysabeau';
 import AOScall from '@/layout/components/Aos';
