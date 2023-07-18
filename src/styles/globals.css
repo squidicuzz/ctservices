@@ -81,7 +81,7 @@ main {
 
 @media screen and (max-width: 1920px) {
   .to-width {
-    max-width: 98vw;
+    max-width: 95vw;
   }
 }
 
@@ -241,10 +241,13 @@ section {
 }
 
 .sale-welcome-sub-message {
+  position: relative;
   font-size: var(--special-font);
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: left;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 1));
+  z-index: 5;
 }
 
 .home-welcome-border {
@@ -299,17 +302,17 @@ section {
 
 .we-logo-first {
   color: rgb(var(--primary-secon));
-  /* filter: drop-shadow(0px 0px 5px rgb(var(--primary-secon))); */
+  filter: drop-shadow(0px 0px 5px rgb(var(--primary-secon)));
 }
 
 .we-logo-second {
   color: rgb(var(--tertiary-secon));
-  /* filter: drop-shadow(0px 0px 5px rgb(var(--tertiary-secon))); */
+  filter: drop-shadow(0px 0px 5px rgb(var(--tertiary-secon)));
 }
 
 .we-logo-third {
   color: rgb(var(--quinary-secon));
-  /* filter: drop-shadow(0px 0px 5px rgb(var(--quinary-secon))); */
+  filter: drop-shadow(0px 0px 5px rgb(var(--quinary-secon)));
 }
 
 .we-do:first-child {
