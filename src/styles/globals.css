@@ -297,7 +297,7 @@ section {
 .we-logo {
   position: absolute;
   margin-top: -5rem;
-  font-size: 4em;
+  font-size: var(--primary-font) !important;
 }
 
 .we-logo-first {

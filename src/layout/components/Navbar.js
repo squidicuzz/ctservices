@@ -63,7 +63,7 @@ export default function Navbar() {
         <MobileNav open={open} setOpen={setOpen} />
         <div className="w-1/5 flex items-center">
           <a className="text-2xl font-bold text-motion reflect" href="/">
-            <span className="ct-logo">❖</span> CT SERVICES
+            <span className="ct-logo">❖</span> CRYPTECH SERVICES
           </a>
         </div>
         <div className="w-3/5 flex justify-evenly items-center">
