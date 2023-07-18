@@ -13,8 +13,8 @@ export default function Home() {
       <Navbar />
       <Landing />
       <Sales />
+            <Contacts />
       <Services />
-      <Contacts />
       <Support />
       <Cryptectest />
       <Footer />

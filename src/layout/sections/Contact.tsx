@@ -11,7 +11,7 @@ export default class Support extends Component<Props, State> {
 
   render() {
     return (
-      <section>
+      <section >
       </section>
     )
   }
