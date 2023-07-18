@@ -53,11 +53,11 @@ body {
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   width: 10px;
   border-radius: 100px;
   margin: 1vh 0;
-}
+} */
 
 main {
   font-family: "Ysabeau", sans-serif !important;
