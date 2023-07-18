@@ -15,20 +15,20 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var react_1 = require("react");
-var Support = /** @class */ (function (_super) {
-    __extends(Support, _super);
-    function Support() {
+var Services = /** @class */ (function (_super) {
+    __extends(Services, _super);
+    function Services() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.state = {};
         return _this;
     }
-    Support.prototype.render = function () {
+    Services.prototype.render = function () {
         return (react_1["default"].createElement("section", null,
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", null,
                     react_1["default"].createElement("div", { className: 'text-motion section-title-logo' }, " \u2756 "),
                     react_1["default"].createElement("div", { className: 'text-motion section-title' }, " CRYPTECH SERVICES TEAM ")))));
     };
-    return Support;
+    return Services;
 }(react_1.Component));
-exports["default"] = Support;
+exports["default"] = Services;

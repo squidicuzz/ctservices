@@ -92,9 +92,9 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex">
-            <NavLink to="#team">TEAM</NavLink>
             <NavLink to="#sales">SALES</NavLink>
             <NavLink to="#services">SERVICES</NavLink>
+            <NavLink to="#team">TEAM</NavLink>
             <NavLink to="#metrix">METRIX.PLACE</NavLink>
             <NavLink to="#cryptechtest">CRYPTECHTEST</NavLink>
           </div>
