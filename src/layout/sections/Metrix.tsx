@@ -29,7 +29,7 @@ export default class Metrix extends Component<Props, State> {
                 data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom "
               className='ships skew'
               alt='ships'
-              src="/images/metrix.png"
+              src="/images/metrixboard.png"
               width="1100" height="1100"
                         />
                         </div>
