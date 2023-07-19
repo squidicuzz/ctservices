@@ -6,6 +6,7 @@ import Support from '@/layout/sections/Contact';
 import Footer from '@/layout/components/Footer';
 import Cryptectest from '@/layout/sections/CryptectestGame';
 import Navbar from '@/layout/components/Navbar';
+import Metrix from '@/layout/sections/Metrix';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <Support />
       <Contacts />
+      <Metrix />
       <Cryptectest />
       <Footer />
     </main>

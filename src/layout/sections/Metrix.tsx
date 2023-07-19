@@ -7,7 +7,7 @@ type Props = {}
 
 type State = {}
 
-export default class Cryptectest extends Component<Props, State> {
+export default class Metrix extends Component<Props, State> {
   state = {}
 
   render() {

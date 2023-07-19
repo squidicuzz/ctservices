@@ -19,7 +19,7 @@ export default class Sales extends Component<Props, State> {
       <section className='sales-container'>
         <div className="to-width to-height to-center to-flex">
                 <div data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='home-welcome-border'>
-                    <div className='sale-welcome-message'>What we do? <div className='color-effect'> in Cryptech Services, </div></div>
+                    <div className='sale-welcome-message'>What do we offer? <div className='color-effect'> in Cryptech Services, </div></div>
                     <p className='sale-welcome-sub-message'> We provide web3 and fullstack development services and support, primarily focusing on <span className='we-logo-first'>cryptocurrency </span>, <span className='we-logo-second'>blockchain technology </span>, <span className='we-logo-third'> cyber security </span>, <span className='we-logo-fourth'> web designing </span> and <span className='we-logo-fifth'> technical support / consultation. </span></p>
                 </div>
 
