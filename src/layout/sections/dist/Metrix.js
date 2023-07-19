@@ -16,7 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var react_1 = require("react");
 var image_1 = require("next/image");
-var SportsEsportsOutlined_1 = require("@mui/icons-material/SportsEsportsOutlined");
+var ExtensionOutlined_1 = require("@mui/icons-material/ExtensionOutlined");
 var Metrix = /** @class */ (function (_super) {
     __extends(Metrix, _super);
     function Metrix() {
@@ -25,45 +25,21 @@ var Metrix = /** @class */ (function (_super) {
         return _this;
     }
     Metrix.prototype.render = function () {
-        return (react_1["default"].createElement("section", { className: 'cryptechtest-container' },
-            react_1["default"].createElement("div", { className: "to-width to-height to-center to-column to-align" },
-                react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'to-flex' },
-                    react_1["default"].createElement("div", null,
-                        react_1["default"].createElement("div", { className: 'text-motion section-title project-title' }, " CRYPTECHTEST GAME "),
-                        react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'section-desc' }, " Community-driven Minetest game with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world."),
-                        react_1["default"].createElement("a", { className: "project-button", href: "https://cryptechtest.xyz/", target: '_blank' },
+        return (react_1["default"].createElement("section", { className: 'metrix-container' },
+            react_1["default"].createElement("div", { className: "to-width to-center to-column" },
+                react_1["default"].createElement("div", { className: 'to-flex to-align to-height' },
+                    react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
+                        react_1["default"].createElement("div", { className: 'text-motion section-title project-title to-primary' }, " METRIX.PLACE "),
+                        react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'section-desc' }, " metrix.place is a communal grafitti board called a place, which any address can set a single pixel per MetrixCoin transaction by paying the gas fee for the transaction."),
+                        react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://test.metrix.place/", target: '_blank' },
                             react_1["default"].createElement("div", null,
                                 react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
-                                    react_1["default"].createElement(SportsEsportsOutlined_1["default"], null),
-                                    " Join Us!")))),
-                    react_1["default"].createElement(image_1["default"], { className: 'ships', "data-aos": "fade-left", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", alt: 'ships', src: "/images/ship-2.webp", width: "750", height: "750" })),
-                react_1["default"].createElement("div", null,
-                    react_1["default"].createElement("div", { className: "carousel-container" },
-                        react_1["default"].createElement("div", { className: "carousel" },
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/1.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/2.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/3.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/4.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/5.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/6.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/1.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/2.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/3.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/4.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/5.png", width: "3620", height: "1969" })),
-                            react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/6.png", width: "3620", height: "1969" }))))))));
+                                    react_1["default"].createElement(ExtensionOutlined_1["default"], null),
+                                    " Play!")))),
+                    react_1["default"].createElement("div", { className: 'we-do-container' },
+                        react_1["default"].createElement(image_1["default"], { "data-aos": "fade-left", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'ships skew', alt: 'ships', src: "/images/metrix.png", width: "1100", height: "1100" }))),
+                react_1["default"].createElement("div", null)),
+            react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/metrixbs.png", width: "3620", height: "1670" })));
     };
     return Metrix;
 }(react_1.Component));

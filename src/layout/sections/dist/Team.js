@@ -28,8 +28,8 @@ var Team = /** @class */ (function (_super) {
         return (react_1["default"].createElement("section", { className: 'team-container' },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", null,
-                    react_1["default"].createElement("div", { className: 'text-motion section-title-logo' }, " \u2756 "),
-                    react_1["default"].createElement("div", { className: 'text-motion section-title' }, " CRYPTECH SERVICES TEAM ")),
+                    react_1["default"].createElement("div", { className: 'text-motion section-title-logo to-secondary' }, " \u2756 "),
+                    react_1["default"].createElement("div", { className: 'text-motion section-title to-secondary' }, " CRYPTECH SERVICES TEAM ")),
                 react_1["default"].createElement("div", { className: 'to-flex to-flex-evenly' },
                     react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1000", "data-aos-anchor-placement": "bottom-bottom", className: 'contacts-container' },
                         react_1["default"].createElement(image_1["default"], { className: 'contact-mug', alt: 'front-logo', src: "/images/squid.png", width: "512", height: "512" }),
@@ -105,7 +105,7 @@ var Team = /** @class */ (function (_super) {
                                     react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                         react_1["default"].createElement(ContactPageOutlined_1["default"], null),
                                         " Contact"))))))),
-            react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/team-1.png", width: "3620", height: "1670" })));
+            react_1["default"].createElement(image_1["default"], { className: "team-land-pic reflect", alt: 'front-logo', src: "/images/team-1.png", width: "3620", height: "1670" })));
     };
     return Team;
 }(react_1.Component));

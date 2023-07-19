@@ -15,8 +15,8 @@ export default class Team extends Component<Props, State> {
       <section className='team-container'>
         <div className="to-width to-height to-center to-flex-column">
           <div>
-            <div className='text-motion section-title-logo'> ❖ </div>
-          <div className='text-motion section-title'> CRYPTECH SERVICES TEAM </div>
+            <div className='text-motion section-title-logo to-secondary'> ❖ </div>
+          <div className='text-motion section-title to-secondary'> CRYPTECH SERVICES TEAM </div>
 </div>
         <div className='to-flex to-flex-evenly'>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" className='contacts-container'>
@@ -101,7 +101,7 @@ export default class Team extends Component<Props, State> {
           </div>
         </div>
                                         <Image
-                    className="team-land-pic"
+                    className="team-land-pic reflect"
                 alt='front-logo'
                 src="/images/team-1.png"
                 width="3620" height="1670"

@@ -79,7 +79,7 @@ main {
 
 .to-back {
   width: 362px;
-  background-color: #3586ff75;
+  background-color: rgb(123, 143, 252, 0.5);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -168,6 +168,26 @@ main {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.to-primary {
+  background-color: rgb(var(--primary-secon)) !important;
+}
+
+.to-secondary {
+  background-color: rgb(var(--secondary-secon)) !important;
+}
+
+.to-tertiary {
+  background-color: rgb(var(--tertiary-secon)) !important;
+}
+
+.to-quaternary {
+  background-color: rgb(var(--quaternary-secon)) !important;
+}
+
+.to-quinary {
+  background-color: rgb(var(--quinary-secon)) !important;
 }
 
 .reflect {
@@ -321,7 +341,6 @@ section {
     url(/images/BG-B.webp);
   background-position: center;
   background-size: cover;
-  box-shadow: 0px -100px 100px #0a0b28, 0px 100px 100px #0a0b28 inset;
   position: relative;
   z-index: 3;
 }
@@ -336,8 +355,29 @@ section {
   background: linear-gradient(
     to top,
     transparent,
-    rgba(7, 19, 55, 0.5),
-    rgba(7, 19, 55, 0.5),
+    rgba(15, 13, 23, 1),
+    rgba(15, 13, 23, 1),
+    transparent
+  );
+  z-index: 3;
+}
+
+.metrix-container {
+  position: relative;
+  z-index: 3;
+}
+
+.metrix-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  margin-top: -8rem;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    to top,
+    transparent,
+    rgba(15, 13, 23, 1),
     transparent
   );
   z-index: 3;
@@ -1120,10 +1160,10 @@ li {
 
 /*------------------------------------------------------------------*/
 
-.ships {
+/* .ships {
   width: 50%;
   height: 50%;
-}
+} */
 
 .carousel-container {
   margin-top: -5rem;
@@ -1141,7 +1181,7 @@ li {
 
 .carousel {
   display: flex;
-  width: 400%;
+  width: 300%;
   animation: carousel 30s infinite linear;
   gap: 3rem;
 }
@@ -1173,4 +1213,9 @@ li {
   text-align: left;
   padding-bottom: none;
   margin-bottom: unset !important;
+}
+
+.skew {
+  transform: scale(0.65) !important;
+  filter: drop-shadow(0px 0px 15px rgb(var(--primary-secon)));
 }

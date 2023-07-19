@@ -1,7 +1,7 @@
 "use client"
 import React, { Component } from 'react'
 import Image from 'next/image'
-import SportsEsportsOutlinedIcon from '@mui/icons-material/SportsEsportsOutlined';
+import ExtensionOutlinedIcon from '@mui/icons-material/ExtensionOutlined';
 
 type Props = {}
 
@@ -12,60 +12,38 @@ export default class Metrix extends Component<Props, State> {
 
   render() {
     return (
-      <section className='cryptechtest-container'>
-        <div className="to-width to-height to-center to-column to-align">
+      <section className='metrix-container'>
+        <div className="to-width to-center to-column">
+            <div className='to-flex to-align to-height'>
             <div data-aos="fade-right"
-            data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='to-flex'>
-            <div>
-              <div className='text-motion section-title project-title'> CRYPTECHTEST GAME </div>
-              <div data-aos="fade-up"
-                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> Community-driven Minetest game with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</div>
-              <a className="project-button" href="https://cryptechtest.xyz/" target='_blank'><div><button type="button" className="home-button-txt"><SportsEsportsOutlinedIcon/> Join Us!</button></div></a>
-              </div>
-              <Image
-              className='ships'
-              data-aos="fade-left"
-              data-aos-duration="1500"
-              data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
+              <div className='text-motion section-title project-title to-primary'> METRIX.PLACE </div>
+              <div data-aos="fade-right"
+                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> metrix.place is a communal grafitti board called a place, which any address can set a single pixel per MetrixCoin transaction by paying the gas fee for the transaction.
+</div>
+              <a className="project-button to-primary" href="https://test.metrix.place/" target='_blank'><div><button type="button" className="home-button-txt"><ExtensionOutlinedIcon/> Play!</button></div></a>
+                    </div>
+                    <div className='we-do-container'>
+                    <Image
+                        data-aos="fade-left"
+                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
+              className='ships skew'
               alt='ships'
-              src="/images/ship-2.webp"
-              width="750" height="750"
-            />
+              src="/images/metrix.png"
+              width="1100" height="1100"
+                        />
+                        </div>
             </div>
 
         <div>
-
-          <div className="carousel-container">
-              <div className="carousel">
-                              <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/1.png" width="3620" height="1969" /></div>
-                              <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/2.png" width="3620" height="1969" /></div>
-                              <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/3.png" width="3620" height="1969" /></div>
-                              <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/4.png" width="3620" height="1969" /></div>
-                              <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/5.png" width="3620" height="1969" /></div>
-                              <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/6.png" width="3620" height="1969" /></div>
-                                            <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/1.png" width="3620" height="1969" /></div>
-                                            <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/2.png" width="3620" height="1969" /></div>
-                                            <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/3.png" width="3620" height="1969" /></div>
-                                            <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/4.png" width="3620" height="1969" /></div>
-                                            <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/5.png" width="3620" height="1969" /></div>
-                                            <div className='to-back'>
-              <Image alt='ships' className="squid-anim" src="/images/6.png" width="3620" height="1969" /></div>
-              
+          </div>
             </div>
-          </div>
-          </div>
-                  </div>
+                                                    <Image
+                    className="team-land-pic"
+                alt='front-logo'
+                src="/images/metrixbs.png"
+                width="3620" height="1670"
+                />
       </section>
     )
   }

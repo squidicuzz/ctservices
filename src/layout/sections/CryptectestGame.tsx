@@ -13,15 +13,16 @@ export default class Cryptectest extends Component<Props, State> {
   render() {
     return (
       <section className='cryptechtest-container'>
-        <div className="to-width to-height to-center to-column to-align">
+        <div className="to-width to-height to-center to-column">
             <div data-aos="fade-right"
             data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='to-flex'>
             <div>
-              <div className='text-motion section-title project-title'> CRYPTECHTEST GAME </div>
-              <div data-aos="fade-up"
+              <div className='text-motion section-title project-title to-tertiary'> CRYPTECHTEST GAME </div>
+              <div data-aos="fade-right"
                 data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> Community-driven Minetest game with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</div>
-              <a className="project-button" href="https://cryptechtest.xyz/" target='_blank'><div><button type="button" className="home-button-txt"><SportsEsportsOutlinedIcon/> Join Us!</button></div></a>
-              </div>
+              <a className="project-button to-tertiary" href="https://cryptechtest.xyz/" target='_blank'><div><button type="button" className="home-button-txt"><SportsEsportsOutlinedIcon/> Join Us!</button></div></a>
+            </div>
+            <div className='we-do-container'>
               <Image
               className='ships'
               data-aos="fade-left"
@@ -30,7 +31,8 @@ export default class Cryptectest extends Component<Props, State> {
               alt='ships'
               src="/images/ship-2.webp"
               width="750" height="750"
-            />
+              />
+              </div>
             </div>
 
         <div>
