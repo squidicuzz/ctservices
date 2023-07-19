@@ -91,7 +91,7 @@ var Team = /** @class */ (function (_super) {
                                         react_1["default"].createElement(ContactPageOutlined_1["default"], null),
                                         " Contact"))))),
                     react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "2500", "data-aos-anchor-placement": "bottom-bottom", className: 'contacts-container' },
-                        react_1["default"].createElement(image_1["default"], { className: 'contact-mug', alt: 'front-logo', src: "/images/jekz.png", width: "512", height: "512" }),
+                        react_1["default"].createElement(image_1["default"], { className: 'contact-mug', alt: 'front-logo', src: "/images/valor.png", width: "512", height: "512" }),
                         react_1["default"].createElement("div", { className: 'details-bg' },
                             react_1["default"].createElement("div", { className: 'contact-name jekz-name' }, " Jekz "),
                             react_1["default"].createElement("div", { className: 'contact-description' },

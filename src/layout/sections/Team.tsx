@@ -78,7 +78,7 @@ Thank you.
             <Image
               className='contact-mug'
                     alt='front-logo'
-                    src="/images/jekz.png"
+                    src="/images/valor.png"
                     width="512" height="512"
             />
             <div className='details-bg'>

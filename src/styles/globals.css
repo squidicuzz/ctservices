@@ -92,6 +92,7 @@ main {
       transparent
     )
     1;
+  /* filter: drop-shadow(3px 3px 1px rgb(var(--tertiary-secon))); */
 }
 
 .to-back:after {
@@ -109,7 +110,7 @@ main {
   position: absolute;
   color: rgb(var(--tertiary-secon));
   text-align: center;
-  filter: drop-shadow(0px 0px 15px rgb(var(--tertiary-secon)));
+  filter: drop-shadow(0px 0px 3px black);
   margin-top: -1rem;
   z-index: 10;
 }
@@ -1204,8 +1205,9 @@ li {
 .squid-anim {
   width: 362px;
   margin: 10px;
-  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 10%);
-  clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 10%);
+  /* -webkit-clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 10%);
+  clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 10%); */
+  filter: drop-shadow(0px 0px 3px black);
   border-left: none;
   border-right: none;
 }
