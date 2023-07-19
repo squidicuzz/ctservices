@@ -37,7 +37,7 @@ var Cryptectest = /** @class */ (function (_super) {
                                     react_1["default"].createElement(SportsEsportsOutlined_1["default"], null),
                                     " Join Us!")))),
                     react_1["default"].createElement("div", { className: 'we-do-container' },
-                        react_1["default"].createElement(image_1["default"], { className: 'ships', "data-aos": "fade-left", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", alt: 'ships', src: "/images/ship-2.webp", width: "750", height: "750" }))),
+                        react_1["default"].createElement(image_1["default"], { className: 'ships', alt: 'ships', src: "/images/ship-2.webp", width: "750", height: "750" }))),
                 react_1["default"].createElement("div", null,
                     react_1["default"].createElement("div", { className: "carousel-container" },
                         react_1["default"].createElement("div", { className: "carousel" },

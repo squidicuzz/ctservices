@@ -25,8 +25,6 @@ export default class Metrix extends Component<Props, State> {
                     </div>
                     <div className='we-do-container'>
                     <Image
-                        data-aos="fade-left"
-                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom "
               className='ships skew'
               alt='ships'
               src="/images/metrixboard.png"

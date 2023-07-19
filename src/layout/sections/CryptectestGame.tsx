@@ -25,9 +25,6 @@ export default class Cryptectest extends Component<Props, State> {
             <div className='we-do-container'>
               <Image
               className='ships'
-              data-aos="fade-left"
-              data-aos-duration="1500"
-              data-aos-anchor-placement="bottom-bottom"
               alt='ships'
               src="/images/ship-2.webp"
               width="750" height="750"
