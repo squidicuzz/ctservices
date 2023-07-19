@@ -12,7 +12,7 @@ export default class Metrix extends Component<Props, State> {
 
   render() {
     return (
-      <section className='metrix-container'>
+      <section id="metrix" className='metrix-container'>
         <div className="to-width to-center to-column">
             <div className='to-flex to-align to-height'>
             <div data-aos="fade-right"
@@ -25,7 +25,10 @@ export default class Metrix extends Component<Props, State> {
                     </div>
                     <div className='we-do-container'>
                     <Image
-              className='ships skew'
+                            className='ships skew'
+                            data-aos="fade"
+                            data-aos-duration="1500"
+                            data-aos-anchor-placement="bottom-bottom"
               alt='ships'
               src="/images/metrixboard.png"
               width="1100" height="1100"

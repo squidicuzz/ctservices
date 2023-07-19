@@ -23,7 +23,7 @@ var Support = /** @class */ (function (_super) {
         return _this;
     }
     Support.prototype.render = function () {
-        return (react_1["default"].createElement("section", null,
+        return (react_1["default"].createElement("section", { id: "sales" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", null,
                     react_1["default"].createElement("div", { className: 'text-motion section-title-logo' }, " \u2756 "),

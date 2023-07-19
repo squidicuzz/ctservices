@@ -25,7 +25,7 @@ var Team = /** @class */ (function (_super) {
         return _this;
     }
     Team.prototype.render = function () {
-        return (react_1["default"].createElement("section", { className: 'team-container' },
+        return (react_1["default"].createElement("section", { id: "team", className: 'team-container' },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", null,
                     react_1["default"].createElement("div", { className: 'text-motion section-title-logo to-secondary' }, " \u2756 "),

@@ -19,7 +19,7 @@ export default class Landing extends Component<Props, State> {
       <AllScripts />
     </section>
             
-            <section className="landing-container">
+            <section id="home" className="landing-container">
                 <Image
                     className="back-land-pic"
                 alt='front-logo'

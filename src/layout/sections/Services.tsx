@@ -10,7 +10,7 @@ export default class Services extends Component<Props, State> {
 
   render() {
     return (
-      <section>
+      <section id="services">
                 <div className="to-width to-height to-center to-flex-column">
           <div>
             <div className='text-motion section-title-logo'> ❖ </div>

@@ -25,7 +25,7 @@ var Metrix = /** @class */ (function (_super) {
         return _this;
     }
     Metrix.prototype.render = function () {
-        return (react_1["default"].createElement("section", { className: 'metrix-container' },
+        return (react_1["default"].createElement("section", { id: "metrix", className: 'metrix-container' },
             react_1["default"].createElement("div", { className: "to-width to-center to-column" },
                 react_1["default"].createElement("div", { className: 'to-flex to-align to-height' },
                     react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
@@ -37,7 +37,7 @@ var Metrix = /** @class */ (function (_super) {
                                     react_1["default"].createElement(ExtensionOutlined_1["default"], null),
                                     " Play!")))),
                     react_1["default"].createElement("div", { className: 'we-do-container' },
-                        react_1["default"].createElement(image_1["default"], { className: 'ships skew', alt: 'ships', src: "/images/metrixboard.png", width: "1100", height: "1100" }))),
+                        react_1["default"].createElement(image_1["default"], { className: 'ships skew', "data-aos": "fade", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", alt: 'ships', src: "/images/metrixboard.png", width: "1100", height: "1100" }))),
                 react_1["default"].createElement("div", null)),
             react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/metrixbs.png", width: "3620", height: "1670" })));
     };

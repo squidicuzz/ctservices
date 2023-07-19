@@ -12,11 +12,11 @@ export default class Cryptectest extends Component<Props, State> {
 
   render() {
     return (
-      <section className='cryptechtest-container'>
+      <section id="cryptechtest" className='cryptechtest-container'>
         <div className="to-width to-height to-center to-column">
+            <div className='to-flex'>
             <div data-aos="fade-right"
-            data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='to-flex'>
-            <div>
+            data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
               <div className='text-motion section-title project-title to-tertiary'> CRYPTECHTEST GAME </div>
               <div data-aos="fade-right"
                 data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> Community-driven Minetest game with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</div>
@@ -24,7 +24,9 @@ export default class Cryptectest extends Component<Props, State> {
             </div>
             <div className='we-do-container'>
               <Image
-              className='ships'
+                className='ships'
+                data-aos="fade"
+            data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
               alt='ships'
               src="/images/ship-2.webp"
               width="750" height="750"
@@ -34,7 +36,8 @@ export default class Cryptectest extends Component<Props, State> {
 
         <div>
 
-          <div className="carousel-container">
+          <div data-aos="fade-bottom"
+                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className="carousel-container">
               <div className="carousel">
                               <div className='to-back'>
               <Image alt='ships' className="squid-anim" src="/images/1.png" width="3620" height="1969" /></div>
