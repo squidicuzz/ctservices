@@ -16,7 +16,10 @@ export default class Team extends Component<Props, State> {
         <div className="to-width to-height to-center to-flex-column">
           <div>
             <div className='text-motion section-title-logo to-secondary'> ❖ </div>
-          <div className='text-motion section-title to-secondary'> CRYPTECH SERVICES TEAM </div>
+            <div className='text-motion section-title to-secondary'> CRYPTECH SERVICES TEAM </div>
+            <div className='section-desc'> Please contact <span className='color-effect to-bold' >SQUIDICUZ</span> if it is urgent, or contact another admin to attempt to resolve your issue.
+Thank you.
+</div>
 </div>
         <div className='to-flex to-flex-evenly'>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" className='contacts-container'>
