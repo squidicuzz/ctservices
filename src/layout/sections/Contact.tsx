@@ -24,7 +24,7 @@ export default class Support extends Component<Props, State> {
                 alt='front-logo'
                 src="/images/sales11.png"
                 width="3620" height="1377"
-                    />
+                     />
       </section>
     )
   }
