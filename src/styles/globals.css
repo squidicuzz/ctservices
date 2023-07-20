@@ -998,6 +998,11 @@ li {
   margin-bottom: 0.5rem;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+
+.to-gap {
+  gap: 5px;
 }
 
 .contact-button:hover {

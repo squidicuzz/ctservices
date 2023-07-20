@@ -1,6 +1,7 @@
 "use client"
 import React, { Component } from 'react'
 import ContactPageOutlinedIcon from "@mui/icons-material/ContactPageOutlined";
+import AlternateEmailOutlinedIcon from '@mui/icons-material/AlternateEmailOutlined';
 import Image from 'next/image'
 
 type Props = {}
@@ -32,7 +33,10 @@ Thank you.
             <div className='details-bg'>
             <div className='contact-name squid-name'> Squidicuz </div>
               <div className='contact-description'> <ul> <li className='squid-list'> Developer </li> <li className='squid-list'> Bot Admin </li> <li className='squid-list'> Site Admin </li></ul> </div>
-              <a className="contact-button squid" href="https://discord.com/users/294414250376429569" target='_blank'><div><button type="button" className="home-button-txt"><ContactPageOutlinedIcon /> Contact</button></div></a>
+                              <div className='to-flex to-gap'>
+                <a className="contact-button squid" href="https://discord.com/users/294414250376429569" target='_blank'><div><button type="button" className="home-button-txt"><ContactPageOutlinedIcon /> Discord</button></div></a>
+              <a className="contact-button squid" href="mailto:squid@cryptech.services569" target='_blank'><div><button type="button" className="home-button-txt"><AlternateEmailOutlinedIcon /> Email</button></div></a>
+            </div>
             </div>
             </div>
                          <div data-aos="fade-down" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='contacts-container'>
@@ -45,7 +49,10 @@ Thank you.
             <div className='details-bg'>
             <div className='contact-name valor-name'> Ercknard </div>
               <div className='contact-description'> <ul> <li className='valor-list'> Developer </li> <li className='valor-list'> UX/UI Designer</li> <li className='valor-list'> </li></ul></div>
-              <a className="contact-button valor" href="https://discord.com/users/412122437954830337" target='_blank'><div><button type="button" className="home-button-txt"><ContactPageOutlinedIcon /> Contact</button></div></a>
+                              <div className='to-flex to-gap'>
+                <a className="contact-button valor" href="https://discord.com/users/615741889366458369" target='_blank'><div><button type="button" className="home-button-txt"><ContactPageOutlinedIcon /> Discord</button></div></a>
+              <a className="contact-button valor" href="mailto:ercknard@cryptech.services" target='_blank'><div><button type="button" className="home-button-txt"><AlternateEmailOutlinedIcon /> Email</button></div></a>
+            </div>
             </div>
             </div>
         {/* <div data-aos="fade-down" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='contacts-container'>
@@ -71,7 +78,10 @@ Thank you.
             <div className='details-bg'>
             <div className='contact-name seq-name'> SeqSee </div>
               <div className='contact-description'> <ul> <li className='seqsee-list'> Developer </li> <li className='seqsee-list'> Support </li> <li className='seqsee-list'> Admin </li></ul></div>
-              <a className="contact-button seqsee" href="https://discord.com/users/412122437954830337" target='_blank'><div><button type="button" className="home-button-txt"><ContactPageOutlinedIcon /> Contact</button></div></a>
+                              <div className='to-flex to-gap'>
+                <a className="contact-button seqsee" href="https://discord.com/users/412122437954830337" target='_blank'><div><button type="button" className="home-button-txt"><ContactPageOutlinedIcon /> Discord</button></div></a>
+              <a className="contact-button seqsee" href="mailto:seqsee@cryptech.services" target='_blank'><div><button type="button" className="home-button-txt"><AlternateEmailOutlinedIcon /> Email</button></div></a>
+            </div>
             </div>
             </div>
         <div data-aos="fade-down" data-aos-duration="2500" data-aos-anchor-placement="bottom-bottom" className='contacts-container'>
@@ -83,9 +93,12 @@ Thank you.
             />
             <div className='details-bg'>
             <div className='contact-name jekz-name'> Jekz </div>
-              <div className='contact-description'> <ul> <li className='jekz-list'> Security Researcher </li> <li className='jekz-list'> Graphic Artist  </li> <li className='jekz-list'> Penetration Tester</li></ul> </div>
-              <a className="contact-button jekz" href="https://discord.com/users/294414250376429569" target='_blank'><div><button type="button" className="home-button-txt"><ContactPageOutlinedIcon /> Contact</button></div></a>
+                <div className='contact-description'> <ul> <li className='jekz-list'> Security Researcher </li> <li className='jekz-list'> Graphic Artist  </li> <li className='jekz-list'> Penetration Tester</li></ul> </div>
+                <div className='to-flex to-gap'>
+                <a className="contact-button jekz" href="https://discord.com/users/943186466744463421" target='_blank'><div><button type="button" className="home-button-txt"><ContactPageOutlinedIcon /> Discord</button></div></a>
+              <a className="contact-button jekz" href="mailto:jekz@cryptech.services" target='_blank'><div><button type="button" className="home-button-txt"><AlternateEmailOutlinedIcon /> Email</button></div></a>
             </div>
+                </div>
             </div>
 
                          {/* <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="bottom-bottom" className='contacts-container'>
