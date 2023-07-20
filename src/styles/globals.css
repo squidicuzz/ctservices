@@ -230,6 +230,16 @@ main {
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
 }
 
+.reflect-nav {
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+  transition: 1s linear;
+}
+
+.reflect-nav.scrolled {
+  -webkit-box-reflect: unset !important;
+}
+
 .reflect-v2 {
   -webkit-box-reflect: below -175px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
@@ -382,7 +392,7 @@ section {
   z-index: 3;
 }
 
-/* .support-container::before {
+.support-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -392,11 +402,11 @@ section {
   background: linear-gradient(
     to top,
     transparent,
-    rgba(7, 19, 55, 1),
-    rgba(28, 80, 129, 1),
+    rgba(5, 5, 31, 1),
+    rgba(5, 5, 31, 1),
     transparent
   );
-} */
+}
 
 .cryptechtest-container {
   background: radial-gradient(

@@ -5312,9 +5312,9 @@ $(function () {
   });
 });
 
-// $(function () {
-//   $(document).scroll(function () {
-//     var $nav = $(".nav-main");
-//     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-//   });
-// });
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".reflect-nav");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});

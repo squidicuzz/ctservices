@@ -15,6 +15,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var react_1 = require("react");
+var image_1 = require("next/image");
 var Services = /** @class */ (function (_super) {
     __extends(Services, _super);
     function Services() {
@@ -23,11 +24,12 @@ var Services = /** @class */ (function (_super) {
         return _this;
     }
     Services.prototype.render = function () {
-        return (react_1["default"].createElement("section", { id: "services" },
+        return (react_1["default"].createElement("section", { className: 'support-container', id: "services" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", null,
                     react_1["default"].createElement("div", { className: 'text-motion section-title-logo to-quinary' }, " \u2756 "),
-                    react_1["default"].createElement("div", { className: 'text-motion section-title to-quinary' }, " SECURITY SERVICES ")))));
+                    react_1["default"].createElement("div", { className: 'text-motion section-title to-quinary' }, " SECURITY SERVICES "))),
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales12.png", width: "3620", height: "1377" })));
     };
     return Services;
 }(react_1.Component));

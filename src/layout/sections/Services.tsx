@@ -11,13 +11,20 @@ export default class Services extends Component<Props, State> {
 
   render() {
     return (
-      <section id="services">
+      <section className='support-container' id="services">
                 <div className="to-width to-height to-center to-flex-column">
           <div>
             <div className='text-motion section-title-logo to-quinary'> ❖ </div>
           <div className='text-motion section-title to-quinary'> SECURITY SERVICES </div>
           </div>
         </div>
+
+                                                        <Image
+                className="sales-land-pic reflect"
+                alt='front-logo'
+                src="/images/sales12.png"
+                width="3620" height="1377"
+                     />
       </section>
     )
   }

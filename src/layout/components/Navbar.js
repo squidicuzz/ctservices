@@ -63,7 +63,7 @@ export default function Navbar() {
         <MobileNav open={open} setOpen={setOpen} />
         <div className="w-1/5 flex items-center">
           <a
-            className="text-2xl font-bold text-motion reflect"
+            className="text-2xl font-bold text-motion reflect-nav"
             href="/"
             id="header"
           >
