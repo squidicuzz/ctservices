@@ -33,7 +33,7 @@ var Team = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'text-motion section-title to-secondary' }, " CRYPTECH SERVICES TEAM "),
                     react_1["default"].createElement("div", { className: 'section-desc' },
                         " Please contact ",
-                        react_1["default"].createElement("span", { className: 'text-motion to-secondary to-bold' }, "SQUIDICUZ"),
+                        react_1["default"].createElement("span", { className: 'we-logo-second to-bold' }, "SQUIDICUZ"),
                         " if it is urgent, or contact another admin to attempt to resolve your issue. Thank you.")),
                 react_1["default"].createElement("div", { className: 'to-flex to-flex-evenly' },
                     react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1000", "data-aos-anchor-placement": "bottom-bottom", className: 'contacts-container' },

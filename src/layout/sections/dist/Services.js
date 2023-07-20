@@ -30,8 +30,8 @@ var Services = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'text-motion section-title-logo to-quinary' }, " \u2756 "),
                     react_1["default"].createElement("div", { className: 'text-motion section-title to-quinary' }, " SECURITY SERVICES "),
                     react_1["default"].createElement("div", { className: 'section-desc' },
-                        " For the ",
-                        react_1["default"].createElement("span", { className: 'text-motion to-quinary to-bold' }, "SECURITY"),
+                        " For ",
+                        react_1["default"].createElement("span", { className: 'we-logo-fifth to-bold' }, "SECURITY"),
                         " services we can offer: "))),
             react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales12.png", width: "3620", height: "1377" })));
     };

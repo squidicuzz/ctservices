@@ -19,7 +19,7 @@ export default class Cryptectest extends Component<Props, State> {
             data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
               <div className='text-motion section-title project-title to-tertiary'> CRYPTECHTEST GAME </div>
               <div data-aos="fade-right"
-                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> Community-driven Minetest game with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</div>
+                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> Community-driven <span className='we-logo-third to-bold'>Minetest Game</span> with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</div>
               <a className="project-button to-tertiary" href="https://cryptechtest.xyz/" target='_blank'><div><button type="button" className="home-button-txt"><SportsEsportsOutlinedIcon/> Join Us!</button></div></a>
             </div>
             <div className='we-do-container'>
