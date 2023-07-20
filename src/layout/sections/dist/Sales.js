@@ -32,7 +32,7 @@ var Sales = /** @class */ (function (_super) {
         return (react_1["default"].createElement("section", { id: "offers", className: 'sales-container' },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex" },
                 react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'home-welcome-border' },
-                    react_1["default"].createElement("div", { className: 'sale-welcome-message' },
+                    react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'sale-welcome-message' },
                         "What do we offer? ",
                         react_1["default"].createElement("div", { className: 'color-effect' }, " in Cryptech Services, ")),
                     react_1["default"].createElement("p", { className: 'sale-welcome-sub-message' },
