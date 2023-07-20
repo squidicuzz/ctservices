@@ -16,7 +16,7 @@ export default class Sales extends Component<Props, State> {
 
   render() {
     return (
-      <section className='sales-container'>
+      <section id="offers" className='sales-container'>
         <div className="to-width to-height to-center to-flex">
                 <div data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='home-welcome-border'>
                     <div className='sale-welcome-message'>What do we offer? <div className='color-effect'> in Cryptech Services, </div></div>

@@ -34,9 +34,9 @@ export default class Footer extends Component<Props, State> {
         </a></li>
     </ul> */}
     <ul className="menu">
-      <li className="menu__item"><a className="menu__link" href="#home">Home</a></li>
-      <li className="menu__item"><a className="menu__link" href="#sales">Sales</a></li>
-      <li className="menu__item"><a className="menu__link" href="#services">Services</a></li>
+      <li className="menu__item"><a className="menu__link" href="#offers">Offers</a></li>
+      <li className="menu__item"><a className="menu__link" href="#sales">Services</a></li>
+      <li className="menu__item"><a className="menu__link" href="#services">Security Services</a></li>
       <li className="menu__item"><a className="menu__link" href="#team">Team</a></li>
           <li className="menu__item"><a className="menu__link" href="https://test.metrix.place/" target='_blank'>Metrix.Place</a></li>
           <li className="menu__item"><a className="menu__link" href="https://cryptechtest.xyz/" target='_blank'>CryptechTest</a></li>
