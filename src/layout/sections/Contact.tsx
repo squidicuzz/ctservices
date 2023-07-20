@@ -16,7 +16,7 @@ export default class Support extends Component<Props, State> {
           <div className='to-left'>
             <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
             <div className='text-motion section-title to-quaternary'> CRYPTECH SERVICES </div>
-            <div className='section-desc'> For <span className='we-logo-fourth to-bold' >non-SECURITY</span> services we can offer: </div>
+            <div className='section-desc'> For <span className='we-logo-fourth to-bold' >non-SECURITY</span> services we offer: </div>
           </div>
         </div>
         

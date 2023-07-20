@@ -19,7 +19,7 @@ export default class Metrix extends Component<Props, State> {
             data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
               <div className='text-motion section-title project-title to-primary'> METRIX.PLACE </div>
               <div data-aos="fade-right"
-                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> metrix.place is a communal grafitti board called a place, which any address can set a single pixel per <span className='we-logo-first to-bold'>Metrix Coin</span> transaction by paying the gas fee for the transaction.
+                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> metrix.place is a communal grafitti board called a place, which any address can set a single pixel per <a href="https://www.metrixcoin.com/" target='_blank'><span className='we-logo-first to-bold'>Metrix Coin</span></a> transaction by paying the gas fee for the transaction.
 </div>
               <a className="project-button to-primary" href="https://test.metrix.place/" target='_blank'><div><button type="button" className="home-button-txt"><ExtensionOutlinedIcon/> Play!</button></div></a>
                     </div>

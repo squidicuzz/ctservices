@@ -32,7 +32,7 @@ var Support = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'section-desc' },
                         " For ",
                         react_1["default"].createElement("span", { className: 'we-logo-fourth to-bold' }, "non-SECURITY"),
-                        " services we can offer: "))),
+                        " services we offer: "))),
             react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales11.png", width: "3620", height: "1377" })));
     };
     return Support;

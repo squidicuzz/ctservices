@@ -18,7 +18,7 @@ export default class Team extends Component<Props, State> {
           <div>
             <div className='text-motion section-title-logo to-secondary'> ❖ </div>
             <div className='text-motion section-title to-secondary'> CRYPTECH SERVICES TEAM </div>
-            <div className='section-desc'> Please contact <span className='we-logo-second to-bold' >SQUIDICUZ</span> if it is urgent, or contact another admin to attempt to resolve your issue.
+            <div className='section-desc'> Please contact <a href="mailto:squid@cryptech.services569" target='_blank'><span className='we-logo-second to-bold' >SQUIDICUZ</span></a> if it is urgent, or contact another admin to attempt to resolve your issue.
 Thank you.
 </div>
 </div>
