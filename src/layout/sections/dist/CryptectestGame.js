@@ -26,7 +26,7 @@ var Cryptectest = /** @class */ (function (_super) {
     }
     Cryptectest.prototype.render = function () {
         return (react_1["default"].createElement("section", { id: "cryptechtest", className: 'cryptechtest-container' },
-            react_1["default"].createElement("div", { className: "to-width to-height to-center to-column" },
+            react_1["default"].createElement("div", { className: "to-width to-flex to-height to-center to-column to-align" },
                 react_1["default"].createElement("div", { className: 'to-flex' },
                     react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement("div", { className: 'text-motion section-title project-title to-tertiary' }, " CRYPTECHTEST GAME "),
@@ -39,7 +39,7 @@ var Cryptectest = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'we-do-container' },
                         react_1["default"].createElement(image_1["default"], { className: 'ships', "data-aos": "fade", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", alt: 'ships', src: "/images/ship-2.webp", width: "750", height: "750" }))),
                 react_1["default"].createElement("div", null,
-                    react_1["default"].createElement("div", { "data-aos": "fade-bottom", "data-aos-duration": "1500", className: "carousel-container" },
+                    react_1["default"].createElement("div", { "data-aos": "fade-bottom", "data-aos-duration": "1500", className: "to-width carousel-container" },
                         react_1["default"].createElement("div", { className: "carousel" },
                             react_1["default"].createElement("div", { className: 'to-back' },
                                 react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/1.png", width: "3620", height: "1969" })),

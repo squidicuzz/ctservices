@@ -13,7 +13,7 @@ export default class Cryptectest extends Component<Props, State> {
   render() {
     return (
       <section id="cryptechtest" className='cryptechtest-container'>
-        <div className="to-width to-height to-center to-column">
+        <div className="to-width to-flex to-height to-center to-column to-align">
             <div className='to-flex'>
             <div data-aos="fade-right"
             data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
@@ -37,7 +37,7 @@ export default class Cryptectest extends Component<Props, State> {
         <div>
 
           <div data-aos="fade-bottom"
-                data-aos-duration="1500" className="carousel-container">
+                data-aos-duration="1500" className="to-width carousel-container">
               <div className="carousel">
                               <div className='to-back'>
               <Image alt='ships' className="squid-anim" src="/images/1.png" width="3620" height="1969" /></div>
