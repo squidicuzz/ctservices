@@ -26,8 +26,8 @@ var Services = /** @class */ (function (_super) {
         return (react_1["default"].createElement("section", { id: "services" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", null,
-                    react_1["default"].createElement("div", { className: 'text-motion section-title-logo' }, " \u2756 "),
-                    react_1["default"].createElement("div", { className: 'text-motion section-title' }, " CRYPTECH SERVICES TEAM ")))));
+                    react_1["default"].createElement("div", { className: 'text-motion section-title-logo to-quinary' }, " \u2756 "),
+                    react_1["default"].createElement("div", { className: 'text-motion section-title to-quinary' }, " SECURITY SERVICES ")))));
     };
     return Services;
 }(react_1.Component));

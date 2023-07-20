@@ -271,7 +271,15 @@ section {
   position: fixed;
   width: 100%;
   z-index: 10;
+  transition: 0.5s;
 }
+
+/* .nav-main.scrolled {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+} */
 
 .ct-logo {
   color: rgb(var(--quaternary-secon));
@@ -368,6 +376,27 @@ section {
     transparent
   );
 }
+
+.support-container {
+  position: relative;
+  z-index: 3;
+}
+
+/* .support-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  margin-top: -8rem;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    to top,
+    transparent,
+    rgba(7, 19, 55, 1),
+    rgba(28, 80, 129, 1),
+    transparent
+  );
+} */
 
 .cryptechtest-container {
   background: radial-gradient(

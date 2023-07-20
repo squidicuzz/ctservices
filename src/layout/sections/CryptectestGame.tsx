@@ -37,7 +37,7 @@ export default class Cryptectest extends Component<Props, State> {
         <div>
 
           <div data-aos="fade-bottom"
-                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className="carousel-container">
+                data-aos-duration="1500" className="carousel-container">
               <div className="carousel">
                               <div className='to-back'>
               <Image alt='ships' className="squid-anim" src="/images/1.png" width="3620" height="1969" /></div>

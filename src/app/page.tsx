@@ -14,8 +14,8 @@ export default function Home() {
       <Navbar />
       <Landing />
       <Sales />
-      <Services />
       <Support />
+            <Services />
       <Contacts />
       <Metrix />
       <Cryptectest />

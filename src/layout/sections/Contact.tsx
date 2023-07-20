@@ -11,13 +11,20 @@ export default class Support extends Component<Props, State> {
 
   render() {
     return (
-      <section id="sales" >
+      <section className='support-container' id="sales" >
                         <div className="to-width to-height to-center to-flex-column">
           <div>
-            <div className='text-motion section-title-logo'> ❖ </div>
-          <div className='text-motion section-title'> CRYPTECH SERVICES TEAM </div>
+            <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
+          <div className='text-motion section-title to-quaternary'> CRYPTECH SERVICES </div>
           </div>
-          </div>
+        </div>
+        
+                                                <Image
+                className="sales-land-pic reflect"
+                alt='front-logo'
+                src="/images/sales11.png"
+                width="3620" height="1377"
+                    />
       </section>
     )
   }

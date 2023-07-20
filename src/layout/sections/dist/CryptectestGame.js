@@ -39,7 +39,7 @@ var Cryptectest = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'we-do-container' },
                         react_1["default"].createElement(image_1["default"], { className: 'ships', "data-aos": "fade", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", alt: 'ships', src: "/images/ship-2.webp", width: "750", height: "750" }))),
                 react_1["default"].createElement("div", null,
-                    react_1["default"].createElement("div", { "data-aos": "fade-bottom", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: "carousel-container" },
+                    react_1["default"].createElement("div", { "data-aos": "fade-bottom", "data-aos-duration": "1500", className: "carousel-container" },
                         react_1["default"].createElement("div", { className: "carousel" },
                             react_1["default"].createElement("div", { className: 'to-back' },
                                 react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/1.png", width: "3620", height: "1969" })),

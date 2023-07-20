@@ -62,7 +62,11 @@ export default function Navbar() {
       <nav className="nav-bar to-width to-center flex filter drop-shadow-md px-4 py-4 h-24 items-center">
         <MobileNav open={open} setOpen={setOpen} />
         <div className="w-1/5 flex items-center">
-          <a className="text-2xl font-bold text-motion reflect" href="/">
+          <a
+            className="text-2xl font-bold text-motion reflect"
+            href="/"
+            id="header"
+          >
             <span className="ct-logo">❖</span> CRYPTECH SERVICES
           </a>
         </div>
@@ -92,8 +96,8 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex">
-            <NavLink to="#sales">SALES</NavLink>
-            <NavLink to="#services">SERVICES</NavLink>
+            <NavLink to="#sales">SERVICES</NavLink>
+            <NavLink to="#services">SECURITY SERVICES</NavLink>
             <NavLink to="#team">TEAM</NavLink>
             <NavLink to="#metrix">METRIX.PLACE</NavLink>
             <NavLink to="#cryptechtest">CRYPTECHTEST</NavLink>
