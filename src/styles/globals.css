@@ -471,7 +471,6 @@ section {
   object-fit: cover;
   bottom: 0;
   z-index: 3;
-  filter: saturate(110%);
 }
 
 .mid-land-pic {
