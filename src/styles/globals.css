@@ -64,7 +64,8 @@ body::-webkit-scrollbar {
 
 /* Track */
 body::-webkit-scrollbar-track {
-  background: gray;
+  position: absolute;
+  background: #09091d;
 }
 
 /* Handle */
@@ -344,6 +345,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .sales-container {
@@ -423,6 +425,15 @@ section {
   font-weight: bold;
   line-height: 1;
   filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 1));
+  transition: 0.5s linear;
+}
+
+.home-welcome-message.scrolled {
+  font-size: 4em;
+  font-weight: bold;
+  line-height: 1;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 1));
+  color: rgb(var(--tertiary-secon)) !important;
 }
 
 .sale-welcome-message {
@@ -467,7 +478,7 @@ section {
   position: absolute;
   left: 0;
   object-fit: cover;
-  bottom: 10rem;
+  bottom: 5rem;
   z-index: 1;
 }
 
