@@ -29,7 +29,7 @@ var Landing = /** @class */ (function (_super) {
             react_1["default"].createElement("section", { id: "particles-js" },
                 react_1["default"].createElement(scripts_1["default"], null)),
             react_1["default"].createElement("section", { id: "home", className: "landing-container" },
-                react_1["default"].createElement(image_1["default"], { className: "back-land-pic", alt: 'front-logo', src: "/images/back-5.png", width: "3620", height: "1671" }),
+                react_1["default"].createElement(image_1["default"], { id: "primary-front-bg", className: "back-land-pic", alt: 'front-logo', src: "/images/back-5.png", width: "3620", height: "1671" }),
                 react_1["default"].createElement("div", { className: "to-width to-height to-center home-specs" },
                     react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'home-welcome-border' },
                         react_1["default"].createElement("div", { className: 'home-welcome-message' },
@@ -37,6 +37,8 @@ var Landing = /** @class */ (function (_super) {
                             " Welcome to ",
                             react_1["default"].createElement("div", { className: 'color-effect' }, "CRYPTECH SERVICES. ")))),
                 react_1["default"].createElement(image_1["default"], { className: "front-land-pic reflect-v2", alt: 'front-logo', src: "/images/frontss.png", width: "3620", height: "1671" }),
+                react_1["default"].createElement(image_1["default"], { className: "mid-land-pic to-glow", alt: 'front-logo', src: "/images/moon-1.png", width: "3620", height: "1671" }),
+                react_1["default"].createElement(image_1["default"], { id: "secondary-front-bg", className: "mid-land-pic to-clouds", alt: 'front-logo', src: "/images/clouds.png", width: "3620", height: "1671" }),
                 react_1["default"].createElement(scripts_1["default"], null))));
     };
     ;

@@ -91,6 +91,14 @@ main {
   }
 }
 
+.to-glow {
+  filter: drop-shadow(0 0 30px white);
+}
+
+.to-clouds {
+  opacity: 75% !important;
+}
+
 .to-back {
   width: 362px;
   background-color: rgb(123, 143, 252, 0.5);
@@ -258,7 +266,7 @@ section {
 /*---------------------------------------------------------------*/
 
 .nav-main {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -326,11 +334,12 @@ section {
 
 .landing-container {
   background: radial-gradient(
-      circle at bottom,
-      transparent,
-      rgb(9, 10, 29) 100%
-    ),
-    url(/images/bbblurry.svg), url(/images/50961571.png);
+    circle at bottom,
+    transparent,
+    rgb(9, 10, 29) 100%
+  );
+
+  /* url(/images/bbblurry.svg), url(/images/50961571.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -451,6 +460,15 @@ section {
   object-fit: cover;
   bottom: 0;
   z-index: 3;
+  filter: saturate(110%);
+}
+
+.mid-land-pic {
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  bottom: 10rem;
+  z-index: 1;
 }
 
 .back-land-pic {
@@ -458,7 +476,8 @@ section {
   left: 0;
   object-fit: cover;
   bottom: 0;
-  z-index: -1;
+  z-index: 1;
+  opacity: 50%;
 }
 
 .sales-land-pic {

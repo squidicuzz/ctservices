@@ -20,8 +20,9 @@ export default class Landing extends Component<Props, State> {
     </section>
             
             <section id="home" className="landing-container">
-                <Image
-                    className="back-land-pic"
+                    <Image
+                id="primary-front-bg"
+                className="back-land-pic"
                 alt='front-logo'
                 src="/images/back-5.png"
                 width="3620" height="1671"
@@ -34,10 +35,25 @@ export default class Landing extends Component<Props, State> {
                     </div>
                     
 
-                <Image
-                    className="front-land-pic reflect-v2"
+                    <Image
+                className="front-land-pic reflect-v2"
                 alt='front-logo'
                 src="/images/frontss.png"
+                width="3620" height="1671"
+                    />
+                    
+                                        <Image
+                className="mid-land-pic to-glow"
+                alt='front-logo'
+                src="/images/moon-1.png"
+                width="3620" height="1671"
+                    />
+                    
+                    <Image
+                        id="secondary-front-bg"
+                className="mid-land-pic to-clouds"
+                alt='front-logo'
+                src="/images/clouds.png"
                 width="3620" height="1671"
                 />
                 <AllScripts />

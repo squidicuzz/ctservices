@@ -9,6 +9,7 @@ export default function AllScripts() {
         type="text/javascript"
       />
       <Script src="/scripts/particles.js" as="script" type="text/javascript" />
+      <Script src="/scripts/parallax.js" as="script" type="text/javascript" />
     </>
   );
 }
