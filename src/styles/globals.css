@@ -39,6 +39,17 @@ html {
   --quinary-font: 1em;
 }
 
+/* @media (max-width: 1920px) {
+  :root {
+    --primary-font: 2em;
+    --secondary-font: 1.5em;
+    --tertiary-font: 1em;
+    --special-font: 0.75em;
+    --quaternary-font: 0.625em;
+    --quinary-font: 0.5em;
+  }
+} */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -76,7 +87,6 @@ body::-webkit-scrollbar-thumb {
 
 main {
   font-family: "Ysabeau", sans-serif !important;
-  height: 100vh;
 }
 
 #particles-js {
@@ -90,6 +100,14 @@ main {
   #particles-js {
     display: none;
   }
+}
+
+li {
+  font-size: var(--quinary-font);
+}
+
+.to-wrap {
+  flex-wrap: wrap;
 }
 
 .to-glow {
@@ -195,7 +213,7 @@ main {
 }
 
 .to-flex-evenly {
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
 }
 
 .color-effect {
@@ -978,7 +996,7 @@ li {
 }
 
 .contact-name-1 {
-  font-size: 1.75em;
+  font-size: var(--special-font);
   margin-left: 0.5rem;
 }
 
@@ -1341,4 +1359,204 @@ li {
 .skew {
   transform: scale(0.65) !important;
   filter: drop-shadow(0px 0px 15px rgb(var(--primary-secon)));
+}
+
+.service-package-1 {
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--primary-secon)),
+      rgb(var(--primary-secon))
+    )
+    1;
+  width: 50%;
+  background-color: rgba(var(--primary));
+  filter: drop-shadow(0px 0px 5px rgb(var(--primary-secon)));
+}
+
+.service-package-1::after {
+  content: "Package 1";
+  position: absolute;
+  font-size: var(--special-font);
+  top: -1rem;
+  background-color: #06080b;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--primary-secon)),
+      rgb(var(--primary-secon))
+    )
+    1;
+}
+
+.service-package-1::before {
+  content: "❖";
+  font-size: var(--secondary-font);
+  position: absolute;
+  top: -0.35rem;
+  left: -1.5rem;
+  color: rgb(var(--primary-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--primary-secon)));
+  text-align: center;
+  z-index: 2;
+}
+
+.service-package-sub {
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgb(13, 17, 23, 0.95);
+  min-height: 10rem;
+  padding-top: none;
+  padding: 0.5rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  margin-bottom: -1.5rem;
+  -webkit-clip-path: polygon(75% 0%, 100% 25%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(75% 0%, 100% 25%, 100% 100%, 0 100%, 0 0);
+  transition: 0.5s linear;
+}
+
+.service-package-2 {
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--secondary-secon)),
+      rgb(var(--secondary-secon))
+    )
+    1;
+  width: 50%;
+  background-color: rgba(var(--secondary));
+  filter: drop-shadow(0px 0px 5px rgb(var(--secondary-secon)));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-package-2::after {
+  content: "Package 2";
+  position: absolute;
+  font-size: var(--special-font);
+  top: -1rem;
+  background-color: #06080b;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--secondary-secon)),
+      rgb(var(--secondary-secon))
+    )
+    1;
+}
+
+.service-package-2::before {
+  content: "❖";
+  font-size: var(--secondary-font);
+  position: absolute;
+  top: -0.35rem;
+  left: -1.5rem;
+  color: rgb(var(--secondary-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--secondary-secon)));
+  text-align: center;
+  z-index: 2;
+}
+
+.service-package-3 {
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--tertiary-secon)),
+      rgb(var(--tertiary-secon))
+    )
+    1;
+  width: 50%;
+  background-color: rgba(var(--tertiary));
+  filter: drop-shadow(0px 0px 5px rgb(var(--tertiary-secon)));
+}
+
+.service-package-3::after {
+  content: "Package 3";
+  position: absolute;
+  font-size: var(--special-font);
+  top: -1rem;
+  background-color: #06080b;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--tertiary-secon)),
+      rgb(var(--tertiary-secon))
+    )
+    1;
+}
+
+.service-package-3::before {
+  content: "❖";
+  font-size: var(--secondary-font);
+  position: absolute;
+  top: -0.35rem;
+  left: -1.5rem;
+  color: rgb(var(--tertiary-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--tertiary-secon)));
+  z-index: 2;
+}
+
+.service-package-4 {
+  padding: 1.5rem;
+  padding-top: 2rem;
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--quaternary-secon)),
+      rgb(var(--quaternary-secon))
+    )
+    1;
+  width: 50%;
+  background-color: rgba(var(--quaternary));
+  filter: drop-shadow(0px 0px 5px rgb(var(--quaternary-secon)));
+}
+
+.service-package-4::before {
+  content: "❖";
+  font-size: var(--secondary-font);
+  position: absolute;
+  top: -0.35rem;
+  left: -1.5rem;
+  color: rgb(var(--quaternary-secon));
+  filter: drop-shadow(0px 0px 15px rgb(var(--quaternary-secon)));
+  z-index: 2;
+}
+
+/* .service-package-4::after {
+  content: "Package 3";
+  position: absolute;
+  font-size: var(--special-font);
+  top: -1rem;
+  background-color: #06080b;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      rgb(var(--tertiary-secon)),
+      rgb(var(--tertiary-secon))
+    )
+    1;
+} */
+
+.packages {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2.5rem;
 }
