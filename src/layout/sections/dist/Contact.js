@@ -26,9 +26,13 @@ var Support = /** @class */ (function (_super) {
     Support.prototype.render = function () {
         return (react_1["default"].createElement("section", { className: 'support-container', id: "sales" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
-                react_1["default"].createElement("div", null,
+                react_1["default"].createElement("div", { className: 'to-left' },
                     react_1["default"].createElement("div", { className: 'text-motion section-title-logo to-quaternary' }, " \u2756 "),
-                    react_1["default"].createElement("div", { className: 'text-motion section-title to-quaternary' }, " CRYPTECH SERVICES "))),
+                    react_1["default"].createElement("div", { className: 'text-motion section-title to-quaternary' }, " CRYPTECH SERVICES "),
+                    react_1["default"].createElement("div", { className: 'section-desc' },
+                        " For the ",
+                        react_1["default"].createElement("span", { className: 'text-motion to-quaternary to-bold' }, "non-SECURITY"),
+                        " services we can offer: "))),
             react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales11.png", width: "3620", height: "1377" })));
     };
     return Support;

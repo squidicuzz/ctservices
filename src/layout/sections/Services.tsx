@@ -13,9 +13,10 @@ export default class Services extends Component<Props, State> {
     return (
       <section className='support-container' id="services">
                 <div className="to-width to-height to-center to-flex-column">
-          <div>
+          <div className='to-left'>
             <div className='text-motion section-title-logo to-quinary'> ❖ </div>
-          <div className='text-motion section-title to-quinary'> SECURITY SERVICES </div>
+            <div className='text-motion section-title to-quinary'> SECURITY SERVICES </div>
+            <div className='section-desc'> For the <span className='text-motion to-quinary to-bold' >SECURITY</span> services we can offer: </div>
           </div>
         </div>
 

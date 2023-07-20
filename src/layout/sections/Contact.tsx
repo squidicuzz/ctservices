@@ -13,9 +13,10 @@ export default class Support extends Component<Props, State> {
     return (
       <section className='support-container' id="sales" >
                         <div className="to-width to-height to-center to-flex-column">
-          <div>
+          <div className='to-left'>
             <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
-          <div className='text-motion section-title to-quaternary'> CRYPTECH SERVICES </div>
+            <div className='text-motion section-title to-quaternary'> CRYPTECH SERVICES </div>
+            <div className='section-desc'> For the <span className='text-motion to-quaternary to-bold' >non-SECURITY</span> services we can offer: </div>
           </div>
         </div>
         
