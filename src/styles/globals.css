@@ -57,11 +57,21 @@ body {
   overflow-x: hidden;
 }
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 10px;
   border-radius: 100px;
-  margin: 1vh 0;
-} */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: gray;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: rgb(var(--tertiary-secon));
+  border-radius: 100px;
+}
 
 main {
   font-family: "Ysabeau", sans-serif !important;
@@ -249,7 +259,7 @@ section {
 
 .nav-main {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent);
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 10;
 }
