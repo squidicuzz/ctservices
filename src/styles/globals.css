@@ -1551,6 +1551,7 @@ li {
     )
     1;
 }
+*/
 
 .packages {
   position: relative;
@@ -1559,4 +1560,4 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2.5rem;
-} */
+}
