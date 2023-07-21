@@ -17,6 +17,7 @@ exports.__esModule = true;
 var react_1 = require("react");
 var image_1 = require("next/image");
 var ExtensionOutlined_1 = require("@mui/icons-material/ExtensionOutlined");
+var GitHub_1 = require("@mui/icons-material/GitHub");
 var Metrix = /** @class */ (function (_super) {
     __extends(Metrix, _super);
     function Metrix() {
@@ -35,11 +36,17 @@ var Metrix = /** @class */ (function (_super) {
                             react_1["default"].createElement("a", { href: "https://www.metrixcoin.com/", target: '_blank' },
                                 react_1["default"].createElement("span", { className: 'we-logo-first to-bold' }, "Metrix Coin")),
                             " transaction by paying the gas fee for the transaction."),
-                        react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://test.metrix.place/", target: '_blank' },
-                            react_1["default"].createElement("div", null,
-                                react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
-                                    react_1["default"].createElement(ExtensionOutlined_1["default"], null),
-                                    " Play!")))),
+                        react_1["default"].createElement("div", { className: 'to-flex to-gap-1' },
+                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://test.metrix.place/", target: '_blank' },
+                                react_1["default"].createElement("div", null,
+                                    react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
+                                        react_1["default"].createElement(ExtensionOutlined_1["default"], null),
+                                        "Play!"))),
+                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://github.com/SeqSEE/metrix.place", target: '_blank' },
+                                react_1["default"].createElement("div", null,
+                                    react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
+                                        react_1["default"].createElement(GitHub_1["default"], null),
+                                        "Github"))))),
                     react_1["default"].createElement("div", { className: 'we-do-container' },
                         react_1["default"].createElement(image_1["default"], { className: 'ships skew', "data-aos": "fade", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", alt: 'ships', src: "/images/metrixboard.png", width: "1100", height: "1100" }))),
                 react_1["default"].createElement("div", null)),

@@ -17,6 +17,7 @@ exports.__esModule = true;
 var react_1 = require("react");
 var image_1 = require("next/image");
 var SportsEsportsOutlined_1 = require("@mui/icons-material/SportsEsportsOutlined");
+var GitHub_1 = require("@mui/icons-material/GitHub");
 var Cryptectest = /** @class */ (function (_super) {
     __extends(Cryptectest, _super);
     function Cryptectest() {
@@ -35,11 +36,17 @@ var Cryptectest = /** @class */ (function (_super) {
                             react_1["default"].createElement("a", { href: "https://www.minetest.net/", target: '_blank' },
                                 react_1["default"].createElement("span", { className: 'we-logo-third to-bold' }, "Minetest Game")),
                             " with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world."),
-                        react_1["default"].createElement("a", { className: "project-button to-tertiary", href: "https://cryptechtest.xyz/", target: '_blank' },
-                            react_1["default"].createElement("div", null,
-                                react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
-                                    react_1["default"].createElement(SportsEsportsOutlined_1["default"], null),
-                                    " Join Us!")))),
+                        react_1["default"].createElement("div", { className: 'to-flex to-gap-1' },
+                            react_1["default"].createElement("a", { className: "project-button to-tertiary", href: "https://cryptechtest.xyz/", target: '_blank' },
+                                react_1["default"].createElement("div", null,
+                                    react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
+                                        react_1["default"].createElement(SportsEsportsOutlined_1["default"], null),
+                                        "Join Us!"))),
+                            react_1["default"].createElement("a", { className: "project-button to-tertiary", href: "https://github.com/CryptechTest", target: '_blank' },
+                                react_1["default"].createElement("div", null,
+                                    react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
+                                        react_1["default"].createElement(GitHub_1["default"], null),
+                                        "Github"))))),
                     react_1["default"].createElement("div", { className: 'we-do-container' },
                         react_1["default"].createElement(image_1["default"], { className: 'ships', "data-aos": "fade", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", alt: 'ships', src: "/images/ship-2.webp", width: "750", height: "750" }))),
                 react_1["default"].createElement("div", null,

@@ -1082,7 +1082,12 @@ li {
 }
 
 .to-gap {
-  gap: 5px;
+  gap: 5px !important;
+}
+
+.to-gap-1 {
+  gap: 10px !important;
+  justify-content: unset !important;
 }
 
 .contact-button:hover {
