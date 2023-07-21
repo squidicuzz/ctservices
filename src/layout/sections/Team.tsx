@@ -40,7 +40,7 @@ return (
                      <div>
                         <button type="button" className="home-button-txt">
                            <ContactPageOutlinedIcon />
-                           Discord
+                           {" "}Discord
                         </button>
                      </div>
                   </a>
@@ -48,7 +48,7 @@ return (
                      <div>
                         <button type="button" className="home-button-txt">
                            <AlternateEmailOutlinedIcon />
-                           Email
+                           {" "}Email
                         </button>
                      </div>
                   </a>
@@ -76,7 +76,7 @@ return (
                      <div>
                         <button type="button" className="home-button-txt">
                            <ContactPageOutlinedIcon />
-                           Discord
+                           {" "}Discord
                         </button>
                      </div>
                   </a>
@@ -84,7 +84,7 @@ return (
                      <div>
                         <button type="button" className="home-button-txt">
                            <AlternateEmailOutlinedIcon />
-                           Email
+                           {" "}Email
                         </button>
                      </div>
                   </a>
@@ -140,7 +140,7 @@ return (
                      <div>
                         <button type="button" className="home-button-txt">
                            <ContactPageOutlinedIcon />
-                           Discord
+                           {" "}Discord
                         </button>
                      </div>
                   </a>
@@ -148,7 +148,7 @@ return (
                      <div>
                         <button type="button" className="home-button-txt">
                            <AlternateEmailOutlinedIcon />
-                           Email
+                           {" "}Email
                         </button>
                      </div>
                   </a>
@@ -176,7 +176,7 @@ return (
                      <div>
                         <button type="button" className="home-button-txt">
                            <ContactPageOutlinedIcon />
-                           Discord
+                           {" "}Discord
                         </button>
                      </div>
                   </a>
@@ -184,7 +184,7 @@ return (
                      <div>
                         <button type="button" className="home-button-txt">
                            <AlternateEmailOutlinedIcon />
-                           Email
+                           {" "}Email
                         </button>
                      </div>
                   </a>

@@ -22,7 +22,7 @@ return (
                   <div>
                      <button type="button" className="home-button-txt">
                         <ExtensionOutlinedIcon/>
-                        Play!
+                        {" "}Play!
                      </button>
                   </div>
                </a>
@@ -30,7 +30,7 @@ return (
                   <div>
                      <button type="button" className="home-button-txt">
                         <GitHubIcon/>
-                        Github 
+                        {" "}Github 
                      </button>
                   </div>
                </a>
