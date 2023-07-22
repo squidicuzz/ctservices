@@ -10,13 +10,13 @@ return (
 <section className='support-container' id="services">
    <div className="to-width to-height to-center to-flex-column">
       <div className='to-left'>
-         {/* 
+         
          <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
-         */}
+        
          <div className='text-motion section-title to-quaternary'> SECURITY SERVICES </div>
-         <div className='section-desc'> For <span className='we-logo-fourth to-bold' >SECURITY</span> services we offer: </div>
+         <div className='section-desc-1'> For <span className='we-logo-fourth to-bold' >SECURITY</span> services we offer: </div>
       </div>
-      <div className='packages to-flex to-gap to-wrap'>
+      <div className='packages'>
          <div data-aos="fade-right"
             data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" className='service-package-1'>
             <div className='service-package-sub'>
@@ -59,8 +59,8 @@ return (
                </div>
             </div>
          </div>
-         <div data-aos="fade-left"
-            data-aos-duration="2500" data-aos-anchor-placement="bottom-bottom">
+         {/* <div data-aos="fade-left"
+            data-aos-duration="2500" data-aos-anchor-placement="bottom-bottom" className='service-package-4'>
             <div>
                <div className='contact-name-1 to-bold'> Legends: ⇒ <span className='we-logo-fourth to-bold'> (superscript) </span></div>
                <div className='contact-description'>
@@ -72,7 +72,7 @@ return (
                   </ul>
                </div>
             </div>
-         </div>
+         </div> */}
       </div>
    </div>
    <Image
