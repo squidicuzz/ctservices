@@ -69,8 +69,11 @@ var Support = /** @class */ (function (_super) {
                         react_1["default"].createElement("div", { className: 'service-package-sub' },
                             react_1["default"].createElement("div", { className: 'contact-name-1 to-bold' }, " Miscellaneous Crypto-currency related Services. "),
                             react_1["default"].createElement("div", { className: 'contact-description' },
-                                react_1["default"].createElement("div", { className: 'to-indent' }, " Various small projects, help, support. "),
-                                react_1["default"].createElement("div", { className: 'to-indent' }, " Base Services Price (36 hours\u00B2) \u21D2 0.05 BTC ")))))),
+                                react_1["default"].createElement("div", { className: 'to-indent' }, " \u2756 Various small projects, help, support. "),
+                                react_1["default"].createElement("div", { className: 'to-indent' },
+                                    " \u2756 Base Services Price (36 hours\u00B2) \u21D2 ",
+                                    react_1["default"].createElement("span", { className: 'we-logo-second to-bold' }, " 0.05 BTC\u2074 "),
+                                    " ")))))),
             react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales11.png", width: "3620", height: "1377" })));
     };
     return Support;

@@ -67,8 +67,8 @@ return (
             <div className='service-package-sub'>
                <div className='contact-name-1 to-bold'> Miscellaneous Crypto-currency related Services. </div>
                <div className='contact-description'>
-                     <div className='to-indent'> Various small projects, help, support. </div>
-                     <div className='to-indent'> Base Services Price (36 hours²) ⇒ 0.05 BTC </div>
+                     <div className='to-indent'> ❖ Various small projects, help, support. </div>
+                     <div className='to-indent'> ❖ Base Services Price (36 hours²) ⇒ <span className='we-logo-second to-bold'> 0.05 BTC⁴ </span> </div>
                </div>
             </div>
             </div>
