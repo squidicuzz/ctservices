@@ -32,7 +32,7 @@ var Services = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'section-desc-1' },
                         " For ",
                         react_1["default"].createElement("span", { className: 'we-logo-fourth to-bold' }, "SECURITY"),
-                        " services we offer: ")),
+                        " service packages we offer: ")),
                 react_1["default"].createElement("div", { className: 'packages' },
                     react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1000", "data-aos-anchor-placement": "bottom-bottom", className: 'service-package-1' },
                         react_1["default"].createElement("div", { className: 'service-package-sub' },

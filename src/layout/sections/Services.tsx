@@ -14,7 +14,7 @@ return (
          <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
         
          <div className='text-motion section-title to-quaternary'> SECURITY SERVICES </div>
-         <div className='section-desc-1'> For <span className='we-logo-fourth to-bold' >SECURITY</span> services we offer: </div>
+         <div className='section-desc-1'> For <span className='we-logo-fourth to-bold' >SECURITY</span> service packages we offer: </div>
       </div>
       <div className='packages'>
          <div data-aos="fade-right"
