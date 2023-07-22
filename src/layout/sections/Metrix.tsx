@@ -11,7 +11,7 @@ render() {
 return (
 <section id="metrix" className='metrix-container'>
    <div className="to-width to-center to-column">
-      <div className='to-flex to-align to-height'>
+      <div className='to-flex to-height to-align'>
          <div data-aos="fade-right"
             data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
             <div className='text-motion section-title project-title to-primary'> METRIX.PLACE </div>
