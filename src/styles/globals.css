@@ -1522,8 +1522,8 @@ li {
 
 @media (max-width: 1920px) {
   .menu__link {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+    margin-left: -10px !important;
+    text-indent: -10px;
   }
 }
 
