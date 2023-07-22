@@ -1425,6 +1425,12 @@ li {
   z-index: 20;
 }
 
+@media (max-width: 768px) {
+  .section-title {
+    -webkit-box-reflect: unset;
+  }
+}
+
 .section-title-logo {
   font-size: var(--secon-ter-font);
   text-align: center;
