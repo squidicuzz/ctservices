@@ -25,8 +25,8 @@ return (
                   <ul>
                      <li className='squid-list'> Report of Website Vulnerabilities and some basic resources to self-remedy any issues. </li>
                      <li className='squid-list'> VPS Pentest and some basic resources to self-remedy any issues. </li>
-                     <li className='squid-list'></li>
-                     <li className='squid-list'></li>
+                     {/* <li className='squid-list'></li>
+                     <li className='squid-list'></li> */}
                   </ul>
                </div>
             </div>
@@ -40,7 +40,7 @@ return (
                      <li className='valor-list'> Report of Website Vulnerabilities and some basic resources to self-remedy any issues. </li>
                      <li className='valor-list'> VPS Pentest and some basic resources to self-remedy any issues. </li>
                      <li className='valor-list'> Additional One on One support in remedying the security issues³. </li>
-                     <li className='valor-list'></li>
+                     {/* <li className='valor-list'></li> */}
                   </ul>
                </div>
             </div>
