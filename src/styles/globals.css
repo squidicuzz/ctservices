@@ -482,6 +482,15 @@ li {
   overflow-y: hidden;
 }
 
+@media screen and (max-width: 768px) {
+  .landing-container {
+    background: url(/images/bbblurry.svg), url(/images/50961571.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 .sales-container {
   position: relative;
   z-index: 3;
@@ -518,9 +527,9 @@ li {
   .support-container {
     min-height: 130vh;
   }
-  .sales-container::before {
+  /* .sales-container::before {
     display: none;
-  }
+  } */
 }
 
 .support-container::before {
