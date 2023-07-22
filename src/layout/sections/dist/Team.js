@@ -36,7 +36,7 @@ var Team = /** @class */ (function (_super) {
                         react_1["default"].createElement("a", { href: "mailto:squid@cryptech.services569", target: '_blank' },
                             react_1["default"].createElement("span", { className: 'we-logo-second to-bold' }, "SQUIDICUZ")),
                         " if it is urgent, or contact another admin to attempt to resolve your issue. Thank you.")),
-                react_1["default"].createElement("div", { className: 'to-flex to-flex-evenly' },
+                react_1["default"].createElement("div", { className: 'to-flex to-flex-evenly width-team' },
                     react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1000", "data-aos-anchor-placement": "bottom-bottom", className: 'contacts-container' },
                         react_1["default"].createElement(image_1["default"], { className: 'contact-mug', alt: 'front-logo', src: "/images/squid.png", width: "512", height: "512" }),
                         react_1["default"].createElement("div", { className: 'details-bg' },

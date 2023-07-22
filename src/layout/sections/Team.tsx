@@ -18,7 +18,7 @@ return (
             Thank you.
          </div>
       </div>
-      <div className='to-flex to-flex-evenly'>
+      <div className='to-flex to-flex-evenly width-team'>
          <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" className='contacts-container'>
             <Image
                className='contact-mug'

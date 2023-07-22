@@ -24,7 +24,7 @@ var Services = /** @class */ (function (_super) {
         return _this;
     }
     Services.prototype.render = function () {
-        return (react_1["default"].createElement("section", { className: 'support-container', id: "services" },
+        return (react_1["default"].createElement("section", { className: 'services-container', id: "services" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", { className: 'to-left' },
                     react_1["default"].createElement("div", { className: 'text-motion section-title-logo to-quinary' }, " \u2756 "),

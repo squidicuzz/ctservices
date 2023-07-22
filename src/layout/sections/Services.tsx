@@ -7,7 +7,7 @@ export default class Services extends Component<Props, State> {
 state = {}
 render() {
 return (
-<section className='support-container' id="services">
+<section className='services-container' id="services">
    <div className="to-width to-height to-center to-flex-column">
       <div className='to-left'>
          
