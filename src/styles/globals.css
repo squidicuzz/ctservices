@@ -31,16 +31,16 @@ html {
   --quaternary-secon: 92, 194, 228;
   --quinary-secon: 110, 240, 188;
 
-  --gifted-font: 5rem;
-  --primary-font: 4rem;
-  --prim-secon-font: 3.5rem;
-  --secondary-font: 3rem;
-  --secon-ter-font: 2.5rem;
-  --tertiary-font: 2rem;
-  --ter-spec-font: 1.75rem;
-  --special-font: 1.5rem;
-  --quaternary-font: 1.25rem;
-  --quinary-font: 1rem;
+  --gifted-font: 5em;
+  --primary-font: 4em;
+  --prim-secon-font: 3.5em;
+  --secondary-font: 3em;
+  --secon-ter-font: 2.5em;
+  --tertiary-font: 2em;
+  --ter-spec-font: 1.75em;
+  --special-font: 1.5em;
+  --quaternary-font: 1.25em;
+  --quinary-font: 1em;
 }
 
 @media (max-width: 1920px) {
