@@ -17,10 +17,10 @@ return (
    <div className="to-width to-height to-center to-flex-column">
       <div className='to-left'>
          
-         <div className='text-motion section-title-logo to-quinary'> ❖ </div>
+         <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
         
-         <div className='text-motion section-title to-quinary'> CRYPTECH SERVICES </div>
-         <div className='section-desc-1'> For <span className='we-logo-fifth to-bold' >non-SECURITY</span> services we offer: </div>
+         <div className='text-motion section-title to-quaternary'> CRYPTECH SERVICES </div>
+         <div className='section-desc-1'> For <span className='we-logo-fourth to-bold' >non-SECURITY</span> services we offer: </div>
          </div>
          <div className='lest'>
             <ul>

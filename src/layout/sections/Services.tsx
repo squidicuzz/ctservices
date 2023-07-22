@@ -11,10 +11,10 @@ return (
    <div className="to-width to-height to-center to-flex-column">
       <div className='to-left'>
          
-         <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
+         <div className='text-motion section-title-logo to-quinary'> ❖ </div>
         
-         <div className='text-motion section-title to-quaternary'> SECURITY SERVICES </div>
-         <div className='section-desc-1'> For <span className='we-logo-fourth to-bold' >SECURITY</span> service packages we offer: </div>
+         <div className='text-motion section-title to-quinary'> SECURITY SERVICES </div>
+         <div className='section-desc-1'> For <span className='we-logo-fifth to-bold' >SECURITY</span> service packages we offer: </div>
       </div>
       <div className='packages'>
          <div data-aos="fade-right"
@@ -59,20 +59,20 @@ return (
                </div>
             </div>
          </div>
-         {/* <div data-aos="fade-left"
+         <div data-aos="fade-left"
             data-aos-duration="2500" data-aos-anchor-placement="bottom-bottom" className='service-package-4'>
             <div>
-               <div className='contact-name-1 to-bold'> Legends: ⇒ <span className='we-logo-fourth to-bold'> (superscript) </span></div>
+               {/* <div className='contact-name-1 to-bold'> Legends: ⇒ <span className='we-logo-fourth to-bold'> (superscript) </span></div> */}
                <div className='contact-description'>
                   <ul>
-                     <li className='jekz-list'> ¹Final price may be adjusted or negotiated after review of report(s). </li>
-                     <li className='jekz-list'> ²Additional  Time may be arranged and allotted when expiration time nears. </li>
-                     <li className='jekz-list'> ³Final price may be adjusted if hours of support exceed 8 hours. </li>
-                     <li className='jekz-list'> ⁴Currency denomination may be negotiated. </li>
+                     <li > ¹Final price may be adjusted or negotiated after review of report(s). </li>
+                     <li > ²Additional  Time may be arranged and allotted when expiration time nears. </li>
+                     <li > ³Final price may be adjusted if hours of support exceed 8 hours. </li>
+                     <li > ⁴Currency denomination may be negotiated. </li>
                   </ul>
                </div>
             </div>
-         </div> */}
+         </div>
       </div>
    </div>
    <Image
