@@ -53,7 +53,7 @@ var Team = /** @class */ (function (_super) {
                                             react_1["default"].createElement(ContactPageOutlined_1["default"], null),
                                             " ",
                                             "Discord"))),
-                                react_1["default"].createElement("a", { className: "contact-button squid", href: "mailto:squid@cryptech.services569", target: '_blank' },
+                                react_1["default"].createElement("a", { className: "contact-button squid", href: "mailto:squid@cryptech.services", target: '_blank' },
                                     react_1["default"].createElement("div", null,
                                         react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                             react_1["default"].createElement(AlternateEmailOutlined_1["default"], null),

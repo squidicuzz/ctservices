@@ -142,7 +142,9 @@ export default function Navbar() {
               <button type="button">
                 {" "}
                 <ContactPageOutlinedIcon />{" "}
-                <span className="home-button-txt">Contact Us</span>
+                <span className="mailto:squid@cryptech.services">
+                  Contact Us
+                </span>
               </button>
             </div>
           </a>

@@ -44,7 +44,7 @@ return (
                         </button>
                      </div>
                   </a>
-                  <a className="contact-button squid" href="mailto:squid@cryptech.services569" target='_blank'>
+                  <a className="contact-button squid" href="mailto:squid@cryptech.services" target='_blank'>
                      <div>
                         <button type="button" className="home-button-txt">
                            <AlternateEmailOutlinedIcon />
