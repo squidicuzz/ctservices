@@ -8,7 +8,6 @@ var AOScall = function () {
     react_1.useEffect(function () {
         aos_1["default"].init({
             disable: 'tablet',
-            easing: "ease-out-cubic",
             offset: 50
         });
     }, []);

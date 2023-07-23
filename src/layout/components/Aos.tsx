@@ -7,7 +7,6 @@ import 'aos/dist/aos.css';
     useEffect(() => {
     AOS.init({
       disable: 'tablet',
-      easing: "ease-out-cubic",
       offset: 50,
     });
     }, []);
