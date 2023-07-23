@@ -137,14 +137,12 @@ export default function Navbar() {
           </div>
         </div>
         <div className="to-hide w-1/5 flex justify-end items-end">
-          <a className="home-button" href="#explorecourses">
+          <a className="home-button" href="mailto:squid@cryptech.services">
             <div>
               <button type="button">
                 {" "}
                 <ContactPageOutlinedIcon />{" "}
-                <span className="mailto:squid@cryptech.services">
-                  Contact Us
-                </span>
+                <span className="home-button-txt">Contact Us</span>
               </button>
             </div>
           </a>
