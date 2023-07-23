@@ -7,7 +7,6 @@ require("aos/dist/aos.css");
 var AOScall = function () {
     react_1.useEffect(function () {
         aos_1["default"].init({
-            disable: 'tablet',
             offset: 50
         });
     }, []);
