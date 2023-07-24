@@ -570,6 +570,12 @@ li {
   );
 }
 
+@media (max-width: 768px) {
+  .sales-container {
+    margin-bottom: 4rem;
+  }
+}
+
 .support-container {
   position: relative;
   z-index: 3;
@@ -606,6 +612,16 @@ li {
   );
 }
 
+@media (max-width: 768px) {
+  .support-container {
+    margin-bottom: 4rem;
+  }
+
+  .support-container::before {
+    display: none;
+  }
+}
+
 .services-container {
   position: relative;
   z-index: 3;
@@ -619,7 +635,11 @@ li {
 
 @media (max-width: 768px) {
   .services-container {
-    min-height: 130vh;
+    margin-bottom: 4rem;
+  }
+
+  .services-container::before {
+    display: none;
   }
 }
 
@@ -684,6 +704,12 @@ li {
     transparent
   );
   z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .team-container::before {
+    display: none;
+  }
 }
 
 .metrix-container {
