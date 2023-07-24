@@ -36,7 +36,7 @@ return (
       />
          <Image
             id="secondary-front-bg"
-      className="mid-land-pic to-glow"
+      className="mids-land-pic to-glow"
       alt='front-logo'
       src="/images/moon-1.png"
       width="3620" height="1671"
