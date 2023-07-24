@@ -386,7 +386,7 @@ li {
 
 .reflect {
   -webkit-box-reflect: below 0px
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25)) !important;
 }
 
 .reflect-nav {
@@ -586,7 +586,6 @@ li {
   padding-right: 1.5rem;
   max-width: 10rem;
   border-radius: 5rem;
-  filter: drop-shadow(0px 0px 5px black);
 }
 
 @media screen and (max-width: 768px) {
@@ -626,7 +625,7 @@ li {
 .home-button-txt {
   font-weight: 500;
   align-items: center;
-  filter: drop-shadow(3px 3px 5px black);
+  filter: drop-shadow(3px 3px 2px black);
 }
 
 .home-specs {

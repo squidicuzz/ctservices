@@ -164,10 +164,9 @@ export default function Navbar() {
             href="mailto:squid@cryptech.services"
           >
             <div>
-              <button type="button">
+              <button type="button" className="home-button-txt">
                 {" "}
-                <ContactPageOutlinedIcon />{" "}
-                <span className="home-button-txt">Contact Us</span>
+                <ContactPageOutlinedIcon /> <span>Contact Us</span>
               </button>
             </div>
           </a>
