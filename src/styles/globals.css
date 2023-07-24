@@ -157,10 +157,6 @@ main {
   background-color: #3586ff;
 }
 
-.active.scrolled {
-  background-color: transparent !important;
-}
-
 li {
   font-size: var(--quinary-font);
 }

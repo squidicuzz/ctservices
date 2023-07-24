@@ -8,17 +8,17 @@ window.addEventListener("scroll", function () {
 });
 
 // Add active class to the current button (highlight it)
-var header = document.getElementById("toactive");
-var btns = header.getElementsByClassName("kek");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("active");
-    if (current.length > 0) {
-      current[0].className = current[0].className.replace(" active", "");
-    }
-    this.className += " active";
-  });
-}
+// var header = document.getElementById("toactive");
+// var btns = header.getElementsByClassName("kek");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function () {
+//     var current = document.getElementsByClassName("active");
+//     if (current.length > 0) {
+//       current[0].className = current[0].className.replace(" active", "");
+//     }
+//     this.className += " active";
+//   });
+// }
 
 document.onscroll = function () {
   scrollTop = document.documentElement.scrollTop;
@@ -5367,5 +5367,25 @@ $(function () {
   $(document).scroll(function () {
     var $nav = $(".nav-bar");
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});
+
+var addClassOnScroll = function () {
+  var windowTop = $(window).scrollTop();
+  $("section[id]").each(function (index, elem) {
+    var offsetTop = $(elem).offset().top;
+    var outerHeight = $(this).outerHeight(true);
+
+    if (windowTop > offsetTop - 50 && windowTop < offsetTop + outerHeight) {
+      var elemId = $(elem).attr("id");
+      $("div span a.active").removeClass("active");
+      $("div span a[href='#" + elemId + "']").addClass("active");
+    }
+  });
+};
+
+$(function () {
+  $(window).on("scroll", function () {
+    addClassOnScroll();
   });
 });
