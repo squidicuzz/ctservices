@@ -94,16 +94,17 @@ export default function Navbar() {
     <nav className="nav-main">
       <nav className="nav-bar to-width to-center flex filter drop-shadow-md px-4 py-4 h-24 items-center">
         <MobileNav open={open} setOpen={setOpen} />
-        <div className="w-1/5 flex items-center">
+        <div className="w-1/5 flex items-center kolyo">
           <a
-            className="to-hide text-2xl font-bold text-motion reflect-nav sorno"
+            className="to-hide text-2xl font-bold text-motion reflect-nav sorno sorno-1"
             href="/"
             id="header"
           >
-            <span className="ct-logo">❖</span> CRYPTECH SERVICES
+            <span className="ct-logo">❖</span>{" "}
+            <span className="logos"> CRYPTECH SERVICES </span>
           </a>
         </div>
-        <div className="w-3/5 flex justify-evenly items-center">
+        <div className="w-3/5 flex justify-evenly items-center to-fonts sersyo">
           <div
             className="z-50 ham flex relative w-8 h-8 flex-col justify-between items-center md:hidden"
             onClick={() => {
@@ -130,13 +131,13 @@ export default function Navbar() {
 
           <div className="hidden md:flex">
             <NavLink to="#sales">SERVICES</NavLink>
-            <NavLink to="#services">SECURITY SERVICES</NavLink>
+            <NavLink to="#services">SECURITY</NavLink>
             <NavLink to="#team">TEAM</NavLink>
             <NavLink to="#metrix">METRIX.PLACE</NavLink>
             <NavLink to="#cryptechtest">CRYPTECHTEST</NavLink>
           </div>
         </div>
-        <div className="to-hide w-1/5 flex justify-end items-end">
+        <div className="to-hide w-1/5 flex justify-end items-end but">
           <a className="home-button" href="mailto:squid@cryptech.services">
             <div>
               <button type="button">

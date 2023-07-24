@@ -210,6 +210,28 @@ li {
   max-width: 55vw;
 }
 
+@media screen and (max-width: 940px) {
+  .to-fonts {
+    font-size: 0.85em;
+  }
+
+  .but {
+    display: none;
+  }
+
+  .sersyo {
+    width: 70% !important;
+  }
+
+  .kolyo {
+    width: 30%;
+  }
+
+  .sorno-1 {
+    font-size: 0.5em !important;
+  }
+}
+
 @media screen and (max-width: 1920px) {
   .to-width {
     max-width: 95vw;
@@ -219,6 +241,14 @@ li {
 @media screen and (max-width: 768px) {
   .to-width {
     max-width: 95vw;
+  }
+
+  .sersyo {
+    width: 60% !important;
+  }
+
+  .kolyo {
+    width: 20%;
   }
 }
 
@@ -414,6 +444,18 @@ li {
 
   .nav-bar.scrolled {
     padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav-main.scrolled {
+    background: transparent !important;
+    border: unset !important;
+    position: absolute;
+  }
+
+  .nav-bar.scrolled {
+    padding-top: 1rem !important;
   }
 }
 
