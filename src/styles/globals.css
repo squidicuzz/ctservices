@@ -204,6 +204,12 @@ li {
   flex-direction: row-reverse !important;
 }
 
+@media (max-width: 768px) {
+  .to-reverse {
+    flex-direction: column !important;
+  }
+}
+
 .to-glow {
   animation: text-glow 5s infinite;
   transition: 0.2s;
