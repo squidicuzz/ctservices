@@ -7,6 +7,40 @@ window.addEventListener("scroll", function () {
   primary_front_bg.style.left = value * -0.3 + "px";
 });
 
+// var test = document.getElementById("header");
+
+document.onscroll = function () {
+  scrollTop = document.documentElement.scrollTop;
+  // test.innerHTML = scrollTop;
+
+  allDivs = document.getElementsByTagName("section");
+
+  for (i = 0; i < allDivs.length; i++) {
+    curDiv = allDivs[i];
+
+    // The code below makes the background color change when the 						scroll top passes the 2/3 of the previous div.
+
+    heightBefore = 0;
+    if (i > 0) {
+      heightBefore = allDivs[i - 1].offsetHeight / 3;
+    }
+
+    let meow = document.getElementById("header");
+    let bus = document.getElementById("bus");
+    // let sal = document.getElementById("sal");
+    // let sec = document.getElementById("sec");
+    // let teas = document.getElementById("tea");
+    // let met = document.getElementById("met");
+    // let cry = document.getElementById("cry");
+    if (scrollTop > curDiv.offsetTop - heightBefore) {
+      color = curDiv.getAttribute("data-color");
+
+      meow.style.backgroundColor = color;
+      bus.style.backgroundColor = color;
+    }
+  }
+};
+
 /*! jQuery v1.7.1 jquery.com | jquery.org/license */
 (function (a, b) {
   function cy(a) {

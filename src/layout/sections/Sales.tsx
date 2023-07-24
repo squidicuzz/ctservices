@@ -12,7 +12,7 @@ export default class Sales extends Component<Props, State> {
 state = {}
 render() {
 return (
-<section id="offers" className='sales-container'>
+<section id="offers" className='sales-container' data-color="rgb(176, 156, 90)">
    <div className="to-width to-height to-center to-flex norno">
       <div data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='home-welcome-border'>
          <div data-aos="fade-right"

@@ -130,15 +130,29 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex">
-            <NavLink to="#sales">SERVICES</NavLink>
-            <NavLink to="#services">SECURITY</NavLink>
-            <NavLink to="#team">TEAM</NavLink>
-            <NavLink to="#metrix">METRIX.PLACE</NavLink>
-            <NavLink to="#cryptechtest">CRYPTECHTEST</NavLink>
+            <NavLink id="sal" to="#sales">
+              SERVICES
+            </NavLink>
+            <NavLink id="sec" to="#services">
+              SECURITY
+            </NavLink>
+            <NavLink id="tea" to="#team">
+              TEAM
+            </NavLink>
+            <NavLink id="met" to="#metrix">
+              METRIX.PLACE
+            </NavLink>
+            <NavLink id="cry" to="#cryptechtest">
+              CRYPTECHTEST
+            </NavLink>
           </div>
         </div>
         <div className="to-hide w-1/5 flex justify-end items-end but">
-          <a className="home-button" href="mailto:squid@cryptech.services">
+          <a
+            id="bus"
+            className="home-button"
+            href="mailto:squid@cryptech.services"
+          >
             <div>
               <button type="button">
                 {" "}

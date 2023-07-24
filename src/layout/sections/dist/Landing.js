@@ -28,7 +28,7 @@ var Landing = /** @class */ (function (_super) {
         return (react_1["default"].createElement(react_1["default"].Fragment, null,
             react_1["default"].createElement("section", { id: "particles-js" },
                 react_1["default"].createElement(scripts_1["default"], null)),
-            react_1["default"].createElement("section", { id: "home", className: "landing-container" },
+            react_1["default"].createElement("section", { id: "home", className: "landing-container", "data-color": "rgb(44, 104, 208)" },
                 react_1["default"].createElement(image_1["default"], { className: "back-land-pic", alt: 'front-logo', src: "/images/back-5.png", width: "3620", height: "1671" }),
                 react_1["default"].createElement("div", { className: "to-width to-height to-center home-specs" },
                     react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'home-welcome-border' },

@@ -9,7 +9,7 @@ export default class Metrix extends Component<Props, State> {
 state = {}
 render() {
 return (
-<section id="metrix" className='metrix-container'>
+<section id="metrix" className='metrix-container' data-color="rgb(182, 67, 174)">
    <div className="to-width to-center to-column">
       <div className='to-flex to-height to-align'>
          <div data-aos="fade-right"

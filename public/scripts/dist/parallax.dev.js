@@ -8,8 +8,38 @@ window.addEventListener("scroll", function () {
   var value = window.scrollY;
   secondary_front_bg.style.top = value * 0.3 + "px";
   primary_front_bg.style.left = value * -0.3 + "px";
-});
+}); // var test = document.getElementById("header");
+
+document.onscroll = function () {
+  scrollTop = document.documentElement.scrollTop; // test.innerHTML = scrollTop;
+
+  allDivs = document.getElementsByTagName("section");
+
+  for (i = 0; i < allDivs.length; i++) {
+    curDiv = allDivs[i]; // The code below makes the background color change when the 						scroll top passes the 2/3 of the previous div.
+
+    heightBefore = 0;
+
+    if (i > 0) {
+      heightBefore = allDivs[i - 1].offsetHeight / 3;
+    }
+
+    var meow = document.getElementById("header");
+    var bus = document.getElementById("bus"); // let sal = document.getElementById("sal");
+    // let sec = document.getElementById("sec");
+    // let teas = document.getElementById("tea");
+    // let met = document.getElementById("met");
+    // let cry = document.getElementById("cry");
+
+    if (scrollTop > curDiv.offsetTop - heightBefore) {
+      color = curDiv.getAttribute("data-color");
+      meow.style.backgroundColor = color;
+      bus.style.backgroundColor = color;
+    }
+  }
+};
 /*! jQuery v1.7.1 jquery.com | jquery.org/license */
+
 
 (function (a, b) {
   function cy(a) {
@@ -1698,12 +1728,22 @@ window.addEventListener("scroll", function () {
 
   f.event = {
     add: function add(a, c, d, e, g) {
-      var h, _i, j, k, l, m, n, o, p, q, r, s;
+      var h, i, j, k, l, m, n, o, p, q, r, s;
 
       if (!(a.nodeType === 3 || a.nodeType === 8 || !c || !d || !(h = f._data(a)))) {
-        d.handler && (p = d, d = p.handler), d.guid || (d.guid = f.guid++), j = h.events, j || (h.events = j = {}), _i = h.handle, _i || (h.handle = _i = function i(a) {
-          return typeof f != "undefined" && (!a || f.event.triggered !== a.type) ? f.event.dispatch.apply(_i.elem, arguments) : b;
-        }, _i.elem = a), c = f.trim(I(c)).split(" ");
+        d.handler && (p = d, d = p.handler), d.guid || (d.guid = f.guid++), j = h.events, j || (h.events = j = {}), i = h.handle, i || (h.handle = i = function (_i) {
+          function i(_x) {
+            return _i.apply(this, arguments);
+          }
+
+          i.toString = function () {
+            return _i.toString();
+          };
+
+          return i;
+        }(function (a) {
+          return typeof f != "undefined" && (!a || f.event.triggered !== a.type) ? f.event.dispatch.apply(i.elem, arguments) : b;
+        }), i.elem = a), c = f.trim(I(c)).split(" ");
 
         for (k = 0; k < c.length; k++) {
           l = A.exec(c[k]) || [], m = l[1], n = (l[2] || "").split(".").sort(), s = f.event.special[m] || {}, m = (g ? s.delegateType : s.bindType) || m, s = f.event.special[m] || {}, o = f.extend({
@@ -1719,7 +1759,7 @@ window.addEventListener("scroll", function () {
 
           if (!r) {
             r = j[m] = [], r.delegateCount = 0;
-            if (!s.setup || s.setup.call(a, e, n, _i) === !1) a.addEventListener ? a.addEventListener(m, _i, !1) : a.attachEvent && a.attachEvent("on" + m, _i);
+            if (!s.setup || s.setup.call(a, e, n, i) === !1) a.addEventListener ? a.addEventListener(m, i, !1) : a.attachEvent && a.attachEvent("on" + m, i);
           }
 
           s.add && (s.add.call(a, o), o.handler.guid || (o.handler.guid = d.guid)), g ? r.splice(r.delegateCount++, 0, o) : r.push(o), f.event.global[m] = !0;

@@ -29,7 +29,7 @@ var Sales = /** @class */ (function (_super) {
         return _this;
     }
     Sales.prototype.render = function () {
-        return (react_1["default"].createElement("section", { id: "offers", className: 'sales-container' },
+        return (react_1["default"].createElement("section", { id: "offers", className: 'sales-container', "data-color": "rgb(176, 156, 90)" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex norno" },
                 react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'home-welcome-border' },
                     react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'sale-welcome-message' },

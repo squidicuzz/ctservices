@@ -9,7 +9,7 @@ export default class Cryptectest extends Component<Props, State> {
 state = {}
 render() {
 return (
-<section id="cryptechtest" className='cryptechtest-container'>
+<section id="cryptechtest" className='cryptechtest-container' data-color="rgb(123, 143, 252)">
    <div className="to-width to-flex to-height to-center to-column to-align">
       <div className='to-flex'>
          <div data-aos="fade-right"

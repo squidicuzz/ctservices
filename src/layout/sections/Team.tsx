@@ -9,7 +9,7 @@ export default class Team extends Component<Props, State> {
 state = {}
 render() {
 return (
-<section id="team" className='team-container'>
+<section id="team" className='team-container' data-color="rgb(176, 117, 248)">
    <div className="to-width to-height to-center to-flex-column">
       <div>
          <div className='text-motion section-title-logo to-secondary'> ❖ </div>

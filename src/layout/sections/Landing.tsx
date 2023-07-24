@@ -12,7 +12,7 @@ return (
 <section id="particles-js">
    <AllScripts />
 </section>
-<section id="home" className="landing-container">
+<section id="home" className="landing-container" data-color="rgb(44, 104, 208)">
    <Image
       className="back-land-pic"
       alt='front-logo'

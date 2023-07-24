@@ -26,7 +26,7 @@ var Cryptectest = /** @class */ (function (_super) {
         return _this;
     }
     Cryptectest.prototype.render = function () {
-        return (react_1["default"].createElement("section", { id: "cryptechtest", className: 'cryptechtest-container' },
+        return (react_1["default"].createElement("section", { id: "cryptechtest", className: 'cryptechtest-container', "data-color": "rgb(123, 143, 252)" },
             react_1["default"].createElement("div", { className: "to-width to-flex to-height to-center to-column to-align" },
                 react_1["default"].createElement("div", { className: 'to-flex' },
                     react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
