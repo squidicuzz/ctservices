@@ -403,6 +403,16 @@ li {
   font-weight: 100;
 }
 
+@media screen and (max-width: 1367px) {
+  .ct-logo {
+    font-size: 3rem !important;
+  }
+
+  .sorno {
+    font-size: 1.25rem !important;
+  }
+}
+
 .home-button {
   display: flex;
   background-color: rgb(var(--accent-color));
