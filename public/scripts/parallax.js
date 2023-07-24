@@ -35,11 +35,14 @@ document.onscroll = function () {
 
     let meow = document.getElementById("header");
     let bus = document.getElementById("bus");
+    // let dog = document.querySelector("active");
     if (scrollTop > curDiv.offsetTop - heightBefore) {
       color = curDiv.getAttribute("data-color");
 
       meow.style.backgroundColor = color;
       bus.style.backgroundColor = color;
+      // dog.style.color = color;
+      // dog.style.backgroundColor = color;
     }
   }
 };
