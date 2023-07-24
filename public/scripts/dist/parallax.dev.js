@@ -2,12 +2,12 @@
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-// let secondary_front_bg = document.getElementById("secondary-front-bg");
+var secondary_front_bg = document.getElementById("secondary-front-bg");
 var primary_front_bg = document.getElementById("primary-front-bg");
 window.addEventListener("scroll", function () {
-  var value = window.scrollY; //   secondary_front_bg.style.left = value * 0.3 + "px";
-
-  primary_front_bg.style.left = value * -0.1 + "px";
+  var value = window.scrollY;
+  secondary_front_bg.style.top = value * 0.3 + "px";
+  primary_front_bg.style.left = value * -0.3 + "px";
 });
 /*! jQuery v1.7.1 jquery.com | jquery.org/license */
 

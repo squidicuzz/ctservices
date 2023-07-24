@@ -14,7 +14,6 @@ return (
 </section>
 <section id="home" className="landing-container">
    <Image
-      id="primary-front-bg"
       className="back-land-pic"
       alt='front-logo'
       src="/images/back-5.png"
@@ -35,14 +34,15 @@ return (
       src="/images/frontss.png"
       width="3620" height="1671"
       />
-   <Image
+         <Image
+            id="secondary-front-bg"
       className="mid-land-pic to-glow"
       alt='front-logo'
       src="/images/moon-1.png"
       width="3620" height="1671"
       />
    <Image
-      id="secondary-front-bg"
+      id="primary-front-bg"
       className="mid-land-pic to-clouds"
       alt='front-logo'
       src="/images/clouds.png"
