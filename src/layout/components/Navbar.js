@@ -81,7 +81,7 @@ function MobileNav({ open, setOpen }) {
             }, 100)
           }
         >
-          CryptectTest
+          CryptechTest
         </a>
       </div>
     </div>
