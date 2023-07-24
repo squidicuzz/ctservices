@@ -129,22 +129,32 @@ export default function Navbar() {
             />
           </div>
 
-          <div className="hidden md:flex">
-            <NavLink id="sal" to="#sales">
-              SERVICES
-            </NavLink>
-            <NavLink id="sec" to="#services">
-              SECURITY
-            </NavLink>
-            <NavLink id="tea" to="#team">
-              TEAM
-            </NavLink>
-            <NavLink id="met" to="#metrix">
-              METRIX.PLACE
-            </NavLink>
-            <NavLink id="cry" to="#cryptechtest">
-              CRYPTECHTEST
-            </NavLink>
+          <div id="toactive" className="hidden md:flex">
+            <span className="kek">
+              <NavLink to="#sales">
+                <span id="serv">SERVICES</span>
+              </NavLink>
+            </span>
+            <span className="kek">
+              <NavLink to="#services">
+                <span id="secu">SECURITY</span>
+              </NavLink>
+            </span>
+            <span className="kek">
+              <NavLink to="#team">
+                <span id="teas">TEAM</span>
+              </NavLink>
+            </span>
+            <span className="kek">
+              <NavLink to="#metrix">
+                <span id="met">METRIX.PLACE</span>
+              </NavLink>
+            </span>
+            <span className="kek">
+              <NavLink to="#cryptechtest">
+                <span id="cryp">CRYPTECHTEST</span>
+              </NavLink>
+            </span>
           </div>
         </div>
         <div className="to-hide w-1/5 flex justify-end items-end but">

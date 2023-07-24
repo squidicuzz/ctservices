@@ -7,18 +7,26 @@ window.addEventListener("scroll", function () {
   primary_front_bg.style.left = value * -0.5 + "px";
 });
 
-// var test = document.getElementById("header");
+// Add active class to the current button (highlight it)
+var header = document.getElementById("toactive");
+var btns = header.getElementsByClassName("kek");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("active");
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(" active", "");
+    }
+    this.className += " active";
+  });
+}
 
 document.onscroll = function () {
   scrollTop = document.documentElement.scrollTop;
-  // test.innerHTML = scrollTop;
 
   allDivs = document.getElementsByTagName("section");
 
   for (i = 0; i < allDivs.length; i++) {
     curDiv = allDivs[i];
-
-    // The code below makes the background color change when the 						scroll top passes the 2/3 of the previous div.
 
     heightBefore = 0;
     if (i > 0) {
@@ -27,11 +35,6 @@ document.onscroll = function () {
 
     let meow = document.getElementById("header");
     let bus = document.getElementById("bus");
-    // let sal = document.getElementById("sal");
-    // let sec = document.getElementById("sec");
-    // let teas = document.getElementById("tea");
-    // let met = document.getElementById("met");
-    // let cry = document.getElementById("cry");
     if (scrollTop > curDiv.offsetTop - heightBefore) {
       color = curDiv.getAttribute("data-color");
 

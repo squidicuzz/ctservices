@@ -133,6 +133,34 @@ main {
   transition: 1s;
 }
 
+#serv:active {
+  color: rgb(var(--quaternary-secon));
+}
+
+#secu:active {
+  color: rgb(var(--quinary-secon));
+}
+
+#teas:active {
+  color: rgb(var(--secondary-secon));
+}
+
+#met:active {
+  color: rgb(var(--primary-secon));
+}
+
+#cryp:active {
+  color: rgb(var(--tertiary-secon));
+}
+
+.active {
+  background-color: #3586ff;
+}
+
+.active.scrolled {
+  background-color: transparent !important;
+}
+
 li {
   font-size: var(--quinary-font);
 }

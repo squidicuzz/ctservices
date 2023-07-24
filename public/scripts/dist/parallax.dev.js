@@ -8,16 +8,29 @@ window.addEventListener("scroll", function () {
   var value = window.scrollY;
   secondary_front_bg.style.top = value * 0.1 + "px";
   primary_front_bg.style.left = value * -0.5 + "px";
-}); // var test = document.getElementById("header");
+}); // Add active class to the current button (highlight it)
+
+var header = document.getElementById("toactive");
+var btns = header.getElementsByClassName("kek");
+
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("active");
+
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(" active", "");
+    }
+
+    this.className += " active";
+  });
+}
 
 document.onscroll = function () {
-  scrollTop = document.documentElement.scrollTop; // test.innerHTML = scrollTop;
-
+  scrollTop = document.documentElement.scrollTop;
   allDivs = document.getElementsByTagName("section");
 
   for (i = 0; i < allDivs.length; i++) {
-    curDiv = allDivs[i]; // The code below makes the background color change when the 						scroll top passes the 2/3 of the previous div.
-
+    curDiv = allDivs[i];
     heightBefore = 0;
 
     if (i > 0) {
@@ -25,11 +38,7 @@ document.onscroll = function () {
     }
 
     var meow = document.getElementById("header");
-    var bus = document.getElementById("bus"); // let sal = document.getElementById("sal");
-    // let sec = document.getElementById("sec");
-    // let teas = document.getElementById("tea");
-    // let met = document.getElementById("met");
-    // let cry = document.getElementById("cry");
+    var bus = document.getElementById("bus");
 
     if (scrollTop > curDiv.offsetTop - heightBefore) {
       color = curDiv.getAttribute("data-color");
@@ -1728,22 +1737,12 @@ document.onscroll = function () {
 
   f.event = {
     add: function add(a, c, d, e, g) {
-      var h, i, j, k, l, m, n, o, p, q, r, s;
+      var h, _i, j, k, l, m, n, o, p, q, r, s;
 
       if (!(a.nodeType === 3 || a.nodeType === 8 || !c || !d || !(h = f._data(a)))) {
-        d.handler && (p = d, d = p.handler), d.guid || (d.guid = f.guid++), j = h.events, j || (h.events = j = {}), i = h.handle, i || (h.handle = i = function (_i) {
-          function i(_x) {
-            return _i.apply(this, arguments);
-          }
-
-          i.toString = function () {
-            return _i.toString();
-          };
-
-          return i;
-        }(function (a) {
-          return typeof f != "undefined" && (!a || f.event.triggered !== a.type) ? f.event.dispatch.apply(i.elem, arguments) : b;
-        }), i.elem = a), c = f.trim(I(c)).split(" ");
+        d.handler && (p = d, d = p.handler), d.guid || (d.guid = f.guid++), j = h.events, j || (h.events = j = {}), _i = h.handle, _i || (h.handle = _i = function i(a) {
+          return typeof f != "undefined" && (!a || f.event.triggered !== a.type) ? f.event.dispatch.apply(_i.elem, arguments) : b;
+        }, _i.elem = a), c = f.trim(I(c)).split(" ");
 
         for (k = 0; k < c.length; k++) {
           l = A.exec(c[k]) || [], m = l[1], n = (l[2] || "").split(".").sort(), s = f.event.special[m] || {}, m = (g ? s.delegateType : s.bindType) || m, s = f.event.special[m] || {}, o = f.extend({
@@ -1759,7 +1758,7 @@ document.onscroll = function () {
 
           if (!r) {
             r = j[m] = [], r.delegateCount = 0;
-            if (!s.setup || s.setup.call(a, e, n, i) === !1) a.addEventListener ? a.addEventListener(m, i, !1) : a.attachEvent && a.attachEvent("on" + m, i);
+            if (!s.setup || s.setup.call(a, e, n, _i) === !1) a.addEventListener ? a.addEventListener(m, _i, !1) : a.attachEvent && a.attachEvent("on" + m, _i);
           }
 
           s.add && (s.add.call(a, o), o.handler.guid || (o.handler.guid = d.guid)), g ? r.splice(r.delegateCount++, 0, o) : r.push(o), f.event.global[m] = !0;
