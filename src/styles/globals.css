@@ -200,6 +200,10 @@ li {
   flex-wrap: wrap;
 }
 
+.to-reverse {
+  flex-direction: row-reverse !important;
+}
+
 .to-glow {
   animation: text-glow 5s infinite;
   transition: 0.2s;
