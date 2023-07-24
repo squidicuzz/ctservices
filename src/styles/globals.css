@@ -201,8 +201,22 @@ li {
 }
 
 .to-glow {
-  filter: drop-shadow(0 0 30px white);
+  animation: text-glow 5s infinite;
   transition: 0.2s;
+}
+
+@keyframes text-glow {
+  0% {
+    filter: drop-shadow(0 0 10px white);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 30px white);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 10px white);
+  }
 }
 
 .to-clouds {

@@ -7,6 +7,7 @@ var primary_front_bg = document.getElementById("primary-front-bg");
 window.addEventListener("scroll", function () {
   var value = window.scrollY;
   secondary_front_bg.style.top = value * 0.1 + "px";
+  secondary_front_bg.style.left = value * -0.025 + "px";
   primary_front_bg.style.left = value * -0.5 + "px";
 }); // Add active class to the current button (highlight it)
 // var header = document.getElementById("toactive");
