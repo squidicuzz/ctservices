@@ -13,7 +13,7 @@ state = {}
 render() {
 return (
 <section id="offers" className='sales-container'>
-   <div className="to-width to-height to-center to-flex">
+   <div className="to-width to-height to-center to-flex norno">
       <div data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='home-welcome-border'>
          <div data-aos="fade-right"
             data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='sale-welcome-message'>
