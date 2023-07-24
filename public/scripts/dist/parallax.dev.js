@@ -35,12 +35,13 @@ document.onscroll = function () {
 
     var meow = document.getElementById("header");
     var bus = document.getElementById("bus"); // let dog = document.querySelector("active");
+    // let dog = document.getElementById("secondary-front-bg");
 
     if (scrollTop > curDiv.offsetTop - heightBefore) {
       color = curDiv.getAttribute("data-color");
       meow.style.backgroundColor = color;
       bus.style.backgroundColor = color; // dog.style.color = color;
-      // dog.style.backgroundColor = color;
+      // dog.style.color = color;
     }
   }
 };
@@ -4620,8 +4621,8 @@ var addClassOnScroll = function addClassOnScroll() {
 
     if (windowTop > offsetTop - 50 && windowTop < offsetTop + outerHeight) {
       var elemId = $(elem).attr("id");
-      $("div span a.active").removeClass("active we-logo-third");
-      $("div span a[href='#" + elemId + "']").addClass("active we-logo-third");
+      $("div span a.active").removeClass("active");
+      $("div span a[href='#" + elemId + "']").addClass("active");
     }
   });
 };

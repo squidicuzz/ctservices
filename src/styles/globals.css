@@ -133,23 +133,28 @@ main {
   transition: 1s;
 }
 
-#serv:active {
+#serv:active,
+#serv:hover {
   color: rgb(var(--quaternary-secon));
 }
 
-#secu:active {
+#secu:active,
+#secu:hover {
   color: rgb(var(--quinary-secon));
 }
 
-#teas:active {
+#teas:active,
+#teas:hover {
   color: rgb(var(--secondary-secon));
 }
 
-#met:active {
+#met:active,
+#met:hover {
   color: rgb(var(--primary-secon));
 }
 
-#cryp:active {
+#cryp:active,
+#cryp:hover {
   color: rgb(var(--tertiary-secon));
 }
 
