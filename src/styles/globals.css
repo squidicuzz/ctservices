@@ -381,6 +381,11 @@ li {
   position: fixed;
   width: 100%;
   z-index: 10;
+  transition: 1s;
+  border-bottom: none;
+}
+
+.nav-bar {
   transition: 0.5s;
 }
 
@@ -390,12 +395,39 @@ li {
   }
 }
 
-/* .nav-main.scrolled {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-} */
+@media (max-width: 1367px) {
+  .nav-main.scrolled {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 75px !important;
+    border-bottom: 2px solid !important;
+    border-image: linear-gradient(
+        to left,
+        transparent,
+        rgb(44, 104, 208),
+        transparent
+      )
+      1;
+  }
+
+  .nav-bar.scrolled {
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-main.scrolled {
+    background: transparent !important;
+    border: unset !important;
+    position: absolute;
+  }
+
+  .nav-bar.scrolled {
+    padding-top: 1rem !important;
+  }
+}
 
 .ham {
   margin-left: auto;
@@ -409,13 +441,23 @@ li {
   font-weight: 100;
 }
 
-@media screen and (max-width: 1367px) {
+@media screen and (max-width: 1441px) {
   .ct-logo {
     font-size: 3rem !important;
   }
 
   .sorno {
     font-size: 1.25rem !important;
+  }
+}
+
+@media screen and (max-width: 1367px) {
+  .ct-logo {
+    font-size: 3rem !important;
+  }
+
+  .sorno {
+    font-size: 1.2rem !important;
   }
 }
 
@@ -957,6 +999,18 @@ li {
   background-size: cover; */
   position: relative;
   z-index: 3;
+}
+
+@media (max-width: 1367px) {
+  .team-container {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .team-container {
+    margin-top: 0 !important;
+  }
 }
 
 .team-container::before {
@@ -1989,6 +2043,12 @@ li {
 @media (max-width: 1600px) {
   .lest ul li {
     min-height: 18rem !important;
+  }
+}
+
+@media (max-width: 1367px) {
+  .lest ul li {
+    min-height: 10rem !important;
   }
 }
 
