@@ -902,7 +902,7 @@ li {
 @media (max-width: 768px) {
   .metrix-container,
   .cryptechtest-container {
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
   }
 }
 
@@ -1017,7 +1017,9 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
-  .aos-animate,
+  .disable-aos-mobile [data-aos],
+  .disable-aos-mobile[data-aos],
+  .aos-animate-mobile,
   [data-aos].aos-animate,
   [data-aos] {
     -o-transition-property: none !important;
@@ -1218,6 +1220,12 @@ li {
 @media (max-width: 1360px) {
   .team-container {
     margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-container {
+    margin-bottom: 3rem;
   }
 }
 
