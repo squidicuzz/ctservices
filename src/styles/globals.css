@@ -542,14 +542,14 @@ li {
     width: 100%;
     z-index: 10;
     height: 75px !important;
-    border-bottom: 2px solid !important;
+    /* border-bottom: 2px solid !important;
     border-image: linear-gradient(
         to left,
         transparent,
         rgb(44, 104, 208),
         transparent
       )
-      1;
+      1; */
   }
 
   .nav-bar.scrolled {
