@@ -2243,7 +2243,7 @@ li {
   --roleH: 2rem;
   --flapH: 2rem;
 
-  width: min(60rem, 90%);
+  width: 100%;
   margin-inline: auto;
 
   display: flex;
@@ -2498,6 +2498,16 @@ li {
   filter: drop-shadow(0 0 20px black);
 }
 
+.icos:hover .ico {
+  animation: squid 3s infinite;
+}
+
 .to-indent {
   margin-left: 3rem;
+}
+
+.to-block {
+  width: 100%s;
+  height: 750px;
+  background-color: #09091d;
 }
