@@ -5,9 +5,9 @@ import 'aos/dist/aos.css';
 
     const AOScall = () => {
     useEffect(() => {
-    AOS.init({
+      AOS.init({
+      disable: 'tablet',
       offset: 50,
-      disable: 'tablet'
     });
     }, []);
 
