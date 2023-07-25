@@ -16,7 +16,7 @@ return (
    <Image
       className="back-land-pic"
       alt='front-logo'
-      src="/images/back-5.png"
+      src="/images/back-65.png"
       width="3620" height="1671"
       />
    <div className="to-width to-height to-center home-specs">
@@ -31,7 +31,7 @@ return (
    <Image
       className="front-land-pic reflect-v2"
       alt='front-logo'
-      src="/images/frontss.png"
+      src="/images/frontsss.png"
       width="3620" height="1671"
       />
          <Image

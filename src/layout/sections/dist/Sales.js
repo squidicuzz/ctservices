@@ -62,7 +62,7 @@ var Sales = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'we-do reflect', "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement(SupportAgentOutlined_1["default"], { className: 'we-logo we-logo-fifth' }),
                         react_1["default"].createElement("div", { className: 'we-do-title' }, " Technical Consultation ")))),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-1.png", width: "3620", height: "1671" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-312.png", width: "3620", height: "1671" }),
             react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-2.png", width: "3620", height: "1671" })));
     };
     return Sales;

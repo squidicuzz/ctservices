@@ -74,12 +74,18 @@ return (
             </div>
          </div>
       </div>
-   </div>
-   <Image
+      </div>
+         <Image
       className="sales-land-pic reflect"
       alt='front-logo'
-      src="/images/sales12.png"
+      src="/images/to-lefts.png"
       width="3620" height="1377"
+      />
+         <Image
+      className="sales-land-pic reflect"
+      alt='front-logo'
+      src="/images/sales-312.png"
+      width="3620" height="1671"
       />
 </section>
 )

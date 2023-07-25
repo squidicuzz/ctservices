@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
     useEffect(() => {
     AOS.init({
       offset: 50,
+      disable: 'tablet'
     });
     }, []);
 

@@ -48,7 +48,7 @@ return (
    <Image
       className="sales-land-pic reflect"
       alt='front-logo'
-      src="/images/sales-1.png"
+      src="/images/sales-312.png"
       width="3620" height="1671"
       />
    <Image

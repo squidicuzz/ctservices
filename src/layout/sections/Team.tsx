@@ -224,7 +224,7 @@ return (
    <Image
       className="team-land-pic reflect"
       alt='front-logo'
-      src="/images/team-1.png"
+      src="/images/team3.png"
       width="3620" height="1670"
       />
 </section>

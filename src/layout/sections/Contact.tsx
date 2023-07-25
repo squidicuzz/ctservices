@@ -78,8 +78,14 @@ return (
    <Image
       className="sales-land-pic reflect"
       alt='front-logo'
-      src="/images/sales11.png"
+      src="/images/to-rights.png"
       width="3620" height="1377"
+        />
+           <Image
+      className="sales-land-pic reflect"
+      alt='front-logo'
+      src="/images/sales-2.png"
+      width="3620" height="1671"
       />
 </section>
 )

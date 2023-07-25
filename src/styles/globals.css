@@ -113,7 +113,7 @@ main {
 }
 
 #particles-js {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   color: #fff;
@@ -213,6 +213,12 @@ li {
 .to-glow {
   animation: text-glow 5s infinite;
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  .to-glow {
+    display: none;
+  }
 }
 
 @keyframes text-glow {
@@ -333,7 +339,7 @@ li {
 
 @media (max-width: 768px) {
   .to-height {
-    min-height: 120vh;
+    min-height: 60vh;
   }
 }
 
@@ -443,7 +449,7 @@ li {
   .reflect,
   .reflect.nav,
   .reflect-v2 {
-    -webkit-box-reflect: unset;
+    -webkit-box-reflect: unset !important;
   }
 }
 
@@ -670,6 +676,15 @@ li {
   margin-top: -10rem;
 }
 
+@media screen and (max-width: 768px) {
+  .home-specs {
+    position: relative;
+    z-index: 2;
+    align-items: unset;
+    margin-top: 5rem;
+  }
+}
+
 /*---------------------------------------------------------------*/
 
 .landing-container {
@@ -693,6 +708,7 @@ li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 50vh !important;
   }
 }
 
@@ -753,8 +769,8 @@ li {
   background: linear-gradient(
     to top,
     transparent,
-    rgba(5, 5, 31, 1),
-    rgba(5, 5, 31, 1),
+    rgb(3, 2, 35),
+    rgb(3, 2, 35),
     transparent
   );
 }
@@ -795,30 +811,33 @@ li {
   position: absolute;
   top: 0;
   margin-top: -8rem;
-  width: 100%;
+  width: 50%;
   height: 300px;
   background: linear-gradient(
     to top,
     transparent,
-    rgba(5, 5, 31, 1),
-    rgba(5, 5, 31, 1),
+    rgb(3, 2, 35),
+    rgb(3, 2, 35),
     transparent
   );
+  right: 0;
 }
 
 .cryptechtest-container {
-  background: radial-gradient(
-      circle at right 50%,
-      transparent,
-      rgb(9, 10, 29) 75%
-    ),
-    url(/images/BG-B2.webp);
+  background: url(/images/BG-B2.webp);
   background-position: center;
   background-size: cover;
   position: relative;
   margin-bottom: 25rem;
   z-index: 3;
 }
+
+/* background: radial-gradient(
+      circle at right 50%,
+      transparent,
+      rgb(9, 10, 29) 75%
+    ),
+    url(/images/BG-B2.webp); */
 
 .cryptechtest-container::before {
   content: "";
@@ -881,8 +900,9 @@ li {
 }
 
 @media (max-width: 768px) {
-  .metrix-container {
-    margin-top: 5rem;
+  .metrix-container,
+  .cryptechtest-container {
+    margin-bottom: 5rem;
   }
 }
 
@@ -984,13 +1004,14 @@ li {
   object-fit: cover;
   bottom: 0;
   z-index: -1;
-  opacity: 85%;
+  /* opacity: 85%; */
 }
 
 @media (max-width: 768px) {
   .front-land-pic,
   .mid-land-pic,
-  .back-land-pic {
+  .back-land-pic,
+  .sales-land-pic {
     display: none;
   }
 }
@@ -1205,13 +1226,13 @@ li {
   position: absolute;
   top: 0;
   margin-top: -8rem;
-  width: 100%;
+  width: 50%;
   height: 300px;
   background: linear-gradient(
     to top,
     transparent,
-    rgba(5, 5, 31, 1),
-    rgba(5, 5, 31, 1),
+    rgb(3, 2, 35),
+    rgb(3, 2, 35),
     transparent
   );
 }
@@ -1922,6 +1943,11 @@ li {
 @media (max-width: 768px) {
   .carousel-container {
     display: none;
+  }
+  .norno {
+    flex-direction: column !important;
+    justify-content: unset !important;
+    gap: 0rem;
   }
 }
 
