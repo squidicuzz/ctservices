@@ -172,6 +172,8 @@ main {
   z-index: -1 !important;
   bottom: 0 !important;
   opacity: 50%;
+  object-fit: cover;
+  height: 100vh;
 }
 
 .to-ser-2 {
@@ -2233,7 +2235,10 @@ li {
 @media (max-width: 920px) {
   .service-package-1::before,
   .service-package-2::before,
-  .service-package-3::before {
+  .service-package-3::before,
+  .service-package-1::after,
+  .service-package-2::after,
+  .service-package-3::after {
     display: none;
   }
 }
