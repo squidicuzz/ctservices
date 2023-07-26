@@ -38,7 +38,6 @@ var Landing = /** @class */ (function (_super) {
                             react_1["default"].createElement("div", { className: 'color-effect' }, "CRYPTECH SERVICES. ")))),
                 react_1["default"].createElement(image_1["default"], { className: "front-land-pic reflect-v2", alt: 'front-logo', src: "/images/frontsss.png", width: "3620", height: "1671" }),
                 react_1["default"].createElement(image_1["default"], { id: "secondary-front-bg", className: "mids-land-pic to-glow", alt: 'front-logo', src: "/images/moon-1.png", width: "3620", height: "1671" }),
-                react_1["default"].createElement(image_1["default"], { id: "primary-front-bg", className: "mid-land-pic to-clouds", alt: 'front-logo', src: "/images/clouds.png", width: "3620", height: "1671" }),
                 react_1["default"].createElement(image_1["default"], { id: "tertiary-front-bg", className: "mids-land-pic to-ser", alt: 'front-logo', src: "/images/bgs.png", width: "3620", height: "1671" }),
                 react_1["default"].createElement(scripts_1["default"], null))));
     };

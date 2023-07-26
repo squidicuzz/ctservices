@@ -41,13 +41,13 @@ return (
       src="/images/moon-1.png"
       width="3620" height="1671"
       />
-   <Image
+   {/* <Image
       id="primary-front-bg"
       className="mid-land-pic to-clouds"
       alt='front-logo'
       src="/images/clouds.png"
       width="3620" height="1671"
-         />
+         /> */}
          
             <Image
       id="tertiary-front-bg"
