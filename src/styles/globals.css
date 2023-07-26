@@ -171,6 +171,12 @@ main {
   position: relative;
   z-index: -1 !important;
   bottom: 0 !important;
+  opacity: 50%;
+}
+
+.to-ser-2 {
+  position: relative;
+  z-index: -3 !important;
 }
 
 li {
@@ -991,6 +997,12 @@ li {
   bottom: 0;
   z-index: 2;
   opacity: 50%;
+}
+
+.backs-land-pic {
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .sales-land-pic {

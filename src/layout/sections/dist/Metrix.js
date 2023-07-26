@@ -28,7 +28,7 @@ var Metrix = /** @class */ (function (_super) {
     Metrix.prototype.render = function () {
         return (react_1["default"].createElement("section", { id: "metrix", className: 'metrix-container', "data-color": "rgb(182, 67, 174)" },
             react_1["default"].createElement("div", { className: "to-width to-center to-column" },
-                react_1["default"].createElement("div", { className: 'to-flex to-height to-align to-reverse' },
+                react_1["default"].createElement("div", { className: 'to-flex to-height to-align' },
                     react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement("div", { className: 'text-motion section-title project-title to-primary' }, " METRIX.PLACE "),
                         react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: 'section-desc' },
