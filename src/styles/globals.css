@@ -2425,6 +2425,10 @@ li {
   height: var(--roleH);
 }
 
+.title {
+  text-transform: capitalize;
+}
+
 .lest ul li .icon,
 .lest li .title,
 .lest ul li .descr {
