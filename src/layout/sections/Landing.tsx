@@ -47,6 +47,14 @@ return (
       alt='front-logo'
       src="/images/clouds.png"
       width="3620" height="1671"
+         />
+         
+            <Image
+      id="tertiary-front-bg"
+      className="mids-land-pic to-ser"
+      alt='front-logo'
+      src="/images/bgs.png"
+      width="3620" height="1671"
       />
    <AllScripts />
 </section>

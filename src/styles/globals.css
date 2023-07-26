@@ -167,6 +167,12 @@ main {
   font-weight: 900 !important;
 }
 
+.to-ser {
+  position: relative;
+  z-index: -1 !important;
+  bottom: 0 !important;
+}
+
 li {
   font-size: var(--quinary-font);
 }
@@ -688,11 +694,8 @@ li {
 /*---------------------------------------------------------------*/
 
 .landing-container {
-  background: radial-gradient(
-    circle at bottom,
-    transparent,
-    rgb(9, 10, 29) 100%
-  );
+  background: url(/images/bgs.png),
+    radial-gradient(circle at bottom, transparent, rgb(9, 10, 29) 100%);
 
   /* url(/images/bbblurry.svg), url(/images/50961571.png); */
   background-position: center;
@@ -704,7 +707,7 @@ li {
 
 @media screen and (max-width: 768px) {
   .landing-container {
-    background: url(/images/bbblurry.svg), url(/images/50961571.png);
+    background: url(/images/bbblurry.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -759,7 +762,7 @@ li {
   } */
 }
 
-.support-container::before {
+/* .support-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -773,7 +776,7 @@ li {
     rgb(3, 2, 35),
     transparent
   );
-}
+} */
 
 @media (max-width: 768px) {
   .support-container {
@@ -806,7 +809,7 @@ li {
   }
 }
 
-.services-container::before {
+/* .services-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -821,7 +824,7 @@ li {
     transparent
   );
   right: 0;
-}
+} */
 
 .cryptechtest-container {
   background: url(/images/BG-B2.webp);
@@ -1229,7 +1232,7 @@ li {
   }
 }
 
-.team-container::before {
+/* .team-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1243,7 +1246,7 @@ li {
     rgb(3, 2, 35),
     transparent
   );
-}
+} */
 
 .contacts-container {
   padding: 1rem;
