@@ -36,7 +36,7 @@ document.onscroll = function () {
 
     let meow = document.getElementById("header");
     let bus = document.getElementById("bus");
-    // let dog = document.querySelector("active");
+    // let dog = document.querySelector(".active");
     // let dog = document.getElementById("secondary-front-bg");
     if (scrollTop > curDiv.offsetTop - heightBefore) {
       color = curDiv.getAttribute("data-color");
@@ -44,7 +44,7 @@ document.onscroll = function () {
       meow.style.backgroundColor = color;
       bus.style.backgroundColor = color;
       // dog.style.color = color;
-      // dog.style.color = color;
+      // dog.style.backgroundColor = color;
     }
   }
 };

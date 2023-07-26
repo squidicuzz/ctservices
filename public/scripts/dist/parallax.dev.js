@@ -35,14 +35,14 @@ document.onscroll = function () {
     }
 
     var meow = document.getElementById("header");
-    var bus = document.getElementById("bus"); // let dog = document.querySelector("active");
+    var bus = document.getElementById("bus"); // let dog = document.querySelector(".active");
     // let dog = document.getElementById("secondary-front-bg");
 
     if (scrollTop > curDiv.offsetTop - heightBefore) {
       color = curDiv.getAttribute("data-color");
       meow.style.backgroundColor = color;
       bus.style.backgroundColor = color; // dog.style.color = color;
-      // dog.style.color = color;
+      // dog.style.backgroundColor = color;
     }
   }
 };
