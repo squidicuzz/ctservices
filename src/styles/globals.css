@@ -2230,7 +2230,7 @@ li {
     1;
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .service-package-1::before,
   .service-package-2::before,
   .service-package-3::before {
