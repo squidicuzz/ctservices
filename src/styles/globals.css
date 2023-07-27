@@ -2589,6 +2589,16 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
+/* .form-bg:after {
+  content: "❖";
+  font-size: var(--primary-font);
+  position: absolute;
+  color: rgb(var(--sixth));
+  text-align: center;
+  filter: drop-shadow(0px 0px 15px rgb(var(--sixth)));
+  top: -3.1rem;
+} */
+
 .to-baks {
   z-index: -10;
 }
