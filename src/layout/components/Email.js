@@ -130,7 +130,7 @@ export default function ContactUs() {
             htmlFor="fullname"
             className="text-gray-500 font-light mt-8 dark:text-gray-50"
           >
-            Full name<span className="text-red-500 dark:text-gray-50"> *</span>
+            Full Name<span className="text-red-500 dark:text-gray-50"> *</span>
           </label>
           <input
             type="text"
