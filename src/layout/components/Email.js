@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import SendIcon from "@mui/icons-material/Send";
+import Image from "next/image";
 
 export default function ContactUs() {
   const [fullname, setFullname] = useState("");
@@ -95,7 +96,7 @@ export default function ContactUs() {
       id="contact"
       className="contact-container to-index to-width to-center to-height to-align"
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 md:h-96 to-align">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:h-96 to-align">
         <div
           data-aos="fade-right"
           data-aos-duration="1500"
@@ -120,7 +121,7 @@ export default function ContactUs() {
         </div>
         <form
           onSubmit={handleSubmit}
-          className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-blue-500"
+          className="rounded-lg shadow-xl flex flex-col px-8 py-8 form-bg"
         >
           <h1 className="text-2xl font-bold dark:text-gray-50">
             Send us a message.
@@ -202,7 +203,7 @@ export default function ContactUs() {
           <div className="flex flex-row items-center justify-start">
             <button
               type="submit"
-              className="px-10 mt-8 py-2 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
+              className="px-10 mt-8 py-2 bg-blue-500 text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
             >
               {buttonText}
               <svg
@@ -217,17 +218,20 @@ export default function ContactUs() {
               </svg>
             </button>
           </div>
-          <div className="text-left">
-            {showSuccessMessage && (
-              <p className="text-green-500 font-semibold text-sm my-2">
-                Thankyou! Your Message has been delivered.
-              </p>
-            )}
-            {showFailureMessage && (
-              <p className="text-red-500">
-                Oops! Something went wrong, please try again.
-              </p>
-            )}
+          <div className="text-left to-space-above">
+            Alert message :{" "}
+            <span>
+              {showSuccessMessage && (
+                <p className="text-green-500 font-semibold text-sm my-2">
+                  Thankyou! Your Message has been delivered.
+                </p>
+              )}
+              {showFailureMessage && (
+                <p className="text-red-500">
+                  Oops! Something went wrong, please try again.
+                </p>
+              )}
+            </span>
           </div>
         </form>
       </div>

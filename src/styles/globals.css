@@ -225,6 +225,10 @@ li {
   }
 }
 
+.to-space-above {
+  margin-top: 1rem;
+}
+
 .to-glow {
   animation: text-glow 5s infinite;
   transition: 1s;
@@ -2575,4 +2579,16 @@ li {
   position: relative;
   z-index: 8;
   color: #fff;
+}
+
+.form-bg {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.to-baks {
+  z-index: -10;
 }
