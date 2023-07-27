@@ -43,7 +43,7 @@ export default class Metrix extends Component<Props, State> {
                         // data-aos-duration="1500"
                         // data-aos-anchor-placement="bottom-bottom"
                         alt='ships'
-                        src="/images/metrixboard.png"
+                        src="/images/metrixboard.webp"
                         width="1100" height="1100"
                      />
                   </div>
@@ -54,7 +54,7 @@ export default class Metrix extends Component<Props, State> {
             <Image
                className="team-land-pic"
                alt='front-logo'
-               src="/images/metrixbs.png"
+               src="/images/metrixbs.webp"
                width="3620" height="1670"
             />
          </section>

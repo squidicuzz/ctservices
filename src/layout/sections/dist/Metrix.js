@@ -54,9 +54,9 @@ var Metrix = /** @class */ (function (_super) {
                             // data-aos="fade"
                             // data-aos-duration="1500"
                             // data-aos-anchor-placement="bottom-bottom"
-                            alt: 'ships', src: "/images/metrixboard.png", width: "1100", height: "1100" }))),
+                            alt: 'ships', src: "/images/metrixboard.webp", width: "1100", height: "1100" }))),
                 react_1["default"].createElement("div", null)),
-            react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/metrixbs.png", width: "3620", height: "1670" })));
+            react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/metrixbs.webp", width: "3620", height: "1670" })));
     };
     return Metrix;
 }(react_1.Component));

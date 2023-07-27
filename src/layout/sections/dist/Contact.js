@@ -65,8 +65,8 @@ var Support = /** @class */ (function (_super) {
                             react_1["default"].createElement("div", { className: "icon" },
                                 react_1["default"].createElement(SupportAgentOutlined_1["default"], { className: 'we-logo-first ico' })),
                             react_1["default"].createElement("div", { className: "title" }, "Technical Consultation"))))),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/to-rights.png", width: "3620", height: "1377" }),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-2.png", width: "3620", height: "1671" })));
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/to-rights.webp", width: "3620", height: "1377" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-2.webp", width: "3620", height: "1671" })));
     };
     return Support;
 }(react_1.Component));

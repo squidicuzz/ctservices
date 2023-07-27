@@ -238,7 +238,7 @@ export default function ContactUs() {
       {/* <Image
         className="sales-land-pic"
         alt="front-logo"
-        src="/images/contact1.png"
+        src="/images/contact1.webp"
         width="3620"
         height="1671"
       /> */}

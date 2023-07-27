@@ -16,7 +16,7 @@ return (
    <Image
       className="back-land-pic"
       alt='front-logo'
-      src="/images/back-65.png"
+      src="/images/back-65.webp"
       width="3620" height="1671"
       />
    <div className="to-width to-height to-center home-specs">
@@ -31,21 +31,21 @@ return (
    <Image
       className="front-land-pic reflect-v2"
       alt='front-logo'
-      src="/images/frontsss.png"
+      src="/images/frontsss.webp"
       width="3620" height="1671"
       />
          <Image
             id="secondary-front-bg"
       className="mids-land-pic to-glow"
       alt='front-logo'
-      src="/images/moon-1.png"
+      src="/images/moon-1.webp"
       width="3620" height="1671"
       />
    {/* <Image
       id="primary-front-bg"
       className="mid-land-pic to-clouds"
       alt='front-logo'
-      src="/images/clouds.png"
+      src="/images/clouds.webp"
       width="3620" height="1671"
          /> */}
          
@@ -53,7 +53,7 @@ return (
       id="tertiary-front-bg"
       className="mids-land-pic to-ser"
       alt='front-logo'
-      src="/images/bgs.png"
+      src="/images/bgs.webp"
       width="3620" height="1671"
       />
    <AllScripts />

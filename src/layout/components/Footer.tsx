@@ -48,7 +48,7 @@ export default class Footer extends Component<Props, State> {
                                         <Image
                     className="sales-land-pic"
                 alt='front-logo'
-                src="/images/footer.png"
+                src="/images/footer.webp"
                 width="3620" height="1671"
                 />
   </footer>

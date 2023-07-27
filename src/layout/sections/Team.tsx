@@ -23,7 +23,7 @@ return (
             <Image
                className='contact-mug'
                alt='front-logo'
-               src="/images/squid.png"
+               src="/images/squid.webp"
                width="512" height="512"
                />
             <div className='details-bg'>
@@ -59,7 +59,7 @@ return (
             <Image
                className='contact-mug'
                alt='front-logo'
-               src="/images/ercknard.png"
+               src="/images/ercknard.webp"
                width="512" height="512"
                />
             <div className='details-bg'>
@@ -96,7 +96,7 @@ return (
             <Image
                className='contact-mug'
                alt='front-logo'
-               src="/images/valor.png"
+               src="/images/valor.webp"
                width="512" height="512"
                />
             <div className='details-bg'>
@@ -123,7 +123,7 @@ return (
             <Image
                className='contact-mug'
                alt='front-logo'
-               src="/images/seqsee.png"
+               src="/images/seqsee.webp"
                width="512" height="512"
                />
             <div className='details-bg'>
@@ -159,7 +159,7 @@ return (
             <Image
                className='contact-mug'
                alt='front-logo'
-               src="/images/valor.png"
+               src="/images/valor.webp"
                width="512" height="512"
                />
             <div className='details-bg'>
@@ -196,7 +196,7 @@ return (
             <Image
                className='contact-mug'
                alt='front-logo'
-               src="/images/ercknard.png"
+               src="/images/ercknard.webp"
                width="512" height="512"
                />
             <div className='details-bg'>
@@ -224,7 +224,7 @@ return (
    <Image
       className="team-land-pic reflect"
       alt='front-logo'
-      src="/images/team3.png"
+      src="/images/team3.webp"
       width="3620" height="1670"
       />
 </section>
