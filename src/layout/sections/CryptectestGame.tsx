@@ -39,8 +39,8 @@ return (
          <div className='we-do-container'>
             <Image
                className='ships'
-               data-aos="fade"
-               data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
+               // data-aos="fade"
+               // data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
                alt='ships'
                src="/images/ship-2.webp"
                width="750" height="750"
