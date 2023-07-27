@@ -177,7 +177,7 @@ export default function ContactUs() {
             onChange={(e) => {
               setSubject(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-white font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-white font-light text-black-500"
           />
           {errors?.subject && (
             <p className="text-red-500">Subject cannot be empty.</p>
