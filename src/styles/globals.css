@@ -711,10 +711,10 @@ li {
 /*---------------------------------------------------------------*/
 
 .landing-container {
-  background: url(/images/bgs.png),
+  background: url(/images/bgs.webp),
     radial-gradient(circle at bottom, transparent, rgb(9, 10, 29) 100%);
 
-  /* url(/images/bbblurry.svg), url(/images/50961571.png); */
+  /* url(/images/bbblurry.svg), url(/images/50961571.webp); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1913,7 +1913,7 @@ li {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(/images/waves.png);
+  background: url(/images/waves.webp);
   background-size: 1000px 100px;
 }
 
