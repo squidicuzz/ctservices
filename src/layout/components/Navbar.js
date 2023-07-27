@@ -158,11 +158,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="to-hide w-1/5 flex justify-end items-end but">
-          <a
-            id="bus"
-            className="home-button"
-            href="mailto:squid@cryptech.services"
-          >
+          <a id="bus" className="home-button" href="#contact">
             <div>
               <button type="button" className="home-button-txt">
                 {" "}

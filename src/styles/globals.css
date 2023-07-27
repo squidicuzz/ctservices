@@ -30,6 +30,7 @@ html {
   --tertiary-secon: 123, 143, 252;
   --quaternary-secon: 92, 194, 228;
   --quinary-secon: 110, 240, 188;
+  --sixth: 59, 130, 246;
 
   --gifted-font: 5em;
   --primary-font: 4em;
@@ -434,6 +435,10 @@ li {
   background-color: rgb(var(--quinary-secon)) !important;
 }
 
+.to-sixth {
+  background-color: rgb(var(--sixth)) !important;
+}
+
 .reflect {
   -webkit-box-reflect: below 0px
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25)) !important;
@@ -534,7 +539,7 @@ li {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 999;
   transition: 1s;
   border-bottom: none;
 }
@@ -834,12 +839,20 @@ li {
   right: 0;
 } */
 
-.cryptechtest-container {
+.email-container {
   background: url(/images/BG-B2.webp);
   background-position: center;
   background-size: cover;
   position: relative;
   margin-bottom: 25rem;
+  z-index: 3;
+}
+
+.cryptechtest-container {
+  background: url(/images/BG-B2.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
   z-index: 3;
 }
 
@@ -915,6 +928,14 @@ li {
   .cryptechtest-container {
     margin-bottom: 7rem;
   }
+}
+
+.contact-container {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 
 .home-welcome-message {
@@ -1119,6 +1140,11 @@ li {
 .we-logo-fifth {
   color: rgb(var(--quinary-secon));
   filter: drop-shadow(0px 0px 5px rgb(var(--quinary-secon)));
+}
+
+.we-logo-sixth {
+  color: rgb(var(--sixth));
+  filter: drop-shadow(0px 0px 5px rgb(var(--sixth)));
 }
 
 .we-do:first-child {
@@ -2543,4 +2569,10 @@ li {
   width: 100%s;
   height: 750px;
   background-color: #09091d;
+}
+
+.to-index {
+  position: relative;
+  z-index: 8;
+  color: #fff;
 }

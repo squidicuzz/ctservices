@@ -7,6 +7,7 @@ import Footer from '@/layout/components/Footer';
 import Cryptectest from '@/layout/sections/CryptectestGame';
 import Navbar from '@/layout/components/Navbar';
 import Metrix from '@/layout/sections/Metrix';
+import ContactUs from '@/layout/components/Email';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Contacts />
       <Metrix />
       <Cryptectest />
+      <ContactUs />
       <Footer />
     </main>
   )
