@@ -77,9 +77,7 @@ var Cryptectest = /** @class */ (function (_super) {
                             react_1["default"].createElement("div", { className: 'to-back' },
                                 react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/5.png", width: "3620", height: "1969" })),
                             react_1["default"].createElement("div", { className: 'to-back' },
-                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/6.png", width: "3620", height: "1969" })))))),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-312.png", width: "3620", height: "1671" }),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-2.png", width: "3620", height: "1671" })));
+                                react_1["default"].createElement(image_1["default"], { alt: 'ships', className: "squid-anim", src: "/images/6.png", width: "3620", height: "1969" }))))))));
     };
     return Cryptectest;
 }(react_1.Component));
