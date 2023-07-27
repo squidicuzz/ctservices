@@ -52,40 +52,40 @@ return (
             data-aos-duration="1500" className="to-width carousel-container">
             <div className="carousel">
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/1.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/1.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/2.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/2.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/3.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/3.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/4.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/4.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/5.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/5.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/6.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/6.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/1.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/1.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/2.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/2.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/3.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/3.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/4.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/4.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/5.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/5.webp" width="3620" height="1969" />
                </div>
                <div className='to-back'>
-                  <Image alt='ships' className="squid-anim" src="/images/6.png" width="3620" height="1969" />
+                  <Image alt='ships' className="squid-anim" src="/images/6.webp" width="3620" height="1969" />
                </div>
             </div>
          </div>
@@ -94,7 +94,7 @@ return (
                {/* <Image
         className="sales-land-pic reflect to-baks"
         alt="front-logo"
-        src="/images/to-lefts.png"
+        src="/images/to-lefts.webp"
         width="3620"
         height="1377"
       />
@@ -102,7 +102,7 @@ return (
                      <Image
         className="sales-land-pic reflect to-baks"
         alt="front-logo"
-        src="/images/to-rights.png"
+        src="/images/to-rights.webp"
         width="3620"
         height="1377"
       /> */}
@@ -110,13 +110,13 @@ return (
          {/* <Image
       className="sales-land-pic reflect"
       alt='front-logo'
-      src="/images/sales-312.png"
+      src="/images/sales-312.webp"
       width="3620" height="1671"
       />
    <Image
       className="sales-land-pic reflect"
       alt='front-logo'
-      src="/images/sales-2.png"
+      src="/images/sales-2.webp"
       width="3620" height="1671"
       /> */}
 </section>
