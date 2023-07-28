@@ -13,7 +13,8 @@ return (
    <AllScripts />
 </section>
 <section id="home" className="landing-container" data-color="rgb(44, 104, 208)">
-   <Image
+         <Image
+            priority={true}
       className="back-land-pic"
       alt='front-logo'
       src="/images/back-65.webp"
@@ -28,13 +29,15 @@ return (
          </div>
       </div>
    </div>
-   <Image
+         <Image
+            priority={true}
       className="front-land-pic reflect-v2"
       alt='front-logo'
       src="/images/frontsss.webp"
       width="3620" height="1671"
       />
          <Image
+            priority={true}
             id="secondary-front-bg"
       className="mids-land-pic to-glow"
       alt='front-logo'
@@ -49,7 +52,8 @@ return (
       width="3620" height="1671"
          /> */}
          
-            <Image
+         <Image
+            priority={true}
       id="tertiary-front-bg"
       className="mids-land-pic to-ser"
       alt='front-logo'

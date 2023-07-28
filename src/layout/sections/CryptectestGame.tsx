@@ -37,7 +37,7 @@ return (
             </div>
          </div>
          <div className='we-do-container'>
-            <Image
+               <Image
                className='ships'
                // data-aos="fade"
                // data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
