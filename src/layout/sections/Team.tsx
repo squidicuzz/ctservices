@@ -66,8 +66,8 @@ return (
                <div className='contact-name valor-name'> Ercknard </div>
                <div className='contact-description'>
                   <ul>
-                     <li className='valor-list'> Web Developer </li>
-                     <li className='valor-list'> Front-End Designer</li>
+                     <li className='valor-list'> Developer </li>
+                     <li className='valor-list'> Front-End Developer</li>
                      <li className='valor-list'> </li>
                   </ul>
                </div>
