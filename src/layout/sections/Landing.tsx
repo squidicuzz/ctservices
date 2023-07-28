@@ -31,6 +31,7 @@ return (
    </div>
          <Image
             priority={true}
+            quality={100}
       className="front-land-pic reflect-v2"
       alt='front-logo'
       src="/images/frontsss.webp"
