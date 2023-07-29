@@ -5412,8 +5412,8 @@ var addClassOnScroll = function () {
 
     if (windowTop > offsetTop - 50 && windowTop < offsetTop + outerHeight) {
       var elemId = $(elem).attr("id");
-      $("div span a.active").removeClass("active");
-      $("div span a[href='#" + elemId + "']").addClass("active");
+      $("div span a.actives").removeClass("actives");
+      $("div span a[href='#" + elemId + "']").addClass("actives");
     }
   });
 };

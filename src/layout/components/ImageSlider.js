@@ -12,15 +12,15 @@ const ImageSlider = ({ images }) => {
     return () => clearInterval(interval);
   }, [images.length]);
 
-  const goToPrevSlide = () => {
-    setCurrentSlide((prevSlide) =>
-      prevSlide === 0 ? images.length - 1 : prevSlide - 1
-    );
-  };
+  //   const goToPrevSlide = () => {
+  //     setCurrentSlide((prevSlide) =>
+  //       prevSlide === 0 ? images.length - 1 : prevSlide - 1
+  //     );
+  //   };
 
-  const goToNextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-  };
+  //   const goToNextSlide = () => {
+  //     setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
+  //   };
 
   return (
     <div className="image-slider">

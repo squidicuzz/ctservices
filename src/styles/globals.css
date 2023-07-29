@@ -163,7 +163,7 @@ main {
   font-weight: 500 !important;
 }
 
-.active {
+.actives {
   filter: drop-shadow(0px 0px 5px #2c68d0);
   font-weight: 900 !important;
 }
@@ -2695,6 +2695,7 @@ li {
   width: 500px;
   height: 500px;
   overflow: hidden;
+  filter: unset !important;
 }
 
 .slide {
