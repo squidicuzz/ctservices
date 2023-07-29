@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 const ImageSlider = ({ images }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -28,7 +29,13 @@ const ImageSlider = ({ images }) => {
           key={index}
           className={`slide ${index === currentSlide ? "active" : ""}`}
         >
-          <img className="to-svg" src={image} alt={`Slide ${index + 1}`} />
+          <Image
+            className="to-svg"
+            src={image}
+            alt={`Slide ${index + 1}`}
+            width={500}
+            height={500}
+          />
         </div>
       ))}
       {/* <div className="controls">

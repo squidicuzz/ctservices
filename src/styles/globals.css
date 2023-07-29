@@ -2719,3 +2719,44 @@ li {
   align-items: center;
   z-index: 9999;
 }
+
+@media (max-width: 1920px) {
+  .image-slider {
+    width: 400px;
+    height: 400px;
+  }
+
+  .slide {
+    width: 400px;
+    height: 400px;
+  }
+
+  .to-svg {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .image-slider {
+    width: 350px;
+    height: 350px;
+    margin-top: -1rem;
+  }
+
+  .slide {
+    width: 350px;
+    height: 350px;
+  }
+
+  .to-svg {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .image-slider {
+    display: none;
+  }
+}
