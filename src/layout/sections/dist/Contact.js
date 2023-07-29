@@ -22,6 +22,15 @@ var CurrencyBitcoinOutlined_1 = require("@mui/icons-material/CurrencyBitcoinOutl
 var CodeOutlined_1 = require("@mui/icons-material/CodeOutlined");
 var DrawOutlined_1 = require("@mui/icons-material/DrawOutlined");
 var SupportAgentOutlined_1 = require("@mui/icons-material/SupportAgentOutlined");
+var ImageSlider_1 = require("@/layout/components/ImageSlider");
+var images = [
+    "/images/undraw_building_websites_i78t.svg",
+    "/images/undraw_nakamoto_-2-iv6.svg",
+    "/images/undraw_ethereum_re_0m68.svg",
+    "/images/undraw_heatmap_uyye.svg",
+    "/images/undraw_image_viewer_re_7ejc.svg",
+    "/images/undraw_instant_support_re_s7un.svg",
+];
 var Support = /** @class */ (function (_super) {
     __extends(Support, _super);
     function Support() {
@@ -39,6 +48,7 @@ var Support = /** @class */ (function (_super) {
                         " For ",
                         react_1["default"].createElement("span", { className: 'we-logo-fourth to-bold' }, "DEVELOPMENT"),
                         " services we offer: ")),
+                react_1["default"].createElement(ImageSlider_1["default"], { images: images }),
                 react_1["default"].createElement("div", { className: 'lest' },
                     react_1["default"].createElement("ul", null,
                         react_1["default"].createElement("li", { "data-aos": "fade-down", "data-aos-duration": "500", "data-aos-anchor-placement": "bottom-bottom", className: 'icos' },

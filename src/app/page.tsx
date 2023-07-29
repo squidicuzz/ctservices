@@ -16,7 +16,7 @@ export default function Home() {
       <Landing />
       <Sales />
       <Support />
-            <Services />
+      <Services />
       <Contacts />
       <Metrix />
       <Cryptectest />
