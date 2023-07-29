@@ -33,7 +33,7 @@ const ImageSlider = ({ images }) => {
       ))}
       {/* <div className="controls">
         <button onClick={goToPrevSlide}>Previous</button>
-        <button onClick={goToNextSlide}>Next</button>
+        <button onClick={goToNextSlide}>Nexts</button>
       </div> */}
     </div>
   );
