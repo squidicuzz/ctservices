@@ -112,9 +112,14 @@ export default function ContactUs() {
             >
               {" "}
               Fill the form and send in your queries. We will respond as soon as
-              we can. Alternatively, You can reach out to us at{" "}
-              <span className="we-logo-sixth to-bold">CT Services </span> email
-              address.
+              we can. Alternatively, You can reach out{" "}
+              <span className="we-logo-sixth to-bold">Squid</span> by sending a
+              message to{" "}
+              <span className="we-logo-sixth to-bold">
+                {" "}
+                squid@cryptech.services{" "}
+              </span>{" "}
+              .
             </div>
           </div>
           <form
@@ -236,9 +241,9 @@ export default function ContactUs() {
         </div>
       </div>
       {/* <Image
-        className="sales-land-pic"
+        className="contact-land-pic"
         alt="front-logo"
-        src="/images/contact1.webp"
+        src="/images/contact2.png"
         width="3620"
         height="1671"
       /> */}

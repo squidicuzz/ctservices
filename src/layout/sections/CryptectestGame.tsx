@@ -107,7 +107,7 @@ return (
         height="1377"
       /> */}
 
-         {/* <Image
+         <Image
       className="sales-land-pic reflect"
       alt='front-logo'
       src="/images/sales-312.webp"
@@ -118,7 +118,7 @@ return (
       alt='front-logo'
       src="/images/sales-2.webp"
       width="3620" height="1671"
-      /> */}
+      />
 </section>
 )
 }

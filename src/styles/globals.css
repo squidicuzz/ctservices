@@ -1040,6 +1040,15 @@ li {
   z-index: 0;
 }
 
+.contact-land-pic {
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  bottom: 0;
+  z-index: 0;
+  opacity: 25%;
+}
+
 .team-land-pic {
   position: absolute;
   left: 0;
