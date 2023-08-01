@@ -126,7 +126,7 @@ return (
             
             </div>
       </div>
-   <Image
+   {/* <Image
       className="sales-land-pic reflect"
       alt='front-logo'
       src="/images/to-rights.webp"
@@ -137,7 +137,7 @@ return (
       alt='front-logo'
       src="/images/sales-2.webp"
       width="3620" height="1671"
-      />
+      /> */}
 </section>
 )
 }

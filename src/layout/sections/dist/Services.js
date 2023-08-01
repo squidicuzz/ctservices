@@ -73,7 +73,9 @@ var Services = /** @class */ (function (_super) {
                                     react_1["default"].createElement("li", null, " \u00B3Final price may be adjusted if hours of support exceed 8 hours. "),
                                     react_1["default"].createElement("li", null, " \u2074Currency denomination may be negotiated. "))))))),
             react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/to-lefts.webp", width: "3620", height: "1377" }),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-312.webp", width: "3620", height: "1671" })));
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-312.webp", width: "3620", height: "1671" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/to-rights.webp", width: "3620", height: "1377" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-2.webp", width: "3620", height: "1671" })));
     };
     return Services;
 }(react_1.Component));
