@@ -10,7 +10,7 @@ import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
 import ImageSlider from '@/layout/components/ImageSlider';
 
 const images = [
-  "/images/undraw_building_websites_i78t.svg",
+    "/images/undraw_building_websites_i78t.svg",
   "/images/undraw_nakamoto_-2-iv6.svg",
   "/images/undraw_ethereum_re_0m68.svg",
   "/images/undraw_heatmap_uyye.svg",
@@ -75,37 +75,37 @@ return (
             
             <div className='lest'>
             <ul>
-    <li data-aos="fade-down"
+    <li data-aos="fade-up"
             data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" className='icos'>
         <div className="icon"><LayersOutlinedIcon className='we-logo-first ico'/></div>
         <div className="title">Fullstack Web Development</div>
         {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div> */}
     </li>
-    <li data-aos="fade-down"
+    <li data-aos="fade-up"
             data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" className='icos'>
         <div className="icon"><CurrencyBitcoinOutlinedIcon className='we-logo-second ico'/></div>
         <div className="title">Web3 and DAPP Development</div>
         {/* <div className="descr">Lorem ipsum dolor sit.</div> */}
     </li>
-    <li data-aos="fade-down"
+    <li data-aos="fade-up"
             data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='icos'>
         <div className="icon"><CodeOutlinedIcon className='we-logo-third ico'/></div>
         <div className="title">Solidity smart contract Development</div>
         {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laboriosam odio alias.</div> */}
                </li>
-                   <li data-aos="fade-down"
+                   <li data-aos="fade-up"
             data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" className='icos'>
         <div className="icon"><DesignServicesOutlinedIcon className='we-logo-fourth ico'/></div>
         <div className="title">Web Design</div>
         {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div> */}
     </li>
-    <li data-aos="fade-down"
+    <li data-aos="fade-up"
             data-aos-duration="2500" data-aos-anchor-placement="bottom-bottom" className='icos'>
         <div className="icon"><DrawOutlinedIcon className='we-logo-fifth ico'/></div>
         <div className="title">Graphic Design</div>
         {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div> */}
                </li>
-                   <li data-aos="fade-down"
+                   <li data-aos="fade-up"
             data-aos-duration="3000" data-aos-anchor-placement="bottom-bottom" className='icos'>
         <div className="icon"><SupportAgentOutlinedIcon className='we-logo-first ico'/></div>
         <div className="title">Technical Consultation</div>
