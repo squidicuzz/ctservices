@@ -78,7 +78,7 @@ return (
     <li data-aos="fade-up"
             data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" className='icos'>
         <div className="icon"><LayersOutlinedIcon className='we-logo-first ico'/></div>
-        <div className="title">Fullstack Web Development</div>
+        <div className="title">Full-Stack Web Development</div>
         {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div> */}
     </li>
     <li data-aos="fade-up"

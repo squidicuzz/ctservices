@@ -53,7 +53,7 @@ var Support = /** @class */ (function (_super) {
                         react_1["default"].createElement("li", { "data-aos": "fade-up", "data-aos-duration": "500", "data-aos-anchor-placement": "bottom-bottom", className: 'icos' },
                             react_1["default"].createElement("div", { className: "icon" },
                                 react_1["default"].createElement(LayersOutlined_1["default"], { className: 'we-logo-first ico' })),
-                            react_1["default"].createElement("div", { className: "title" }, "Fullstack Web Development")),
+                            react_1["default"].createElement("div", { className: "title" }, "Full-Stack Web Development")),
                         react_1["default"].createElement("li", { "data-aos": "fade-up", "data-aos-duration": "1000", "data-aos-anchor-placement": "bottom-bottom", className: 'icos' },
                             react_1["default"].createElement("div", { className: "icon" },
                                 react_1["default"].createElement(CurrencyBitcoinOutlined_1["default"], { className: 'we-logo-second ico' })),
