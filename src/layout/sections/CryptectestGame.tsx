@@ -13,8 +13,9 @@ return (
    <div className="to-width to-flex to-height to-center to-column to-align">
       <div className='to-flex'>
          <div data-aos="fade-right"
-            data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
-            <div className='text-motion section-title project-title to-tertiary'> CRYPTECHTEST GAME </div>
+               data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
+               <div className='title-cryptech'>
+            <div className='text-motion section-title project-title to-tertiary'> CRYPTECHTEST GAME </div></div>
             <div data-aos="fade-right"
                data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> Community-driven <a href="https://www.minetest.net/" target='_blank'><span className='we-logo-third to-bold'>Minetest Game</span></a> with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</div>
             <div className='to-flex to-gap-1'>

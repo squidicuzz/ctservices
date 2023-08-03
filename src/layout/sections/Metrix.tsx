@@ -14,7 +14,8 @@ export default class Metrix extends Component<Props, State> {
                <div className='to-flex to-height to-align'>
                   <div data-aos="fade-right"
                      data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom">
-                     <div className='text-motion section-title project-title to-primary'> METRIX.PLACE </div>
+                     <div className='title-metrix'>
+                     <div className='text-motion section-title project-title to-primary'> METRIX.PLACE </div></div>
                      <div data-aos="fade-right"
                         data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='section-desc'> metrix.place is a communal grafitti board called a place, which any address can set a single pixel per <a href="https://www.metrixcoin.com/" target='_blank'><span className='we-logo-first to-bold'>Metrix Coin</span></a> transaction by paying the gas fee for the transaction.</div>
                      <div className='to-flex to-gap-1'>

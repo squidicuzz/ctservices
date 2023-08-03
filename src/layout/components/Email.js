@@ -100,9 +100,11 @@ export default function ContactUs() {
             data-aos-duration="1500"
             data-aos-anchor-placement="bottom-bottom"
           >
-            <div className="text-motion section-title project-title to-sixth">
-              {" "}
-              LETS TALK ABOUT YOUR PROJECT{" "}
+            <div className="title-email">
+              <div className="text-motion section-title project-title to-sixth">
+                {" "}
+                CONTACT US{" "}
+              </div>
             </div>
             <div
               data-aos="fade-right"
@@ -111,10 +113,10 @@ export default function ContactUs() {
               className="section-desc"
             >
               {" "}
-              Fill the form and send in your queries. We will respond as soon as
-              we can. Alternatively, You can reach out{" "}
-              <span className="we-logo-sixth to-bold">Squid</span> by sending a
-              message to{" "}
+              LETS TALK ABOUT YOUR PROJECT, Fill the form and send in your
+              queries. We will respond as soon as we can. Alternatively, You can
+              reach out <span className="we-logo-sixth to-bold">Squid</span> by
+              sending a message to{" "}
               <span className="we-logo-sixth to-bold">
                 {" "}
                 squid@cryptech.services{" "}

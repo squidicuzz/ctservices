@@ -997,7 +997,6 @@ li {
   position: absolute;
   left: 0;
   object-fit: cover;
-  bottom: 0;
   z-index: 3;
 }
 
@@ -1013,7 +1012,6 @@ li {
   position: fixed;
   left: 0;
   object-fit: cover;
-  bottom: 8rem;
   z-index: 1;
 }
 
@@ -1021,9 +1019,7 @@ li {
   position: absolute;
   left: 0;
   object-fit: cover;
-  bottom: 0;
   z-index: 2;
-  opacity: 50%;
 }
 
 .backs-land-pic {
@@ -1038,6 +1034,13 @@ li {
   object-fit: cover;
   bottom: 0;
   z-index: 0;
+}
+
+.foots-land-pic {
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .contact-land-pic {
@@ -2782,4 +2785,91 @@ li {
   background-color: rgba(17, 25, 40, 0.75);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.title-team {
+  display: flex;
+  justify-content: center;
+}
+
+.title-team::before {
+  content: "CRYPTECH SERVICES TEAM";
+  position: absolute;
+  margin-top: -3rem;
+  color: wheat !important;
+  font-size: var(--primary-font);
+  opacity: 15%;
+  font-weight: 700;
+}
+
+.title-support {
+  display: flex;
+  justify-content: center;
+}
+
+.title-support::before {
+  content: "CRYPTECH SERVICES";
+  position: absolute;
+  margin-top: -3rem;
+  color: wheat !important;
+  font-size: var(--primary-font);
+  opacity: 15%;
+  font-weight: 700;
+}
+
+.title-security {
+  display: flex;
+  justify-content: center;
+}
+
+.title-security::before {
+  content: "SECURITY SERVICES";
+  position: absolute;
+  margin-top: -3rem;
+  color: wheat !important;
+  font-size: var(--primary-font);
+  opacity: 15%;
+  font-weight: 700;
+}
+
+.title-metrix {
+  display: flex;
+}
+
+.title-metrix::before {
+  content: "METRIX.PLACE";
+  position: absolute;
+  margin-top: -3rem;
+  color: wheat !important;
+  font-size: var(--primary-font);
+  opacity: 15%;
+  font-weight: 700;
+}
+
+.title-cryptech {
+  display: flex;
+}
+
+.title-cryptech::before {
+  content: "CRYPTECHTEST GAME";
+  position: absolute;
+  margin-top: -3rem;
+  color: wheat !important;
+  font-size: var(--primary-font);
+  opacity: 15%;
+  font-weight: 700;
+}
+
+.title-email {
+  display: flex;
+}
+
+.title-email::before {
+  content: "CONTACT US";
+  position: absolute;
+  margin-top: -3rem;
+  color: wheat !important;
+  font-size: var(--primary-font);
+  opacity: 15%;
+  font-weight: 700;
 }

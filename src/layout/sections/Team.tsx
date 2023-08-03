@@ -12,8 +12,9 @@ return (
 <section id="team" className='team-container' data-color="rgb(176, 117, 248)">
    <div className="to-width to-height to-center to-flex-column">
       <div>
-         <div className='text-motion section-title-logo to-secondary'> ❖ </div>
-         <div className='text-motion section-title to-secondary'> CRYPTECH SERVICES TEAM </div>
+            <div className='text-motion section-title-logo to-secondary'> ❖ </div>
+            <div className='title-team to-center'>
+         <div className='text-motion section-title to-secondary'> CRYPTECH SERVICES TEAM </div></div>
          <div className='section-desc'> Please contact <a href="mailto:squid@cryptech.services569" target='_blank'><span className='we-logo-second to-bold' >SQUIDICUZ</span></a> if it is urgent, or contact another admin to attempt to resolve your issue.
             Thank you.
          </div>

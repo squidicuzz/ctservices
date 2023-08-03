@@ -12,8 +12,8 @@ return (
       <div className='to-left'>
          
          <div className='text-motion section-title-logo to-quinary'> ❖ </div>
-        
-         <div className='text-motion section-title to-quinary'> SECURITY SERVICES </div>
+        <div className='title-security'>
+         <div className='text-motion section-title to-quinary'> SECURITY SERVICES </div></div>
          <div className='section-desc-1'> For <span className='we-logo-fifth to-bold' >SECURITY</span> service packages we offer: </div>
       </div>
       <div className='packages'>
