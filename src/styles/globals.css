@@ -1129,6 +1129,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   z-index: 1;
+  margin-top: 7.5rem;
 }
 
 @media (max-width: 768px) {
@@ -1217,7 +1218,7 @@ li {
     )
     1;
   margin-top: 155px;
-  margin-left: -5rem;
+  margin-left: -7rem;
 }
 
 .we-do:nth-child(3) {
@@ -1232,7 +1233,7 @@ li {
     )
     1;
   margin-top: -105px;
-  margin-left: -5rem;
+  margin-left: -7rem;
 }
 
 .we-do:nth-child(4) {
@@ -1247,7 +1248,7 @@ li {
     )
     1;
   margin-top: 155px;
-  margin-left: -5rem;
+  margin-left: -7rem;
 }
 
 .we-do:nth-child(5) {
@@ -1262,7 +1263,7 @@ li {
     )
     1;
   margin-top: -105px;
-  margin-left: -5rem;
+  margin-left: -7rem;
 }
 
 @media (max-width: 768px) {
@@ -1274,6 +1275,8 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    background-color: unset !important;
+    border: unset !important;
   }
 }
 
