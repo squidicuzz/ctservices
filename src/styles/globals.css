@@ -560,7 +560,7 @@ li {
 
 @media (max-width: 1367px) {
   .nav-main.scrolled {
-    background: rgb(8, 9, 29);
+    /* background: rgb(8, 9, 29); */
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -1065,7 +1065,9 @@ li {
   .front-land-pic,
   .mid-land-pic,
   .back-land-pic,
-  .sales-land-pic {
+  .sales-land-pic,
+  .foots-land-pic,
+  .team-land-pic {
     display: none;
   }
 }
@@ -2067,6 +2069,12 @@ li {
   }
 }
 
+@media (max-width: 768px) {
+  .skew {
+    transform: scale(0.75) !important;
+  }
+}
+
 .service-package-1 {
   position: relative;
   padding: 1.5rem;
@@ -2600,6 +2608,13 @@ li {
   background-color: rgba(17, 25, 40, 0.75);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  margin-top: -3rem !important;
+}
+
+@media (max-width: 1920px) {
+  .form-bg {
+    margin-top: 0rem !important;
+  }
 }
 
 /* .form-bg:after {
