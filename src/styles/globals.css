@@ -842,12 +842,12 @@ li {
   }
 }
 
-/* .services-container::before {
+.services-container::before {
   content: "";
   position: absolute;
   top: 0;
   margin-top: -8rem;
-  width: 50%;
+  width: 100%;
   height: 300px;
   background: linear-gradient(
     to top,
@@ -857,7 +857,7 @@ li {
     transparent
   );
   right: 0;
-} */
+}
 
 .email-container {
   background: url(/images/BG-B2.webp);
@@ -1058,6 +1058,14 @@ li {
   object-fit: cover;
   bottom: 0;
   z-index: 0;
+}
+
+.sales-1-land-pic {
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .foots-land-pic {
