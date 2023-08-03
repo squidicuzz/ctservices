@@ -57,7 +57,8 @@ var Metrix = /** @class */ (function (_super) {
                             // data-aos-anchor-placement="bottom-bottom"
                             alt: 'ships', src: "/images/metrixboard.webp", width: "1100", height: "1100" }))),
                 react_1["default"].createElement("div", null)),
-            react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/metrixbs.webp", width: "3620", height: "1670" })));
+            react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/metrixbs.webp", width: "3620", height: "1670" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: 'front-logo', src: "/images/team3-up.webp", width: "3620", height: "1671" })));
     };
     return Metrix;
 }(react_1.Component));

@@ -58,6 +58,12 @@ export default class Metrix extends Component<Props, State> {
                src="/images/metrixbs.webp"
                width="3620" height="1670"
             />
+                             <Image
+      className="sales-1-land-pic"
+      alt='front-logo'
+      src="/images/team3-up.webp"
+      width="3620" height="1671"
+      />
          </section>
       )
    }

@@ -81,9 +81,9 @@ return (
       src="/images/observe-up.png"
       width="3620" height="1671"
       />
-      
+
          <Image
-      className="sales-land-pic reflect"
+      className="sales-land-pic"
       alt='front-logo'
       src="/images/to-center.webp"
       width="3620" height="1377"
