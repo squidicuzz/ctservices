@@ -15,7 +15,6 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var react_1 = require("react");
-var image_1 = require("next/image");
 var CurrencyBitcoinOutlined_1 = require("@mui/icons-material/CurrencyBitcoinOutlined");
 var PrecisionManufacturingOutlined_1 = require("@mui/icons-material/PrecisionManufacturingOutlined");
 var ShieldOutlined_1 = require("@mui/icons-material/ShieldOutlined");
@@ -61,9 +60,7 @@ var Sales = /** @class */ (function (_super) {
                         react_1["default"].createElement("div", { className: 'we-do-title' }, " Web Design ")),
                     react_1["default"].createElement("div", { className: 'we-do reflect', "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement(SupportAgentOutlined_1["default"], { className: 'we-logo we-logo-fifth' }),
-                        react_1["default"].createElement("div", { className: 'we-do-title' }, " Technical Consultation ")))),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-312.webp", width: "3620", height: "1671" }),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-2.webp", width: "3620", height: "1671" })));
+                        react_1["default"].createElement("div", { className: 'we-do-title' }, " Technical Consultation "))))));
     };
     return Sales;
 }(react_1.Component));
