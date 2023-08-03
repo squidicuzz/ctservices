@@ -459,7 +459,7 @@ li {
 }
 
 .reflect-v2 {
-  -webkit-box-reflect: below -175px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  -webkit-box-reflect: below -4rem linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
 
 @media (max-width: 1920px) {
@@ -753,6 +753,22 @@ li {
   );
 }
 
+/* .landing-shadow {
+  position: absolute;
+  bottom: 0 !important;
+  margin-bottom: -8rem;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    to top,
+    transparent,
+    rgba(28, 80, 129, 1),
+    rgba(28, 80, 129, 1),
+    transparent
+  );
+  z-index: 3;
+} */
+
 @media (max-width: 768px) {
   .sales-container {
     margin-bottom: 4rem;
@@ -779,7 +795,7 @@ li {
   } */
 }
 
-/* .support-container::before {
+.support-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -793,7 +809,7 @@ li {
     rgb(3, 2, 35),
     transparent
   );
-} */
+}
 
 @media (max-width: 768px) {
   .support-container {
@@ -993,10 +1009,19 @@ li {
   text-align: center;
 }
 
+.bgs-sen {
+  position: relative;
+  width: 100% !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .front-land-pic {
   position: absolute;
   left: 0;
-  object-fit: cover;
+  object-fit: cover !important;
   z-index: 3;
 }
 
@@ -1004,7 +1029,6 @@ li {
   position: absolute;
   left: 0;
   object-fit: cover;
-  bottom: 0;
   z-index: 1;
 }
 
@@ -1049,7 +1073,6 @@ li {
   object-fit: cover;
   bottom: 0;
   z-index: 0;
-  opacity: 25%;
 }
 
 .team-land-pic {
@@ -1101,9 +1124,11 @@ li {
 /*------------------------------------------------------------------*/
 
 .we-do-container {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
@@ -1133,6 +1158,7 @@ li {
   position: absolute;
   margin-top: -9.5rem;
   font-size: var(--primary-font) !important;
+  filter: drop-shadow(3px 3px 3px black) !important;
 }
 
 .we-logo-first {
@@ -1166,7 +1192,7 @@ li {
 }
 
 .we-do:first-child {
-  background-color: rgb(182, 67, 174, 0.5);
+  background-color: rgb(182, 67, 174, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1180,7 +1206,7 @@ li {
 }
 
 .we-do:nth-child(2) {
-  background-color: rgb(176, 117, 248, 0.5);
+  background-color: rgb(176, 117, 248, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1195,7 +1221,7 @@ li {
 }
 
 .we-do:nth-child(3) {
-  background-color: rgb(123, 143, 252, 0.5);
+  background-color: rgb(123, 143, 252, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1210,7 +1236,7 @@ li {
 }
 
 .we-do:nth-child(4) {
-  background-color: rgb(92, 194, 228, 0.5);
+  background-color: rgb(92, 194, 228, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1225,7 +1251,7 @@ li {
 }
 
 .we-do:nth-child(5) {
-  background-color: rgb(110, 240, 188, 0.5);
+  background-color: rgb(110, 240, 188, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,

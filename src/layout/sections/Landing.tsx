@@ -16,12 +16,12 @@ return (
          <Image
             priority={true}
             id="secondary-front-bgs"
-      className="back-land-pic"
+      className="back-land-pic bgs-sen"
       alt='front-logo'
       src="/images/back-6566-a.webp"
       width="3620" height="1671"
       />
-   <div className="to-width to-height to-center home-specs">
+   <div id="shadow-front-bg" className="to-width to-height to-center home-specs">
       <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='home-welcome-border'>
          <div className='home-welcome-message'>
             <div className='text-motion'> ❖ </div>
@@ -33,7 +33,8 @@ return (
          <Image
             priority={true}
             quality={100}
-      className="front-land-pic reflect-v2"
+            // id="primary-front-bgs"
+      className="front-land-pic reflect-v2 bgs-sen"
       alt='front-logo'
       src="/images/frontsss-a.webp"
       width="3620" height="1671"
@@ -47,7 +48,6 @@ return (
       width="3620" height="1671"
       />
    {/* <Image
-      id="primary-front-bg"
       className="mid-land-pic to-clouds"
       alt='front-logo'
       src="/images/clouds.webp"
@@ -57,18 +57,26 @@ return (
          <Image
             priority={true}
       id="tertiary-front-bg"
-      className="mids-land-pic to-ser"
+      className="mids-land-pic to-ser bgs-sen"
       alt='front-logo'
       src="/images/bgs.webp"
       width="3620" height="1671"
          />
          <Image
             id="tertiary-front-bgs"
-                    className="foots-land-pic"
+                    className="foots-land-pic bgs-sen"
                 alt='front-logo'
                 src="/images/footer-a.webp"
                 width="3620" height="1671"
-                />
+         />
+                  <Image
+                    className="foots-land-pic bgs-sen"
+                alt='front-logo'
+                src="/images/footer.webp"
+                width="3620" height="1671"
+         />
+         {/* <div id="shadow-front-bg" className="bgs-sen">
+         <div className="landing-shadow"/></div> */}
    <AllScripts />
 </section>
 </>

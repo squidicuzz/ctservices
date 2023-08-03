@@ -243,13 +243,13 @@ export default function ContactUs() {
           </form>
         </div>
       </div>
-      {/* <Image
-        className="contact-land-pic"
+      <Image
+        className="contact-land-pic bgs-sen"
         alt="front-logo"
-        src="/images/contact2.png"
+        src="/images/lights-a.webp"
         width="3620"
         height="1671"
-      /> */}
+      />
     </section>
   );
 }

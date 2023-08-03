@@ -4,12 +4,16 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 
 var secondary_front_bg = document.getElementById("secondary-front-bg");
 var tertiary_front_bg = document.getElementById("tertiary-front-bgs");
-var primary_front_bg = document.getElementById("secondary-front-bgs");
+var shadow_front_bg = document.getElementById("shadow-front-bg");
+var primary_front_bg = document.getElementById("secondary-front-bgs"); // let primary_front_bgs = document.getElementById("primary-front-bgs");
+
 window.addEventListener("scroll", function () {
   var value = window.scrollY;
   secondary_front_bg.style.top = value * 0.1 + "px";
   tertiary_front_bg.style.top = value * -0.05 + "px";
-  primary_front_bg.style.top = value * 0.1 + "px";
+  primary_front_bg.style.top = value * 0.05 + "px"; // primary_front_bgs.style.top = value * -0.1 + "px";
+
+  shadow_front_bg.style.top = value * 0.4 + "px";
 }); // Add active class to the current button (highlight it)
 // var header = document.getElementById("toactive");
 // var btns = header.getElementsByClassName("kek");
