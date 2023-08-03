@@ -46,7 +46,7 @@ var Sales = /** @class */ (function (_super) {
                         react_1["default"].createElement("span", { className: 'we-logo-fourth' }, " web designing "),
                         " and ",
                         react_1["default"].createElement("span", { className: 'we-logo-fifth' }, " technical support / consultation. "))),
-                react_1["default"].createElement("div", { className: 'we-do-container' },
+                react_1["default"].createElement("div", { className: 'we-do-container-1' },
                     react_1["default"].createElement("div", { className: 'we-do', "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement(CurrencyBitcoinOutlined_1["default"], { className: 'we-logo we-logo-first' }),
                         react_1["default"].createElement("div", { className: 'we-do-title' }, " Cryptocurrency ")),
