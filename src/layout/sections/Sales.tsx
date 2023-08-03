@@ -22,7 +22,7 @@ return (
          </div>
          <p className='sale-welcome-sub-message'> We provide web3 and fullstack development services and support, primarily focusing on <span className='we-logo-first'>cryptocurrency </span>, <span className='we-logo-second'>blockchain technology </span>, <span className='we-logo-third'> cyber security </span>, <span className='we-logo-fourth'> web designing </span> and <span className='we-logo-fifth'> technical support / consultation. </span></p>
       </div>
-      <div className='we-do-container'>
+      <div className='we-do-container-1'>
          <div className='we-do' data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" >
             <CurrencyBitcoinOutlinedIcon className='we-logo we-logo-first'/>
             <div className='we-do-title'> Cryptocurrency </div>

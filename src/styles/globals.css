@@ -1133,7 +1133,7 @@ li {
 
 /*------------------------------------------------------------------*/
 
-.we-do-container {
+.we-do-container-1 {
   position: relative;
   width: 100%;
   display: flex;
@@ -1142,7 +1142,7 @@ li {
   margin-top: 7.5rem;
 }
 
-.we-do-container-1 {
+.we-do-container {
   position: relative;
   width: 100%;
   display: flex;
