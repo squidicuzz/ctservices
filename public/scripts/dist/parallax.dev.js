@@ -2,16 +2,16 @@
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-var secondary_front_bg = document.getElementById("secondary-front-bg");
-var tertiary_front_bg = document.getElementById("tertiary-front-bgs");
-var shadow_front_bg = document.getElementById("shadow-front-bg");
-var primary_front_bg = document.getElementById("secondary-front-bgs"); // let primary_front_bgs = document.getElementById("primary-front-bgs");
+var secondary_front_bg = document.getElementById("secondary-front-bg"); // let tertiary_front_bg = document.getElementById("tertiary-front-bgs");
+
+var shadow_front_bg = document.getElementById("shadow-front-bg"); // let primary_front_bg = document.getElementById("secondary-front-bgs");
+// let primary_front_bgs = document.getElementById("primary-front-bgs");
 
 window.addEventListener("scroll", function () {
   var value = window.scrollY;
-  secondary_front_bg.style.top = value * 0.1 + "px";
-  tertiary_front_bg.style.top = value * -0.05 + "px";
-  primary_front_bg.style.top = value * 0.05 + "px"; // primary_front_bgs.style.top = value * -0.1 + "px";
+  secondary_front_bg.style.top = value * 0.1 + "px"; // tertiary_front_bg.style.top = value * -0.05 + "px";
+  // primary_front_bg.style.top = value * 0.05 + "px";
+  // primary_front_bgs.style.top = value * -0.1 + "px";
 
   shadow_front_bg.style.top = value * 0.4 + "px";
 }); // Add active class to the current button (highlight it)

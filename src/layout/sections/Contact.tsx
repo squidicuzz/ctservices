@@ -139,15 +139,15 @@ return (
       width="3620" height="1671"
       /> */}
         
-           {/* <Image
+           <Image
       className="sales-1-land-pic"
       alt='front-logo'
       src="/images/observe-up.png"
       width="3620" height="1671"
-      /> */}
+      />
         
            <Image
-      className="sales-land-pic reflect"
+      className="sales-land-pic"
       alt='front-logo'
       src="/images/observe-down.png"
       width="3620" height="1671"

@@ -75,29 +75,18 @@ return (
          </div>
       </div>
       </div>
-         <Image
-      className="sales-land-pic reflect"
+                 <Image
+      className="sales-1-land-pic"
       alt='front-logo'
-      src="/images/to-lefts.webp"
-      width="3620" height="1377"
-      />
-         <Image
-      className="sales-land-pic reflect"
-      alt='front-logo'
-      src="/images/sales-312.webp"
+      src="/images/observe-up.png"
       width="3620" height="1671"
       />
+      
          <Image
       className="sales-land-pic reflect"
       alt='front-logo'
-      src="/images/to-rights.webp"
+      src="/images/to-center.webp"
       width="3620" height="1377"
-        />
-           <Image
-      className="sales-land-pic reflect"
-      alt='front-logo'
-      src="/images/sales-2.webp"
-      width="3620" height="1671"
       />
 </section>
 )
