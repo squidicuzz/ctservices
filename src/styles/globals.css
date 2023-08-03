@@ -1133,7 +1133,7 @@ li {
 
 /*------------------------------------------------------------------*/
 
-.we-do-container {
+.we-do-container-1 {
   position: relative;
   width: 100%;
   display: flex;
@@ -1142,8 +1142,17 @@ li {
   margin-top: 7.5rem;
 }
 
+.we-do-container-1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
 @media (max-width: 768px) {
-  .we-do-container {
+  .we-do-container,
+  .we-do-container-1 {
     justify-content: unset !important;
     flex-wrap: wrap;
     margin-top: 2rem;
