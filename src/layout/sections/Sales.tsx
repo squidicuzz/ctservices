@@ -54,7 +54,7 @@ return (
    <Image
       className="sales-land-pic"
       alt='front-logo'
-      src="/images/observe.png"
+      src="/images/observe-down.png"
       width="3620" height="1671"
       />
 </section>
