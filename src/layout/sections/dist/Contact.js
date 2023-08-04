@@ -22,7 +22,6 @@ var CurrencyBitcoinOutlined_1 = require("@mui/icons-material/CurrencyBitcoinOutl
 var CodeOutlined_1 = require("@mui/icons-material/CodeOutlined");
 var DrawOutlined_1 = require("@mui/icons-material/DrawOutlined");
 var SupportAgentOutlined_1 = require("@mui/icons-material/SupportAgentOutlined");
-var ImageSlider_1 = require("@/layout/components/ImageSlider");
 var images = [
     "/images/undraw_building_websites_i78t.svg",
     "/images/undraw_nakamoto_-2-iv6.svg",
@@ -46,7 +45,6 @@ var Support = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'title-support' },
                         react_1["default"].createElement("div", { className: 'text-motion section-title to-quaternary' }, " CRYPTECH SERVICES "),
                         " ")),
-                react_1["default"].createElement(ImageSlider_1["default"], { images: images }),
                 react_1["default"].createElement("div", { className: 'lest' },
                     react_1["default"].createElement("ul", null,
                         react_1["default"].createElement("li", { "data-aos": "fade-up", "data-aos-duration": "500", "data-aos-anchor-placement": "bottom-bottom", className: 'icos' },

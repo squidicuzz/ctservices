@@ -38,7 +38,7 @@ return (
                 <div className='text-motion section-title to-quaternary'> CRYPTECH SERVICES </div> </div>
          {/* <div className='section-desc-1'> For <span className='we-logo-fourth to-bold' >DEVELOPMENT</span> services we offer: </div> */}
             </div>
-                            <ImageSlider images={images} />
+                            {/* <ImageSlider images={images} /> */}
             {/* <div className='to-block'> hu </div> */}
             {/* <div className="container">
 
