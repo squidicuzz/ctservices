@@ -3225,6 +3225,30 @@ li {
   flex-direction: row-reverse !important;
 }
 
+.b1 {
+  background-color: rgb(182, 67, 174, 0.5);
+}
+
+.b2 {
+  background-color: rgb(176, 117, 248, 0.5);
+}
+
+.b3 {
+  background-color: rgb(123, 143, 252, 0.5);
+}
+
+.b4 {
+  background-color: rgb(92, 194, 228, 0.5);
+}
+
+.b5 {
+  background-color: rgb(110, 240, 188, 0.5);
+}
+
+.b6 {
+  background-color: rgb(182, 67, 174, 0.5);
+}
+
 @media (max-width: 768px) {
   .containers {
     display: none;

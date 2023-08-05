@@ -50,7 +50,7 @@ return (
     <input type="radio" name="slides" id="slide-6" />
     <ul className="carousel__slides">
       <li className="carousel__slide">
-        <figure className='r'>
+        <figure className='r b1'>
           <span className='to-center'>
             <Image className="car" src="/images/undraw_building_websites_i78t.svg" alt="car" width="500" height="500" />
                                 </span>
@@ -61,7 +61,7 @@ return (
                             </figure>
       </li>
       <li className="carousel__slide">
-        <figure className='r'>
+        <figure className='r b2'>
           <span className='to-center'>
             <Image className="car" src="/images/undraw_nakamoto_-2-iv6.svg" alt="car" width="500" height="500" />
                                 </span>
@@ -72,7 +72,7 @@ return (
                             </figure>
       </li>
       <li className="carousel__slide">
-        <figure className='r'>
+        <figure className='r b3'>
           <span className='to-center'>
             <Image className="car" src="/images/undraw_ethereum_re_0m68.svg" alt="car" width="500" height="500" />
                                 </span>
@@ -83,7 +83,7 @@ return (
                             </figure>
       </li>
       <li className="carousel__slide">
-        <figure className='r'>
+        <figure className='r b4'>
           <span className='to-center'>
             <Image className="car" src="/images/undraw_heatmap_uyye.svg" alt="car" width="500" height="500" />
                                 </span>
@@ -94,7 +94,7 @@ return (
                             </figure>
       </li>
       <li className="carousel__slide">
-        <figure className='r'>
+        <figure className='r b5'>
           <span className='to-center'>
             <Image className="car" src="/images/undraw_image_viewer_re_7ejc.svg" alt="car" width="500" height="500" />
                                 </span>
@@ -105,7 +105,7 @@ return (
                             </figure>
                         </li>
                         <li className="carousel__slide">
-        <figure className='r'>
+        <figure className='r b6'>
           <span className='to-center'>
             <Image className="car" src="/images/undraw_instant_support_re_s7un.svg" alt="car" width="500" height="500" />
                                 </span>
