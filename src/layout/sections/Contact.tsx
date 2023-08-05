@@ -50,52 +50,70 @@ return (
     <input type="radio" name="slides" id="slide-6" />
     <ul className="carousel__slides">
       <li className="carousel__slide">
-        <figure>
-          <div>
+        <figure className='r'>
+          <span className='to-center'>
             <Image className="car" src="/images/undraw_building_websites_i78t.svg" alt="car" width="500" height="500" />
-          </div>
-            <div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
-        </figure>
+                                </span>
+                                <span className='nomors'> <span>
+                                <span className='text-motion section-title project-title to-primary s'> Full-Stack Web Development : </span>
+                                            <span className='section-desc'> Community-driven with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</span>
+        </span> </span>
+                            </figure>
       </li>
       <li className="carousel__slide">
-        <figure>
-          <div>
+        <figure className='r'>
+          <span className='to-center'>
             <Image className="car" src="/images/undraw_nakamoto_-2-iv6.svg" alt="car" width="500" height="500" />
-          </div>
-<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
-        </figure>
+                                </span>
+                                <span className='nomors'> <span>
+                                <span className='text-motion section-title project-title to-secondary s'> Web3 And DAPP Development : </span>
+                                            <span className='section-desc'> Community-driven with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</span>
+        </span> </span>
+                            </figure>
       </li>
       <li className="carousel__slide">
-        <figure>
-          <div>
+        <figure className='r'>
+          <span className='to-center'>
             <Image className="car" src="/images/undraw_ethereum_re_0m68.svg" alt="car" width="500" height="500" />
-          </div>
-<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
-        </figure>
+                                </span>
+                                <span className='nomors'> <span>
+                                <span className='text-motion section-title project-title to-tertiary s'> Solidity Smart Contract Development : </span>
+                                            <span className='section-desc'> Community-driven with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</span>
+        </span> </span>
+                            </figure>
       </li>
       <li className="carousel__slide">
-        <figure>
-          <div>
+        <figure className='r'>
+          <span className='to-center'>
             <Image className="car" src="/images/undraw_heatmap_uyye.svg" alt="car" width="500" height="500" />
-          </div>
-<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
-        </figure>
+                                </span>
+                                <span className='nomors'> <span>
+                                <span className='text-motion section-title project-title to-quaternary s'> Web Design : </span>
+                                            <span className='section-desc'> Community-driven with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</span>
+        </span> </span>
+                            </figure>
       </li>
       <li className="carousel__slide">
-        <figure>
-          <div>
+        <figure className='r'>
+          <span className='to-center'>
             <Image className="car" src="/images/undraw_image_viewer_re_7ejc.svg" alt="car" width="500" height="500" />
-          </div>
-<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
-        </figure>
-      </li>
-      <li className="carousel__slide">
-        <figure>
-          <div>
+                                </span>
+                                <span className='nomors'> <span>
+                                <span className='text-motion section-title project-title to-quinary s'> Graphic Design : </span>
+                                            <span className='section-desc'> Community-driven with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</span>
+        </span> </span>
+                            </figure>
+                        </li>
+                        <li className="carousel__slide">
+        <figure className='r'>
+          <span className='to-center'>
             <Image className="car" src="/images/undraw_instant_support_re_s7un.svg" alt="car" width="500" height="500" />
-          </div>
-<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
-        </figure>
+                                </span>
+                                <span className='nomors'> <span>
+                                <span className='text-motion section-title project-title to-primary s'> Technical Consultation : </span>
+                                            <span className='section-desc'> Community-driven with endless possibilities. Join us and embark on a journey of creativity, collaboration, and adventure in our immersive world.</span>
+        </span> </span>
+                            </figure>
       </li>
                     </ul>
   </div>
@@ -168,12 +186,12 @@ return (
       width="3620" height="1671"
       /> */}
         
-           <Image
-      className="sales-1-land-pic"
+           {/* <Image
+      className="sales-2-land-pic"
       alt='front-logo'
       src="/images/observe-up.png"
       width="3620" height="1671"
-      />
+      /> */}
         
            <Image
       className="sales-land-pic"
