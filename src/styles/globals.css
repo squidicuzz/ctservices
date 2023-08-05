@@ -784,7 +784,6 @@ li {
 .support-container {
   position: relative;
   z-index: 3;
-  background-color: rgb(3, 2, 35);
 }
 
 @media (max-width: 1920px) {
@@ -802,7 +801,7 @@ li {
   } */
 }
 
-.support-container::before {
+/* .support-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -816,7 +815,7 @@ li {
     rgb(3, 2, 35),
     transparent
   );
-}
+} */
 
 @media (max-width: 768px) {
   .support-container {

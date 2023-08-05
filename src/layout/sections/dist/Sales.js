@@ -46,7 +46,7 @@ var Sales = /** @class */ (function (_super) {
                         react_1["default"].createElement("span", { className: 'we-logo-fourth' }, " web designing "),
                         " and ",
                         react_1["default"].createElement("span", { className: 'we-logo-fifth' }, " technical support / consultation. "))),
-                react_1["default"].createElement("div", { className: 'we-do-container-1' },
+                react_1["default"].createElement("div", { className: 'we-do-container' },
                     react_1["default"].createElement("div", { className: 'we-do', "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement(CurrencyBitcoinOutlined_1["default"], { className: 'we-logo we-logo-first' }),
                         react_1["default"].createElement("div", { className: 'we-do-title' }, " Cryptocurrency ")),
@@ -62,7 +62,8 @@ var Sales = /** @class */ (function (_super) {
                     react_1["default"].createElement("div", { className: 'we-do', "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement(SupportAgentOutlined_1["default"], { className: 'we-logo we-logo-fifth' }),
                         react_1["default"].createElement("div", { className: 'we-do-title' }, " Technical Consultation ")))),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic", alt: 'front-logo', src: "/images/observe-down.png", width: "3620", height: "1671" })));
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-312.webp", width: "3620", height: "1671" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic reflect", alt: 'front-logo', src: "/images/sales-2.webp", width: "3620", height: "1671" })));
     };
     return Sales;
 }(react_1.Component));
