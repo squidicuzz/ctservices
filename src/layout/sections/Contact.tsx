@@ -33,9 +33,9 @@ return (
    <div className="to-width to-height to-center to-flex-column">
       <div className='to-left'>
          
-         <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
+         {/* <div className='text-motion section-title-logo to-quaternary'> ❖ </div>
         <div className='title-support'>
-                <div className='text-motion section-title to-quaternary'> CRYPTECH SERVICES </div> </div>
+                <div className='text-motion section-title to-quaternary'> CRYPTECH SERVICES </div> </div> */}
          {/* <div className='section-desc-1'> For <span className='we-logo-fourth to-bold' >DEVELOPMENT</span> services we offer: </div> */}
             </div>
                             {/* <ImageSlider images={images} /> */}
@@ -105,7 +105,7 @@ return (
                                 </span>
                                 <span className='nomors'> <span>
                                 <span className='text-motion section-title project-title to-quinary s'> Graphic Design</span><br></br>
-                                            <span className='section-desc'> Our graphic design services involve translating your brand identity and messaging into visually compelling designs, whether for digital platforms or print materials. </span>
+                                            <span className='section-desc'> Our graphic design services involve translating your brand identity and messaging into visually compelling designs. </span>
         </span> </span>
                             </figure>
                         </li>

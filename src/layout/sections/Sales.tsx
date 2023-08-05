@@ -6,6 +6,9 @@ import PrecisionManufacturingOutlinedIcon from '@mui/icons-material/PrecisionMan
 import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import DesignServicesOutlinedIcon from '@mui/icons-material/DesignServicesOutlined';
 import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
+import ExtensionOutlinedIcon from '@mui/icons-material/ExtensionOutlined';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 type Props = {}
 type State = {}
 export default class Sales extends Component<Props, State> {
@@ -20,7 +23,17 @@ return (
             What do we offer? 
             <div className='color-effect'> in Cryptech Services, </div>
          </div>
-         <p className='sale-welcome-sub-message'> We provide web3 and fullstack development services and support, primarily focusing on <span className='we-logo-first'>cryptocurrency </span>, <span className='we-logo-second'>blockchain technology </span>, <span className='we-logo-third'> cyber security </span>, <span className='we-logo-fourth'> web designing </span> and <span className='we-logo-fifth'> technical support / consultation. </span></p>
+            <p className='sale-welcome-sub-message'> We provide web3 and fullstack development services and support, primarily focusing on <span className='we-logo-first'>cryptocurrency </span>, <span className='we-logo-second'>blockchain technology </span>, <span className='we-logo-third'> cyber security </span>, <span className='we-logo-fourth'> web designing </span> and <span className='we-logo-fifth'> technical support / consultation. </span></p>
+                                 <div className='to-flex to-gap-1'>
+                        <a className="project-button to-primary" href="#sales">
+                           <div>
+                              <button type="button" className="home-button-txt">
+                                 <AutoStoriesIcon />
+                                 {" "} Read more 
+                              </button>
+                           </div>
+                        </a>
+                     </div>
       </div>
       <div className='we-do-container'>
          <div className='we-do' data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" >

@@ -131,7 +131,7 @@ export default function Navbar() {
 
           <div id="toactive" className="hidden md:flex">
             <span className="kek">
-              <NavLink to="#sales">
+              <NavLink to="#offers">
                 <span id="serv">SERVICES</span>
               </NavLink>
             </span>
