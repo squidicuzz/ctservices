@@ -50,9 +50,9 @@ return (
     <input type="radio" name="slides" id="slide-6" />
     <ul className="carousel__slides">
       <li className="carousel__slide">
-        <figure className='r b1'>
+        <figure className='r'>
           <span className='to-center'>
-            <Image className="car" src="/images/undraw_building_websites_i78t.svg" alt="car" width="500" height="500" />
+            <Image className="car b1" src="/images/undraw_building_websites_i78t.svg" alt="car" width="500" height="500" />
                                 </span>
                                 <span className='nomors'> <span>
                                 <span className='text-motion section-title project-title to-primary s'> Full-Stack Web Development</span> <br></br>
@@ -61,9 +61,9 @@ return (
                             </figure>
       </li>
       <li className="carousel__slide">
-        <figure className='r b2'>
+        <figure className='r'>
           <span className='to-center'>
-            <Image className="car" src="/images/undraw_nakamoto_-2-iv6.svg" alt="car" width="500" height="500" />
+            <Image className="car b2" src="/images/undraw_nakamoto_-2-iv6.svg" alt="car" width="500" height="500" />
                                 </span>
                                 <span className='nomors'> <span>
                                 <span className='text-motion section-title project-title to-secondary s'> Web3 And DAPP Development</span> <br></br>
@@ -72,9 +72,9 @@ return (
                             </figure>
       </li>
       <li className="carousel__slide">
-        <figure className='r b3'>
+        <figure className='r'>
           <span className='to-center'>
-            <Image className="car" src="/images/undraw_ethereum_re_0m68.svg" alt="car" width="500" height="500" />
+            <Image className="car b3" src="/images/undraw_ethereum_re_0m68.svg" alt="car" width="500" height="500" />
                                 </span>
                                 <span className='nomors'> <span>
                                 <span className='text-motion section-title project-title to-tertiary s'> Solidity Smart Contract Development</span> <br></br>
@@ -88,9 +88,9 @@ return (
                             </figure>
       </li>
       <li className="carousel__slide">
-        <figure className='r b4'>
+        <figure className='r'>
           <span className='to-center'>
-            <Image className="car" src="/images/undraw_heatmap_uyye.svg" alt="car" width="500" height="500" />
+            <Image className="car b4" src="/images/undraw_heatmap_uyye.svg" alt="car" width="500" height="500" />
                                 </span>
                                 <span className='nomors'> <span>
                                 <span className='text-motion section-title project-title to-quaternary s'> Web Design</span> <br></br>
@@ -99,9 +99,9 @@ return (
                             </figure>
       </li>
       <li className="carousel__slide">
-        <figure className='r b5'>
+        <figure className='r'>
           <span className='to-center'>
-            <Image className="car" src="/images/undraw_image_viewer_re_7ejc.svg" alt="car" width="500" height="500" />
+            <Image className="car b5" src="/images/undraw_image_viewer_re_7ejc.svg" alt="car" width="500" height="500" />
                                 </span>
                                 <span className='nomors'> <span>
                                 <span className='text-motion section-title project-title to-quinary s'> Graphic Design</span><br></br>
@@ -110,9 +110,9 @@ return (
                             </figure>
                         </li>
                         <li className="carousel__slide">
-        <figure className='r b6'>
+        <figure className='r'>
           <span className='to-center'>
-            <Image className="car" src="/images/undraw_instant_support_re_s7un.svg" alt="car" width="500" height="500" />
+            <Image className="car b6" src="/images/undraw_instant_support_re_s7un.svg" alt="car" width="500" height="500" />
                                 </span>
                                 <span className='nomors'> <span>
                                 <span className='text-motion section-title project-title to-primary s'> Technical Consultation</span> <br></br>
