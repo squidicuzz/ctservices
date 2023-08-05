@@ -39,77 +39,106 @@ return (
          {/* <div className='section-desc-1'> For <span className='we-logo-fourth to-bold' >DEVELOPMENT</span> services we offer: </div> */}
             </div>
                             {/* <ImageSlider images={images} /> */}
-            {/* <div className='to-block'> hu </div> */}
-            {/* <div className="container">
-
-  <div className="mySlides">
-      <Image src="/images/undraw_building_websites_i78t.svg" className="to-svg" alt='services' height={500} width={500}/>
+            
+            <div className="containers">
+  <div className="carousels">
+    <input type="radio" name="slides" id="slide-1" />
+    <input type="radio" name="slides" id="slide-2" />
+    <input type="radio" name="slides" id="slide-3" />
+    <input type="radio" name="slides" id="slide-4" />
+    <input type="radio" name="slides" id="slide-5" />
+    <input type="radio" name="slides" id="slide-6" />
+    <ul className="carousel__slides">
+      <li className="carousel__slide">
+        <figure>
+          <div>
+            <Image className="car" src="/images/undraw_building_websites_i78t.svg" alt="car" width="500" height="500" />
+          </div>
+            <div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
+        </figure>
+      </li>
+      <li className="carousel__slide">
+        <figure>
+          <div>
+            <Image className="car" src="/images/undraw_nakamoto_-2-iv6.svg" alt="car" width="500" height="500" />
+          </div>
+<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
+        </figure>
+      </li>
+      <li className="carousel__slide">
+        <figure>
+          <div>
+            <Image className="car" src="/images/undraw_ethereum_re_0m68.svg" alt="car" width="500" height="500" />
+          </div>
+<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
+        </figure>
+      </li>
+      <li className="carousel__slide">
+        <figure>
+          <div>
+            <Image className="car" src="/images/undraw_heatmap_uyye.svg" alt="car" width="500" height="500" />
+          </div>
+<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
+        </figure>
+      </li>
+      <li className="carousel__slide">
+        <figure>
+          <div>
+            <Image className="car" src="/images/undraw_image_viewer_re_7ejc.svg" alt="car" width="500" height="500" />
+          </div>
+<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
+        </figure>
+      </li>
+      <li className="carousel__slide">
+        <figure>
+          <div>
+            <Image className="car" src="/images/undraw_instant_support_re_s7un.svg" alt="car" width="500" height="500" />
+          </div>
+<div className='text-motion section-title project-title to-tertiary s'> CRYPTECHTEST GAME </div>
+        </figure>
+      </li>
+                    </ul>
   </div>
-
-  <div className="mySlides">
-      <Image src="/images/undraw_nakamoto_-2-iv6.svg" className="to-svg" alt='services' height={500} width={500}/>
-  </div>
-
-  <div className="mySlides">
-      <Image src="/images/undraw_ether_re_y7ft.svg" className="to-svg" alt='services' height={500} width={500}/>
-  </div>
-
-  <div className="mySlides">
-      <Image src="/images/undraw_heatmap_uyye.svg" className="to-svg" alt='services' height={500} width={500}/>
-  </div>
-
-  <div className="mySlides">
-      <Image src="/images/undraw_image_viewer_re_7ejc.svg" className="to-svg" alt='services' height={500} width={500}/>
-  </div>
-
-  <div className="mySlides">
-      <Image src="/images/undraw_instant_support_re_s7un.svg" className="to-svg" alt='services' height={500} width={500}/>
-  </div>
-
-
-  <div className="caption-container">
-    <p id="caption"></p>
-  </div>
-            </div> */}
+            </div>
 
             
             <div className='lest'>
             <ul>
     <li data-aos="fade-up"
-            data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        <label htmlFor="slide-1">
         <div className="icon"><LayersOutlinedIcon className='we-logo-first ico'/></div>
-        <div className="title">Full-Stack Web Development</div>
-        {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit?</div> */}
+        <div className="title">Full-Stack Web Development</div></label>
     </li>
     <li data-aos="fade-up"
-            data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        <label htmlFor="slide-2">
         <div className="icon"><CurrencyBitcoinOutlinedIcon className='we-logo-second ico'/></div>
-        <div className="title">Web3 and DAPP Development</div>
-        {/* <div className="descr">Lorem ipsum dolor sit.</div> */}
+        <div className="title">Web3 and DAPP Development</div></label>
     </li>
     <li data-aos="fade-up"
-            data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        <label htmlFor="slide-3">
         <div className="icon"><CodeOutlinedIcon className='we-logo-third ico'/></div>
-        <div className="title">Solidity smart contract Development</div>
-        {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laboriosam odio alias.</div> */}
+        <div className="title">Solidity smart contract Development</div></label>
                </li>
                    <li data-aos="fade-up"
-            data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        <label htmlFor="slide-4">
         <div className="icon"><DesignServicesOutlinedIcon className='we-logo-fourth ico'/></div>
-        <div className="title">Web Design</div>
-        {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div> */}
+        <div className="title">Web Design</div></label>
     </li>
     <li data-aos="fade-up"
-            data-aos-duration="2500" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        data-aos-duration="2500" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        <label htmlFor="slide-5">
         <div className="icon"><DrawOutlinedIcon className='we-logo-fifth ico'/></div>
-        <div className="title">Graphic Design</div>
-        {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div> */}
+        <div className="title">Graphic Design</div></label>
                </li>
                    <li data-aos="fade-up"
-            data-aos-duration="3000" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                        data-aos-duration="3000" data-aos-anchor-placement="bottom-bottom" className='icos'>
+                         <label htmlFor="slide-6">
         <div className="icon"><SupportAgentOutlinedIcon className='we-logo-first ico'/></div>
-        <div className="title">Technical Consultation</div>
-        {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div> */}
+        <div className="title">Technical Consultation</div></label>
     </li>
             </ul>
 
