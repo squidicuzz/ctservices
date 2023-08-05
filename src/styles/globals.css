@@ -206,7 +206,7 @@ li {
 
 @media (max-width: 920px) {
   .koto {
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap !important;
   }
 }
@@ -730,7 +730,7 @@ li {
 
 @media screen and (max-width: 768px) {
   .landing-container {
-    background: url(/images/bbblurry.svg);
+    background: unset;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -956,6 +956,15 @@ li {
   }
 }
 
+@media (max-width: 768px) {
+  .metrix-container::before,
+  .cryptechtest-container::before,
+  .services-container::before,
+  .sales-container::before {
+    display: none;
+  }
+}
+
 .contact-container {
   position: relative;
   z-index: 8;
@@ -1045,6 +1054,12 @@ li {
   z-index: 1;
 }
 
+@media (max-width: 768px) {
+  .mids-land-pic {
+    display: none;
+  }
+}
+
 .back-land-pic {
   position: absolute;
   left: 0;
@@ -1115,7 +1130,8 @@ li {
   .foots-land-pic,
   .team-land-pic,
   .sales-1-land-pic,
-  .sales-2-land-pic {
+  .sales-2-land-pic,
+  .contact-land-pic {
     display: none;
   }
 }
@@ -1606,6 +1622,16 @@ li {
   filter: drop-shadow(0px 0px 15px rgb(var(--quinary-secon)));
 }
 
+@media (max-width: 768px) {
+  .contacts-container:nth-child(5)::after,
+  .contacts-container:nth-child(4)::after,
+  .contacts-container:nth-child(3)::after,
+  .contacts-container:nth-child(2)::after,
+  .contacts-container:nth-child(1)::after {
+    display: none;
+  }
+}
+
 .details-bg {
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
@@ -1620,6 +1646,12 @@ li {
   -webkit-clip-path: polygon(75% 0%, 100% 25%, 100% 100%, 0 100%, 0 0);
   clip-path: polygon(75% 0%, 100% 25%, 100% 100%, 0 100%, 0 0);
   transition: 0.5s linear;
+}
+
+@media (max-width: 768px) {
+  .details-bg {
+    min-height: unset;
+  }
 }
 
 .contacts-container:hover .details-bg {
@@ -1745,6 +1777,12 @@ li {
 .contact-description {
   font-size: var(--quaternary-font);
 }
+
+/* @media (max-width: 768px) {
+  .contact-description {
+    display: none;
+  }
+} */
 
 .contact-button {
   display: flex;
@@ -2134,7 +2172,7 @@ li {
 
 @media (max-width: 768px) {
   .skew {
-    transform: scale(0.75) !important;
+    transform: scale(0.9) !important;
   }
 }
 
@@ -2445,6 +2483,7 @@ li {
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+    min-height: 20rem !important;
   }
 }
 
@@ -2951,4 +2990,24 @@ li {
   font-size: var(--primary-font);
   opacity: 15%;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .title-email::before,
+  .title-cryptech::before,
+  .title-metrix::before,
+  .title-security::before,
+  .title-support::before,
+  .title-team::before {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .seqsee,
+  .jekz,
+  .valor,
+  .squid {
+    display: none;
+  }
 }

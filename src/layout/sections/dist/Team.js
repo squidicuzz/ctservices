@@ -67,7 +67,7 @@ var Team = /** @class */ (function (_super) {
                             react_1["default"].createElement("div", { className: 'contact-description' },
                                 react_1["default"].createElement("ul", null,
                                     react_1["default"].createElement("li", { className: 'valor-list' }, " Developer "),
-                                    react_1["default"].createElement("li", { className: 'valor-list' }, " Front-End"),
+                                    react_1["default"].createElement("li", { className: 'valor-list' }, " "),
                                     react_1["default"].createElement("li", { className: 'valor-list' }, " "))),
                             react_1["default"].createElement("div", { className: 'to-flex to-gap' },
                                 react_1["default"].createElement("a", { className: "contact-button valor", href: "https://discord.com/users/615741889366458369", target: '_blank' },

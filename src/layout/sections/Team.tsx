@@ -68,7 +68,7 @@ return (
                <div className='contact-description'>
                   <ul>
                      <li className='valor-list'> Developer </li>
-                     <li className='valor-list'> Front-End</li>
+                     <li className='valor-list'> </li>
                      <li className='valor-list'> </li>
                   </ul>
                </div>
