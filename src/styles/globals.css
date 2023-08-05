@@ -3224,3 +3224,9 @@ li {
 .r {
   flex-direction: row-reverse !important;
 }
+
+@media (max-width: 768px) {
+  .containers {
+    display: none;
+  }
+}
