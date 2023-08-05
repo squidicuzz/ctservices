@@ -139,7 +139,7 @@ return (
       width="3620" height="1671"
       /> */}
         
-           {/* <Image
+           <Image
       className="sales-1-land-pic"
       alt='front-logo'
       src="/images/observe-up.png"
@@ -151,7 +151,8 @@ return (
       alt='front-logo'
       src="/images/observe-down.png"
       width="3620" height="1671"
-      /> */}
+      />
+        
 </section>
 )
 }

@@ -76,7 +76,7 @@ return (
       </div>
       </div>
                  <Image
-      className="sales-2-land-pic"
+      className="sales-1-land-pic"
       alt='front-logo'
       src="/images/observe-up.png"
       width="3620" height="1671"
