@@ -76,18 +76,27 @@ return (
       </div>
       </div>
                  <Image
-      className="sales-1-land-pic"
+      className="sales-2-land-pic"
       alt='front-logo'
-      src="/images/observe-up.png"
+      src="/images/observe-up-opac-3.png"
       width="3620" height="1671"
       />
 
-         <Image
+         {/* <Image
       className="sales-land-pic"
       alt='front-logo'
       src="/images/to-center.webp"
       width="3620" height="1377"
+      /> */}
+
+                 <Image
+      className="sales-land-pic"
+      alt='front-logo'
+      src="/images/observe-down.png"
+      width="3620" height="1671"
       />
+
+      
 </section>
 )
 }

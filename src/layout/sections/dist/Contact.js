@@ -157,7 +157,7 @@ var Support = /** @class */ (function (_super) {
                                 react_1["default"].createElement("div", { className: "icon" },
                                     react_1["default"].createElement(SupportAgentOutlined_1["default"], { className: 'we-logo-first ico' })),
                                 react_1["default"].createElement("div", { className: "title" }, "Technical Consultation")))))),
-            react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: 'front-logo', src: "/images/observe-up.png", width: "3620", height: "1671" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-2-land-pic", alt: 'front-logo', src: "/images/observe-up-opac-3.png", width: "3620", height: "1671" }),
             react_1["default"].createElement(image_1["default"], { className: "sales-land-pic", alt: 'front-logo', src: "/images/observe-down.png", width: "3620", height: "1671" })));
     };
     return Support;
