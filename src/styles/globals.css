@@ -334,13 +334,19 @@ li {
 
 @media screen and (max-width: 1920px) {
   .to-width {
+    max-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .to-width {
     max-width: 95vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .to-width {
-    max-width: 95vw;
+    max-width: 90vw;
   }
 
   .sersyo {
@@ -778,6 +784,7 @@ li {
 .support-container {
   position: relative;
   z-index: 3;
+  background-color: rgb(3, 2, 35);
 }
 
 @media (max-width: 1920px) {
@@ -1069,6 +1076,14 @@ li {
   opacity: 20%;
 }
 
+.sales-2-land-pic {
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .foots-land-pic {
   position: absolute;
   left: 0;
@@ -1100,7 +1115,8 @@ li {
   .sales-land-pic,
   .foots-land-pic,
   .team-land-pic,
-  .sales-1-land-pic {
+  .sales-1-land-pic,
+  .sales-2-land-pic {
     display: none;
   }
 }
@@ -1212,7 +1228,7 @@ li {
 }
 
 .we-do:first-child {
-  background-color: rgb(182, 67, 174, 0.75);
+  /* background-color: rgb(182, 67, 174, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1221,12 +1237,12 @@ li {
       rgb(var(--primary-secon)),
       transparent
     )
-    1;
-  margin-top: -105px;
+    1; */
+  margin-top: -75px;
 }
 
 .we-do:nth-child(2) {
-  background-color: rgb(176, 117, 248, 0.75);
+  /* background-color: rgb(176, 117, 248, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1235,13 +1251,13 @@ li {
       rgb(var(--secondary-secon)),
       transparent
     )
-    1;
-  margin-top: 155px;
+    1; */
+  margin-top: 125px;
   margin-left: -7rem;
 }
 
 .we-do:nth-child(3) {
-  background-color: rgb(123, 143, 252, 0.75);
+  /* background-color: rgb(123, 143, 252, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1250,13 +1266,13 @@ li {
       rgb(var(--tertiary-secon)),
       transparent
     )
-    1;
-  margin-top: -105px;
+    1; */
+  margin-top: -75px;
   margin-left: -7rem;
 }
 
 .we-do:nth-child(4) {
-  background-color: rgb(92, 194, 228, 0.75);
+  /* background-color: rgb(92, 194, 228, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1265,13 +1281,13 @@ li {
       rgb(var(--quaternary-secon)),
       transparent
     )
-    1;
-  margin-top: 155px;
+    1; */
+  margin-top: 125px;
   margin-left: -7rem;
 }
 
 .we-do:nth-child(5) {
-  background-color: rgb(110, 240, 188, 0.75);
+  /* background-color: rgb(110, 240, 188, 0.75);
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1280,8 +1296,8 @@ li {
       rgb(var(--quinary-secon)),
       transparent
     )
-    1;
-  margin-top: -105px;
+    1; */
+  margin-top: -75px;
   margin-left: -7rem;
 }
 
