@@ -801,7 +801,7 @@ li {
   } */
 }
 
-/* .support-container::before {
+.support-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -815,7 +815,7 @@ li {
     rgb(3, 2, 35),
     transparent
   );
-} */
+}
 
 @media (max-width: 768px) {
   .support-container {
@@ -830,7 +830,6 @@ li {
 .services-container {
   position: relative;
   z-index: 3;
-  background-color: rgb(3, 2, 35);
 }
 
 @media (max-width: 1920px) {
@@ -1370,7 +1369,7 @@ li {
   }
 }
 
-.team-container::before {
+/* .team-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1384,7 +1383,7 @@ li {
     rgb(3, 2, 35),
     transparent
   );
-}
+} */
 
 .contacts-container {
   padding: 1rem;
@@ -3232,7 +3231,7 @@ li {
 
 .nomors {
   display: flex;
-  width: 40%;
+  width: 50%;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
