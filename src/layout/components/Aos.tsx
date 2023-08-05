@@ -6,7 +6,10 @@ import 'aos/dist/aos.css';
     const AOScall = () => {
     useEffect(() => {
       AOS.init({
-      disable: 'tablet',
+        disable: function() {
+    var maxWidth = 800;
+    return window.innerWidth < maxWidth;
+  },
       offset: 50,
     });
     }, []);
