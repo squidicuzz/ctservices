@@ -759,10 +759,10 @@ li {
   );
 }
 
-/* .landing-shadow {
+.landing-shadow {
   position: absolute;
   bottom: 0 !important;
-  margin-bottom: -8rem;
+  margin-bottom: -12rem;
   width: 100%;
   height: 300px;
   background: linear-gradient(
@@ -773,7 +773,7 @@ li {
     transparent
   );
   z-index: 3;
-} */
+}
 
 @media (max-width: 768px) {
   .sales-container {
@@ -812,7 +812,7 @@ li {
     to top,
     transparent,
     rgb(3, 2, 35),
-    rgb(3, 2, 35),
+    rgb(42, 9, 83),
     transparent
   );
 }
@@ -859,7 +859,7 @@ li {
     to top,
     transparent,
     rgb(3, 2, 35),
-    rgb(3, 2, 35),
+    rgb(42, 9, 83),
     transparent
   );
   right: 0;
@@ -1043,8 +1043,10 @@ li {
 .mid-land-pic {
   position: absolute;
   left: 0;
-  object-fit: cover;
+  object-fit: cover !important;
   z-index: 1;
+  height: 100%;
+  bottom: 0;
 }
 
 .mids-land-pic {
@@ -1380,7 +1382,7 @@ li {
     to top,
     transparent,
     rgb(3, 2, 35),
-    rgb(3, 2, 35),
+    rgb(42, 9, 83),
     transparent
   );
 }

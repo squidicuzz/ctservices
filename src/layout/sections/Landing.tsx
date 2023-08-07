@@ -33,8 +33,8 @@ return (
          <Image
             priority={true}
             quality={100}
-            // id="primary-front-bgs"
-      className="front-land-pic reflect-v2 bgs-sen"
+            id="primary-front-bgs"
+      className="front-land-pic bgs-sen"
       alt='front-logo'
       src="/images/frontsss-a.webp"
       width="3620" height="1671"
@@ -47,12 +47,13 @@ return (
       src="/images/moon-a.webp"
       width="3620" height="1671"
       />
-   {/* <Image
-      className="mid-land-pic to-clouds"
+         <Image
+            id="finalbg"
+      className="mid-land-pic"
       alt='front-logo'
-      src="/images/clouds.webp"
-      width="3620" height="1671"
-         /> */}
+      src="/images/land-1.png"
+      width="3620" height="2969"
+         />
          
          <Image
             priority={true}
@@ -75,8 +76,8 @@ return (
                 src="/images/footer.webp"
                 width="3620" height="1671"
          />
-         {/* <div id="shadow-front-bg" className="bgs-sen">
-         <div className="landing-shadow"/></div> */}
+         <div id="shadow-front-bground" className="bgs-sen">
+         <div className="landing-shadow"/></div>
    <AllScripts />
 </section>
 </>

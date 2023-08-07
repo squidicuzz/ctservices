@@ -36,13 +36,14 @@ var Landing = /** @class */ (function (_super) {
                             react_1["default"].createElement("div", { className: 'text-motion' }, " \u2756 "),
                             "Welcome to",
                             react_1["default"].createElement("div", { className: 'color-effect' }, "CRYPTECH SERVICES. ")))),
-                react_1["default"].createElement(image_1["default"], { priority: true, quality: 100, 
-                    // id="primary-front-bgs"
-                    className: "front-land-pic reflect-v2 bgs-sen", alt: 'front-logo', src: "/images/frontsss-a.webp", width: "3620", height: "1671" }),
+                react_1["default"].createElement(image_1["default"], { priority: true, quality: 100, id: "primary-front-bgs", className: "front-land-pic bgs-sen", alt: 'front-logo', src: "/images/frontsss-a.webp", width: "3620", height: "1671" }),
                 react_1["default"].createElement(image_1["default"], { priority: true, id: "secondary-front-bg", className: "mids-land-pic to-glow", alt: 'front-logo', src: "/images/moon-a.webp", width: "3620", height: "1671" }),
+                react_1["default"].createElement(image_1["default"], { id: "finalbg", className: "mid-land-pic", alt: 'front-logo', src: "/images/land-1.png", width: "3620", height: "2969" }),
                 react_1["default"].createElement(image_1["default"], { priority: true, id: "tertiary-front-bg", className: "mids-land-pic to-ser bgs-sen", alt: 'front-logo', src: "/images/bgs.webp", width: "3620", height: "1671" }),
                 react_1["default"].createElement(image_1["default"], { id: "tertiary-front-bgs", className: "foots-land-pic bgs-sen", alt: 'front-logo', src: "/images/footer-a.webp", width: "3620", height: "1671" }),
                 react_1["default"].createElement(image_1["default"], { className: "foots-land-pic bgs-sen", alt: 'front-logo', src: "/images/footer.webp", width: "3620", height: "1671" }),
+                react_1["default"].createElement("div", { id: "shadow-front-bground", className: "bgs-sen" },
+                    react_1["default"].createElement("div", { className: "landing-shadow" })),
                 react_1["default"].createElement(scripts_1["default"], null))));
     };
     ;

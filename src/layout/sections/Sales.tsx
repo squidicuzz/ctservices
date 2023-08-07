@@ -86,6 +86,13 @@ return (
       src="/images/observe-down.png"
       width="3620" height="1671"
       />
+
+                                   <Image
+      className="sales-1-land-pic"
+      alt='front-logo'
+      src="/images/frontsss-up-a.webp"
+      width="3620" height="1671"
+      />
       
 
 </section>

@@ -1,16 +1,20 @@
 let secondary_front_bg = document.getElementById("secondary-front-bg");
-// let tertiary_front_bg = document.getElementById("tertiary-front-bgs");
+let tertiary_front_bg = document.getElementById("tertiary-front-bgs");
 let shadow_front_bg = document.getElementById("shadow-front-bg");
-// let primary_front_bg = document.getElementById("secondary-front-bgs");
-// let primary_front_bgs = document.getElementById("primary-front-bgs");
+let shadow_front_bground = document.getElementById("shadow-front-bground");
+let primary_front_bg = document.getElementById("secondary-front-bgs");
+let primary_front_bgs = document.getElementById("primary-front-bgs");
+let finalbg = document.getElementById("finalbg");
 
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
   secondary_front_bg.style.top = value * 0.1 + "px";
-  // tertiary_front_bg.style.top = value * -0.05 + "px";
-  // primary_front_bg.style.top = value * 0.05 + "px";
-  // primary_front_bgs.style.top = value * -0.1 + "px";
+  tertiary_front_bg.style.top = value * -0.05 + "px";
+  primary_front_bg.style.top = value * 0.05 + "px";
+  primary_front_bgs.style.top = value * -0.1 + "px";
   shadow_front_bg.style.top = value * 0.4 + "px";
+  shadow_front_bground.style.top = value * -0.1 + "px";
+  finalbg.style.top = value * 0.3 + "px";
 });
 
 // Add active class to the current button (highlight it)
