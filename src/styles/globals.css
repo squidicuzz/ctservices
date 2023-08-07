@@ -3059,6 +3059,9 @@ li {
   position: relative;
   margin-bottom: 22px;
   z-index: 5;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousels > input {
@@ -3196,6 +3199,9 @@ li {
 }
 
 @media (max-width: 1600px) {
+  .carousels {
+    width: 100%;
+  }
   .car {
     max-height: 12rem !important;
     padding-top: 0.5rem;
