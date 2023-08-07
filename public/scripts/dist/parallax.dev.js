@@ -17,7 +17,7 @@ window.addEventListener("scroll", function () {
   primary_front_bgs.style.top = value * -0.1 + "px";
   shadow_front_bg.style.top = value * 0.4 + "px";
   shadow_front_bground.style.top = value * -0.1 + "px";
-  finalbg.style.top = value * 0.3 + "px";
+  finalbg.style.top = value * 0.2 + "px";
 }); // Add active class to the current button (highlight it)
 // var header = document.getElementById("toactive");
 // var btns = header.getElementsByClassName("kek");
