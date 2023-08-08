@@ -24,7 +24,7 @@ return (
    <div id="shadow-front-bg" className="to-width to-height to-center home-specs">
       <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" className='home-welcome-border'>
          <div className='home-welcome-message'>
-            <div className='text-motion'> ❖ </div>
+            <div> ❖ </div>
             Welcome to 
             <div className='color-effect'>CRYPTECH SERVICES. </div>
          </div>
@@ -51,7 +51,7 @@ return (
             id="finalbg"
       className="mid-land-pic"
       alt='front-logo'
-      src="/images/land-1.png"
+      src="/images/land-2.png"
       width="3620" height="2969"
          />
          
