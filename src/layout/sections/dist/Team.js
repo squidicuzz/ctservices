@@ -126,7 +126,8 @@ var Team = /** @class */ (function (_super) {
                                             react_1["default"].createElement(AlternateEmailOutlined_1["default"], null),
                                             " ",
                                             "Email")))))))),
-            react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/team3.webp", width: "3620", height: "1670" })));
+            react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: 'front-logo', src: "/images/team3.webp", width: "3620", height: "1670" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: 'front-logo', src: "/images/to-center-up.webp", width: "3620", height: "1377" })));
     };
     return Team;
 }(react_1.Component));
