@@ -26,7 +26,7 @@ return (
          <div className='home-welcome-message'>
             <div> ❖ </div>
             Welcome to 
-            <div className='color-effect'>CRYPTECH SERVICES. </div>
+            <div className='color-effect'>CRYPTECH SERVICES </div>
          </div>
       </div>
    </div>
@@ -51,7 +51,7 @@ return (
             id="finalbg"
       className="mid-land-pic"
       alt='front-logo'
-      src="/images/land-2.png"
+      src="/images/land-3.png"
       width="3620" height="2969"
          />
          
