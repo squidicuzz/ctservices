@@ -40,13 +40,13 @@ var Footer = /** @class */ (function (_super) {
                 react_1["default"].createElement("li", { className: "menu__item" },
                     react_1["default"].createElement("a", { className: "menu__link", href: "#team" }, "Team")),
                 react_1["default"].createElement("li", { className: "menu__item" },
-                    react_1["default"].createElement("a", { className: "menu__link", href: "https://test.metrix.place/", target: '_blank' }, "Metrix.Place")),
+                    react_1["default"].createElement("a", { className: "menu__link", href: "https://test.metrix.place/", target: "_blank" }, "Metrix.Place")),
                 react_1["default"].createElement("li", { className: "menu__item" },
-                    react_1["default"].createElement("a", { className: "menu__link", href: "https://cryptechtest.xyz/", target: '_blank' }, "CryptechTest")),
+                    react_1["default"].createElement("a", { className: "menu__link", href: "https://cryptechtest.xyz/", target: "_blank" }, "CryptechTest")),
                 react_1["default"].createElement("li", { className: "menu__item" },
-                    react_1["default"].createElement("a", { className: "menu__link", href: "http://www.freepik.com", target: '_blank' }, "Attributes"))),
+                    react_1["default"].createElement("a", { className: "menu__link", href: "http://www.freepik.com", target: "_blank" }, "Attributes"))),
             react_1["default"].createElement("p", null, "\u00A92023 Cryptech Services | All Rights Reserved"),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic", alt: 'front-logo', src: "/images/footer.webp", width: "3620", height: "1671" })));
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic", alt: "front-logo", src: "/images/footer.webp", width: "3620", height: "1671" })));
     };
     return Footer;
 }(react_1.Component));
