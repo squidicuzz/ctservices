@@ -54,9 +54,9 @@ export default class Team extends Component<Props, State> {
                 <div className="contact-name squid-name"> Squidicuz </div>
                 <div className="contact-description">
                   <ul>
+                    <li className="squid-list"> Admin </li>
+                    <li className="squid-list"> Consultant </li>
                     <li className="squid-list"> Developer </li>
-                    <li className="squid-list"> Bot Admin </li>
-                    <li className="squid-list"> Site Admin </li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap">
@@ -179,7 +179,7 @@ export default class Team extends Component<Props, State> {
                 <div className="contact-description">
                   <ul>
                     <li className="seqsee-list"> Developer </li>
-                    <li className="seqsee-list"> Support </li>
+                    <li className="seqsee-list"> Consultant </li>
                     <li className="seqsee-list"> Admin </li>
                   </ul>
                 </div>
