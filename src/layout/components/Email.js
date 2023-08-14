@@ -114,14 +114,15 @@ export default function ContactUs() {
             >
               {" "}
               LETS TALK ABOUT YOUR PROJECT, Fill the form and send in your
-              queries. We will respond as soon as we can. Alternatively, You can
+              queries. We will respond as soon as we can.
+              {/* Alternatively, You can
               reach out <span className="we-logo-sixth to-bold">Squid</span> by
               sending a message to{" "}
               <span className="we-logo-sixth to-bold">
                 {" "}
                 squid@cryptech.services{" "}
               </span>{" "}
-              .
+              . */}
             </div>
           </div>
           <form

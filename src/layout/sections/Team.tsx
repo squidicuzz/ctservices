@@ -28,12 +28,11 @@ export default class Team extends Component<Props, State> {
             </div>
             <div className="section-desc">
               {" "}
-              Please contact{" "}
-              <a href="mailto:squid@cryptech.services569" target="_blank">
-                <span className="we-logo-second to-bold">SQUIDICUZ</span>
+              Please contact an{" "}
+              <a href="#contact" target="_blank">
+                <span className="we-logo-second to-bold">Admin</span>
               </a>{" "}
-              if it is urgent, or contact another admin to attempt to resolve
-              your issue. Thank you.
+              team member if you have an urgent request. Thank you.
             </div>
           </div>
           <div className="to-flex to-flex-evenly width-team koto">
