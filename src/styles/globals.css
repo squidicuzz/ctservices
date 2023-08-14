@@ -1902,10 +1902,10 @@ li {
 }
 
 .section-title {
-  font-size: var(--secon-ter-font);
+  font-size: var(--secondary-font);
   padding-bottom: 1rem;
   text-align: center;
-  font-weight: bolder;
+  font-weight: 900;
   /* filter: drop-shadow(3px 3px 1px rgba(255, 255, 255, 0.25)); */
   filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 1));
   line-height: 2rem;
@@ -3388,4 +3388,19 @@ li {
   .containers {
     display: none;
   }
+}
+
+.carousels::before {
+  position: absolute !important;
+  content: "";
+  background-color: #282828;
+  display: flex;
+  border-radius: 5px;
+  height: 17.5rem;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+  top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }

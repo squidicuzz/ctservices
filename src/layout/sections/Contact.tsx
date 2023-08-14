@@ -43,13 +43,13 @@ export default class Support extends Component<Props, State> {
                 CRYPTECH SERVICES{" "}
               </div>{" "}
             </div>
-            <div className="section-desc-1">
+            {/* <div className="section-desc-1">
               {" "}
               For <span className="we-logo-fourth to-bold">
                 DEVELOPMENT
               </span>{" "}
               services we offer:{" "}
-            </div>
+            </div> */}
           </div>
           {/* <ImageSlider images={images} /> */}
 
