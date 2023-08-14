@@ -353,13 +353,13 @@ export default class Support extends Component<Props, State> {
       width="3620" height="1671"
       /> */}
 
-        <Image
+        {/* <Image
           className="sales-2-land-pic"
           alt="front-logo"
           src="/images/observe-up-opac-3.png"
           width="3620"
           height="1671"
-        />
+        /> */}
 
         <Image
           className="sales-land-pic"
