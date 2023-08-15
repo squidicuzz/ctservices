@@ -29,7 +29,7 @@ export default class Team extends Component<Props, State> {
             <div className="section-desc">
               {" "}
               Please contact an{" "}
-              <a href="#contact" target="_blank">
+              <a href="#contact">
                 <span className="we-logo-second to-bold">Admin</span>
               </a>{" "}
               team member if you have an urgent request. Thank you.
@@ -102,7 +102,7 @@ export default class Team extends Component<Props, State> {
                 <div className="contact-description">
                   <ul>
                     <li className="valor-list"> Developer </li>
-                    <li className="valor-list"> </li>
+                    <li className="valor-list"> Web Designer</li>
                     <li className="valor-list"> </li>
                   </ul>
                 </div>
@@ -177,9 +177,9 @@ export default class Team extends Component<Props, State> {
                 <div className="contact-name seq-name"> SeqSee </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="seqsee-list"> Developer </li>
-                    <li className="seqsee-list"> Consultant </li>
                     <li className="seqsee-list"> Admin </li>
+                    <li className="seqsee-list"> Consultant </li>
+                    <li className="seqsee-list"> Developer </li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap">
