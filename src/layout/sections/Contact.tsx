@@ -372,11 +372,11 @@ export default class Support extends Component<Props, State> {
                 <Image
           className="sales-1-land-pic"
           alt="front-logo"
-          src="/images/to-center-up.webp"
+          src="/images/to-center-up-left.webp"
           width="3620"
           height="1377"
         />
-        
+
       </section>
     );
   }
