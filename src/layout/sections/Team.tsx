@@ -101,9 +101,9 @@ export default class Team extends Component<Props, State> {
                 <div className="contact-name valor-name"> Ercknard </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="valor-list"> Developer </li>
                     <li className="valor-list"> Web Designer</li>
-                    <li className="valor-list"> </li>
+                    <li className="valor-list"> Graphic Designer</li>
+                    <li className="valor-list"> Developer</li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap">
