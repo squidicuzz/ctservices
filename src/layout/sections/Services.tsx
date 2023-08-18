@@ -179,6 +179,16 @@ export default class Services extends Component<Props, State> {
           width="3620"
           height="1671"
         />
+
+                <Image
+          className="sales-1-land-pic"
+          alt="front-logo"
+          src="/images/to-center-up.webp"
+          width="3620"
+          height="1377"
+        />
+
+        
       </section>
     );
   }

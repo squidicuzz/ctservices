@@ -118,7 +118,8 @@ var Services = /** @class */ (function (_super) {
                                         "\u00B3Final price may be adjusted if hours of support exceed 8 hours.",
                                         " "),
                                     react_1["default"].createElement("li", null, " \u2074Currency denomination may be negotiated. "))))))),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic", alt: "front-logo", src: "/images/observe-down.png", width: "3620", height: "1671" })));
+            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic", alt: "front-logo", src: "/images/observe-down.png", width: "3620", height: "1671" }),
+            react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: "front-logo", src: "/images/to-center-up.webp", width: "3620", height: "1377" })));
     };
     return Services;
 }(react_1.Component));
