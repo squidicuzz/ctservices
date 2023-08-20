@@ -9,11 +9,11 @@ var _mail = _interopRequireDefault(require("@sendgrid/mail"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var SENDGRID_API_KEY = "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"; // sendgrid.setApiKey(SENDGRID_API_KEY);
+// const SENDGRID_API_KEY =
+//   "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";
+// sendgrid.setApiKey(SENDGRID_API_KEY);
+_mail["default"].setApiKey(process.env.SENDGRID_API_KEY); // sendgrid.setApiKey(SENDGRID_API_KEY);
 
-_mail["default"].setApiKey(process.env.SENDGRID_API_KEY);
-
-_mail["default"].setApiKey(SENDGRID_API_KEY);
 
 function sendEmail(req, res) {
   return regeneratorRuntime.async(function sendEmail$(_context) {
