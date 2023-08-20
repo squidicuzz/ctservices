@@ -1,11 +1,11 @@
 import sendgrid from "@sendgrid/mail";
 
-const SENDGRID_API_KEY =
-  "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";
+// const SENDGRID_API_KEY =
+//   "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";
 
-sendgrid.setApiKey(SENDGRID_API_KEY);
+// sendgrid.setApiKey(SENDGRID_API_KEY);
 
-// sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
+sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 async function sendEmail(req, res) {
   // NOTE: Uncomment the below lines to make the code work
