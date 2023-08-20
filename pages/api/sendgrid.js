@@ -1,7 +1,7 @@
 import sendgrid from "@sendgrid/mail";
 
 const SENDGRID_API_KEY =
-  "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";
+  "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";
 
 sendgrid.setApiKey(SENDGRID_API_KEY);
 
