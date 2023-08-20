@@ -14,6 +14,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 // sendgrid.setApiKey(SENDGRID_API_KEY);
 _mail["default"].setApiKey(process.env.SENDGRID_API_KEY);
 
+_mail["default"].setApiKey(SENDGRID_API_KEY);
+
 function sendEmail(req, res) {
   return regeneratorRuntime.async(function sendEmail$(_context) {
     while (1) {
