@@ -9,7 +9,7 @@ var _mail = _interopRequireDefault(require("@sendgrid/mail"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var SENDGRID_API_KEY = "SG.b_PwJgd-TGSyfHtl-Yxb7w.Ty-tItStdxdJLL37q-kYV6bbJQvXsKla8YmlSWbkW7w"; // sendgrid.setApiKey(SENDGRID_API_KEY);
+var SENDGRID_API_KEY = "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"; // sendgrid.setApiKey(SENDGRID_API_KEY);
 
 _mail["default"].setApiKey(process.env.SENDGRID_API_KEY);
 
