@@ -172,7 +172,7 @@ export default class Services extends Component<Props, State> {
       width="3620" height="1377"
       /> */}
 
-        <Image
+        {/* <Image
           className="sales-land-pic"
           alt="front-logo"
           src="/images/observe-down.png"
@@ -186,7 +186,7 @@ export default class Services extends Component<Props, State> {
           src="/images/sales-312-up-up.webp"
           width="3620"
           height="1377"
-        />
+        /> */}
 
 
       </section>

@@ -15,7 +15,6 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var react_1 = require("react");
-var image_1 = require("next/image");
 var Services = /** @class */ (function (_super) {
     __extends(Services, _super);
     function Services() {
@@ -117,9 +116,7 @@ var Services = /** @class */ (function (_super) {
                                         " ",
                                         "\u00B3Final price may be adjusted if hours of support exceed 8 hours.",
                                         " "),
-                                    react_1["default"].createElement("li", null, " \u2074Currency denomination may be negotiated. "))))))),
-            react_1["default"].createElement(image_1["default"], { className: "sales-land-pic", alt: "front-logo", src: "/images/observe-down.png", width: "3620", height: "1671" }),
-            react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: "front-logo", src: "/images/sales-312-up-up.webp", width: "3620", height: "1377" })));
+                                    react_1["default"].createElement("li", null, " \u2074Currency denomination may be negotiated. ")))))))));
     };
     return Services;
 }(react_1.Component));

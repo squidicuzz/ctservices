@@ -128,13 +128,13 @@ export default class Sales extends Component<Props, State> {
       width="3620" height="1671"
       /> */}
 
-        <Image
+        {/* <Image
           className="sales-land-pic"
           alt="front-logo"
           src="/images/observe-down.png"
           width="3620"
           height="1671"
-        />
+        /> */}
 
         <Image
           className="sales-1-land-pic"

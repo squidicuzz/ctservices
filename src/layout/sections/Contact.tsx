@@ -361,21 +361,21 @@ export default class Support extends Component<Props, State> {
           height="1671"
         /> */}
 
-        <Image
+        {/* <Image
           className="sales-land-pic"
           alt="front-logo"
           src="/images/observe-down.png"
           width="3620"
           height="1671"
-        />
+        /> */}
 
-                <Image
+                {/* <Image
           className="sales-1-land-pic"
           alt="front-logo"
           src="/images/sales-312-up-up.webp"
           width="3620"
           height="1377"
-        />
+        /> */}
 
       </section>
     );

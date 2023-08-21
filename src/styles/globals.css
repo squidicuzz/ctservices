@@ -765,6 +765,9 @@ li {
 .sales-container {
   position: relative;
   z-index: 3;
+  background: url(/images/observe-down.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .sales-container::before {
@@ -808,6 +811,9 @@ li {
 .support-container {
   position: relative;
   z-index: 3;
+  background: url(/images/observe-down.webp), url(/images/sales-312-up-up.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 1920px) {
@@ -854,6 +860,9 @@ li {
 .services-container {
   position: relative;
   z-index: 3;
+  background: url(/images/observe-down.webp), url(/images/sales-312-up-up.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 1920px) {
@@ -1048,8 +1057,10 @@ li {
 }
 
 .home-welcome-border {
+  position: relative;
   width: 100%;
   text-align: center;
+  z-index: 100;
 }
 
 .bgs-sen {
@@ -1108,7 +1119,7 @@ li {
   left: 0;
   object-fit: cover;
   bottom: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .sales-1-land-pic {
