@@ -1785,7 +1785,7 @@ li:before {
 }
 
 li {
-  margin-left: 2rem;
+  margin-left: 1.25rem;
 }
 
 @media (max-width: 1367px) {
