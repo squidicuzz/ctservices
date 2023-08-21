@@ -10,7 +10,7 @@ export default class Loma extends Component<Props, State> {
   render() {
     return (
                                                 <div
-              data-aos="fade-up"
+              data-aos="fade-down"
               data-aos-duration="2000"
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container"
@@ -23,17 +23,17 @@ export default class Loma extends Component<Props, State> {
                 height="512"
               />
               <div className="details-bg">
-                <div className="contact-name ercknard-name"> Baydroid </div>
+                <div className="contact-name loma-name"> Baydroid </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="ercknard-list"> Cryptography spec.</li>
-                    <li className="ercknard-list"> Consultant </li>
-                    <li className="ercknard-list"> Developer </li>
+                    <li className="loma-list"> Cryptographer</li>
+                    <li className="loma-list"> Consultant </li>
+                    <li className="loma-list"> Developer </li>
                   </ul>
                 </div>
-                <div className="to-flex to-gap">
+                <div className="to-flex to-gap z">
                   <a
-                    className="contact-button ercknard"
+                    className="contact-button loma"
                     href="https://discord.com/users/426261793426636804"
                     target="_blank"
                   >
@@ -44,8 +44,8 @@ export default class Loma extends Component<Props, State> {
                     </div>
                   </a>
                   <a
-                    className="contact-button ercknard"
-                    href="mailto:seqsee@cryptech.services"
+                    className="contact-button loma t"
+                    href="mailto:baydroid@cryptech.services"
                     target="_blank"
                   >
                     <div>

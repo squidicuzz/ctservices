@@ -10,7 +10,7 @@ export default class Jekz extends Component<Props, State> {
   render() {
     return (
 <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-duration="2500"
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container"
@@ -18,7 +18,7 @@ export default class Jekz extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/jekz5.webp"
+                src="/images/jekz7.webp"
                 width="512"
                 height="512"
               />
@@ -31,7 +31,7 @@ export default class Jekz extends Component<Props, State> {
                     <li className="jekz-list"> Penetration Tester</li>
                   </ul>
                 </div>
-                <div className="to-flex to-gap">
+                <div className="to-flex to-gap z">
                   <a
                     className="contact-button jekz"
                     href="https://discord.com/users/943186466744463421"
@@ -44,7 +44,7 @@ export default class Jekz extends Component<Props, State> {
                     </div>
                   </a>
                   <a
-                    className="contact-button jekz"
+                    className="contact-button jekz t"
                     href="mailto:jekz@cryptech.services"
                     target="_blank"
                   >

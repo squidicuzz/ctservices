@@ -31,7 +31,7 @@ export default class Squid extends Component<Props, State> {
                     <li className="squid-list"> Developer </li>
                   </ul>
                 </div>
-                <div className="to-flex to-gap">
+                <div className="to-flex to-gap z">
                   <a
                     className="contact-button squid"
                     href="https://discord.com/users/294414250376429569"
@@ -44,7 +44,7 @@ export default class Squid extends Component<Props, State> {
                     </div>
                   </a>
                   <a
-                    className="contact-button squid"
+                    className="contact-button squid t"
                     href="mailto:squid@cryptech.services"
                     target="_blank"
                   >

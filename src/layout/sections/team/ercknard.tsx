@@ -31,7 +31,7 @@ export default class Ercknard extends Component<Props, State> {
                     <li className="valor-list"> Developer</li>
                   </ul>
                 </div>
-                <div className="to-flex to-gap">
+                <div className="to-flex to-gap z">
                   <a
                     className="contact-button valor"
                     href="https://discord.com/users/615741889366458369"
@@ -44,7 +44,7 @@ export default class Ercknard extends Component<Props, State> {
                     </div>
                   </a>
                   <a
-                    className="contact-button valor"
+                    className="contact-button valor t"
                     href="mailto:ercknard@cryptech.services"
                     target="_blank"
                   >

@@ -31,7 +31,7 @@ export default class Seqsee extends Component<Props, State> {
                     <li className="seqsee-list"> Developer </li>
                   </ul>
                 </div>
-                <div className="to-flex to-gap">
+                <div className="to-flex to-gap z">
                   <a
                     className="contact-button seqsee"
                     href="https://discord.com/users/412122437954830337"
@@ -44,7 +44,7 @@ export default class Seqsee extends Component<Props, State> {
                     </div>
                   </a>
                   <a
-                    className="contact-button seqsee"
+                    className="contact-button seqsee t"
                     href="mailto:seqsee@cryptech.services"
                     target="_blank"
                   >

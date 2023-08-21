@@ -26,8 +26,8 @@ var Jekz = /** @class */ (function (_super) {
         return _this;
     }
     Jekz.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "2500", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container" },
-            react_1["default"].createElement(image_1["default"], { className: "contact-mug", alt: "front-logo", src: "/images/jekz5.webp", width: "512", height: "512" }),
+        return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "2500", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container" },
+            react_1["default"].createElement(image_1["default"], { className: "contact-mug", alt: "front-logo", src: "/images/jekz7.webp", width: "512", height: "512" }),
             react_1["default"].createElement("div", { className: "details-bg" },
                 react_1["default"].createElement("div", { className: "contact-name jekz-name" }, " Jekz "),
                 react_1["default"].createElement("div", { className: "contact-description" },
@@ -35,13 +35,13 @@ var Jekz = /** @class */ (function (_super) {
                         react_1["default"].createElement("li", { className: "jekz-list" }, " Security Researcher "),
                         react_1["default"].createElement("li", { className: "jekz-list" }, " Graphic Artist "),
                         react_1["default"].createElement("li", { className: "jekz-list" }, " Penetration Tester"))),
-                react_1["default"].createElement("div", { className: "to-flex to-gap" },
+                react_1["default"].createElement("div", { className: "to-flex to-gap z" },
                     react_1["default"].createElement("a", { className: "contact-button jekz", href: "https://discord.com/users/943186466744463421", target: "_blank" },
                         react_1["default"].createElement("div", null,
                             react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                 react_1["default"].createElement(ContactPageOutlined_1["default"], null),
                                 " Discord"))),
-                    react_1["default"].createElement("a", { className: "contact-button jekz", href: "mailto:jekz@cryptech.services", target: "_blank" },
+                    react_1["default"].createElement("a", { className: "contact-button jekz t", href: "mailto:jekz@cryptech.services", target: "_blank" },
                         react_1["default"].createElement("div", null,
                             react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                 react_1["default"].createElement(AlternateEmailOutlined_1["default"], null),

@@ -26,7 +26,7 @@ var Boehmerang = /** @class */ (function (_super) {
         return _this;
     }
     Boehmerang.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "2000", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container" },
+        return (react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "2000", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container" },
             react_1["default"].createElement(image_1["default"], { className: "contact-mug", alt: "front-logo", src: "/images/valor.webp", width: "512", height: "512" }),
             react_1["default"].createElement("div", { className: "details-bg" },
                 react_1["default"].createElement("div", { className: "contact-name ercknard-name" }, " Boehmerang "),
@@ -35,13 +35,13 @@ var Boehmerang = /** @class */ (function (_super) {
                         react_1["default"].createElement("li", { className: "ercknard-list" }, " CAD Designer "),
                         react_1["default"].createElement("li", { className: "ercknard-list" }, " Consultant "),
                         react_1["default"].createElement("li", { className: "ercknard-list" }, " Developer "))),
-                react_1["default"].createElement("div", { className: "to-flex to-gap" },
+                react_1["default"].createElement("div", { className: "to-flex to-gap z" },
                     react_1["default"].createElement("a", { className: "contact-button ercknard", href: "https://discord.com/users/161986311832600576", target: "_blank" },
                         react_1["default"].createElement("div", null,
                             react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                 react_1["default"].createElement(ContactPageOutlined_1["default"], null),
                                 " Discord"))),
-                    react_1["default"].createElement("a", { className: "contact-button ercknard", href: "mailto:seqsee@cryptech.services", target: "_blank" },
+                    react_1["default"].createElement("a", { className: "contact-button ercknard t", href: "mailto:boehmerang@cryptech.services", target: "_blank" },
                         react_1["default"].createElement("div", null,
                             react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                 react_1["default"].createElement(AlternateEmailOutlined_1["default"], null),

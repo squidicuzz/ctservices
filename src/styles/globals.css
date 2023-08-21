@@ -25,13 +25,14 @@ html {
   --tertiary: 65, 76, 148;
   --quaternary: 49, 101, 136;
   --quinary: 58, 125, 113;
+  --seventh: 40, 134, 208;
   --primary-secon: 182, 67, 174;
   --secondary-secon: 176, 117, 248;
   --tertiary-secon: 123, 143, 252;
   --quaternary-secon: 92, 194, 228;
   --quinary-secon: 110, 240, 188;
   --sixth: 59, 130, 246;
-  --sevent-secon: 44, 104, 208;
+  --seventh-secon: 67, 137, 255;
 
   --gifted-font: 5em;
   --primary-font: 4em;
@@ -1122,7 +1123,6 @@ li {
   left: 0;
   object-fit: cover;
   bottom: 0;
-  z-index: -1;
 }
 
 .sales-1-land-pic {
@@ -1433,7 +1433,7 @@ li {
   padding: 1rem;
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
-  max-width: 18%;
+  max-width: 16%;
   transition: 0.5s linear;
 }
 
@@ -1445,7 +1445,7 @@ li {
 
 @media (max-width: 1367px) {
   .contacts-container {
-    min-width: 18% !important;
+    min-width: 16% !important;
   }
 }
 
@@ -1608,15 +1608,15 @@ li {
   border-image: -webkit-linear-gradient(
       45deg,
       transparent,
-      rgb(var(--quaternary-secon)),
-      rgb(var(--quaternary-secon)),
+      rgb(var(--seventh-secon)),
+      rgb(var(--seventh-secon)),
       transparent
     )
     1;
 
-  background-color: rgb(92, 194, 228, 0.5);
+  background-color: rgb(44, 104, 208, 0.5);
   margin-top: 5rem;
-  filter: drop-shadow(0px 0px 5px rgb(var(--quaternary-secon)));
+  filter: drop-shadow(0px 0px 5px rgb(var(--seventh-secon)));
 }
 
 @media (max-width: 1367px) {
@@ -1629,6 +1629,39 @@ li {
   content: "❖";
   font-size: var(--primary-font);
   position: absolute;
+  color: rgb(var(--seventh-secon));
+  top: -3.25rem;
+  text-align: center;
+  width: 90%;
+  filter: drop-shadow(0px 0px 15px rgb(var(--seventh-secon)));
+}
+
+.contacts-container:nth-child(5) {
+  border: 3px solid;
+  border-image: -webkit-linear-gradient(
+      45deg,
+      transparent,
+      rgb(var(--quaternary-secon)),
+      rgb(var(--quaternary-secon)),
+      transparent
+    )
+    1;
+
+  background-color: rgb(92, 194, 228, 0.5);
+  margin-bottom: 5rem;
+  filter: drop-shadow(0px 0px 5px rgb(var(--quaternary-secon)));
+}
+
+@media (max-width: 1367px) {
+  .contacts-container:nth-child(5) {
+    margin-bottom: 0rem;
+  }
+}
+
+.contacts-container:nth-child(5)::after {
+  content: "❖";
+  font-size: var(--primary-font);
+  position: absolute;
   color: rgb(var(--quaternary-secon));
   top: -3.25rem;
   text-align: center;
@@ -1636,7 +1669,7 @@ li {
   filter: drop-shadow(0px 0px 15px rgb(var(--quaternary-secon)));
 }
 
-.contacts-container:nth-child(5) {
+.contacts-container:nth-child(6) {
   border: 3px solid;
   border-image: -webkit-linear-gradient(
       45deg,
@@ -1648,11 +1681,11 @@ li {
     1;
 
   background-color: rgb(110, 240, 188, 0.5);
-  margin-bottom: 5rem;
+  margin-top: 5rem;
   filter: drop-shadow(0px 0px 5px rgb(var(--quinary-secon)));
 }
 
-.contacts-container:nth-child(5)::after {
+.contacts-container:nth-child(6)::after {
   content: "❖";
   font-size: var(--primary-font);
   position: absolute;
@@ -1664,12 +1697,24 @@ li {
 }
 
 @media (max-width: 1367px) {
-  .contacts-container:nth-child(5) {
-    margin-bottom: 0rem;
+  .contacts-container:nth-child(6) {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 1367px) {
+  .z {
+    flex-direction: column !important;
+    gap: -1rem !important;
+  }
+
+  .t {
+    margin-top: -0.25rem !important;
   }
 }
 
 @media (max-width: 768px) {
+  .contacts-container:nth-child(6)::after,
   .contacts-container:nth-child(5)::after,
   .contacts-container:nth-child(4)::after,
   .contacts-container:nth-child(3)::after,
@@ -1735,8 +1780,18 @@ li:before {
   color: rgb(var(--quinary));
 }
 
+.loma-list:before {
+  color: rgb(var(--seventh));
+}
+
 li {
   margin-left: 2rem;
+}
+
+@media (max-width: 1367px) {
+  li {
+    margin-left: 1rem;
+  }
 }
 
 .contacts-content {
@@ -1814,6 +1869,19 @@ li {
       180deg,
       transparent,
       rgb(var(--quinary-secon)),
+      transparent
+    )
+    1;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.loma-name {
+  border-bottom: 1px solid;
+  border-image: -webkit-linear-gradient(
+      180deg,
+      transparent,
+      rgb(var(--tertiary-secon)),
       transparent
     )
     1;
@@ -1912,6 +1980,15 @@ li {
     rgb(var(--quinary))
   ); */
   background: rgb(var(--quinary));
+}
+
+.loma {
+  /* background: -webkit-linear-gradient(
+    180deg,
+    rgb(80, 163, 254),
+    rgb(var(--quinary))
+  ); */
+  background: rgb(var(--seventh));
 }
 
 .section-title {

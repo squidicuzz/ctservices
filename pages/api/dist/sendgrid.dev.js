@@ -23,9 +23,9 @@ function sendEmail(req, res) {
           _context.prev = 0;
           _context.next = 3;
           return regeneratorRuntime.awrap(_mail["default"].send({
-            to: "ercknard@cryptech.services",
+            to: "inquiries@cryptech.services",
             // Your email where you'll receive emails
-            from: "ercknard@cryptech.services",
+            from: "inquiries@cryptech.services",
             // your website email address here
             subject: "[CT Services] : ".concat(req.body.subject),
             //   message: `${req.body.fullname} ${req.body.message} ${req.body.email}`,

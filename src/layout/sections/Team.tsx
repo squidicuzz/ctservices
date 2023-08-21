@@ -45,9 +45,9 @@ export default class Team extends Component<Props, State> {
             <Squid />
             <Ercknard />
             <Seqsee />
+                        <Loma />
             <Jekz />
             <Boehmerang />
-            <Loma />
           </div>
         </div>
         <Image

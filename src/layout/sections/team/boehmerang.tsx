@@ -10,7 +10,7 @@ export default class Boehmerang extends Component<Props, State> {
   render() {
     return (
                                                 <div
-              data-aos="fade-up"
+              data-aos="fade-down"
               data-aos-duration="2000"
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container"
@@ -31,7 +31,7 @@ export default class Boehmerang extends Component<Props, State> {
                     <li className="ercknard-list"> Developer </li>
                   </ul>
                 </div>
-                <div className="to-flex to-gap">
+                <div className="to-flex to-gap z">
                   <a
                     className="contact-button ercknard"
                     href="https://discord.com/users/161986311832600576"
@@ -44,8 +44,8 @@ export default class Boehmerang extends Component<Props, State> {
                     </div>
                   </a>
                   <a
-                    className="contact-button ercknard"
-                    href="mailto:seqsee@cryptech.services"
+                    className="contact-button ercknard t"
+                    href="mailto:boehmerang@cryptech.services"
                     target="_blank"
                   >
                     <div>
