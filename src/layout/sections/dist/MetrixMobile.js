@@ -16,8 +16,8 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var react_1 = require("react");
 var image_1 = require("next/image");
-var ExtensionOutlined_1 = require("@mui/icons-material/ExtensionOutlined");
-var ArrowOutward_1 = require("@mui/icons-material/ArrowOutward");
+var GitHub_1 = require("@mui/icons-material/GitHub");
+var Android_1 = require("@mui/icons-material/Android");
 var MetrixMobile = /** @class */ (function (_super) {
     __extends(MetrixMobile, _super);
     function MetrixMobile() {
@@ -47,13 +47,13 @@ var MetrixMobile = /** @class */ (function (_super) {
                             react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://play.google.com/store/apps/details?id=com.metrimask_mobile", target: "_blank" },
                                 react_1["default"].createElement("div", null,
                                     react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
-                                        react_1["default"].createElement(ExtensionOutlined_1["default"], null),
+                                        react_1["default"].createElement(Android_1["default"], null),
                                         " Playstore"))),
-                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://www.metrixcoin.com/", target: "_blank" },
+                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://github.com/TheLindaProjectInc/MetriMask-Mobile", target: "_blank" },
                                 react_1["default"].createElement("div", null,
                                     react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
-                                        react_1["default"].createElement(ArrowOutward_1["default"], null),
-                                        " Website"))))),
+                                        react_1["default"].createElement(GitHub_1["default"], null),
+                                        " Github"))))),
                     react_1["default"].createElement("div", { className: "we-do-container" },
                         react_1["default"].createElement(image_1["default"], { className: "ships skew-1", 
                             // data-aos="fade"

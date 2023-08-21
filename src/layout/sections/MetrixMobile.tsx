@@ -4,6 +4,7 @@ import Image from "next/image";
 import ExtensionOutlinedIcon from "@mui/icons-material/ExtensionOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import AndroidIcon from '@mui/icons-material/Android';
 type Props = {};
 type State = {};
 export default class MetrixMobile extends Component<Props, State> {
@@ -49,18 +50,18 @@ Interact with Web3 websites that support the
                 >
                   <div>
                     <button type="button" className="home-button-txt">
-                      <ExtensionOutlinedIcon /> Playstore
+                      <AndroidIcon /> Playstore
                     </button>
                   </div>
                 </a>
                 <a
                   className="project-button to-primary"
-                  href="https://www.metrixcoin.com/"
+                  href="https://github.com/TheLindaProjectInc/MetriMask-Mobile"
                   target="_blank"
                 >
                   <div>
                     <button type="button" className="home-button-txt">
-                      <ArrowOutwardIcon /> Website
+                      <GitHubIcon /> Github
                     </button>
                   </div>
                 </a>

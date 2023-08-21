@@ -44,7 +44,7 @@ var Metrix = /** @class */ (function (_super) {
                             " ",
                             "transaction by paying the gas fee for the transaction."),
                         react_1["default"].createElement("div", { className: "to-flex to-gap-1" },
-                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://test.metrix.place/", target: "_blank" },
+                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://metrix.place/", target: "_blank" },
                                 react_1["default"].createElement("div", null,
                                     react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                         react_1["default"].createElement(ExtensionOutlined_1["default"], null),

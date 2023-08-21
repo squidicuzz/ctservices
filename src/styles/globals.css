@@ -31,6 +31,7 @@ html {
   --quaternary-secon: 92, 194, 228;
   --quinary-secon: 110, 240, 188;
   --sixth: 59, 130, 246;
+  --sevent-secon: 44, 104, 208;
 
   --gifted-font: 5em;
   --primary-font: 4em;
@@ -690,7 +691,7 @@ li {
   max-width: 10rem;
   border-radius: 5rem;
   margin-top: 1rem;
-  z-index: 10 !important;
+  z-index: 100 !important;
 }
 
 .project-button:active {
@@ -2132,6 +2133,11 @@ li {
     1; */
 }
 
+.norno {
+  position: relative;
+  z-index: 100;
+}
+
 @media (max-width: 920px) {
   .carousel-container {
     margin-top: 0;
@@ -3424,7 +3430,7 @@ li {
 .carousels::before {
   position: absolute !important;
   content: "";
-  background-color: #282828;
+  background-color: #111928;
   display: flex;
   border-radius: 5px;
   height: 17.5rem;
@@ -3434,4 +3440,5 @@ li {
   top: 0;
   margin-top: auto;
   margin-bottom: auto;
+  box-shadow: 5px 5px 10px black;
 }

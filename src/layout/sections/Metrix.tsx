@@ -44,7 +44,7 @@ export default class Metrix extends Component<Props, State> {
               <div className="to-flex to-gap-1">
                 <a
                   className="project-button to-primary"
-                  href="https://test.metrix.place/"
+                  href="https://metrix.place/"
                   target="_blank"
                 >
                   <div>

@@ -8,6 +8,7 @@ import Seqsee from "./team/seqsee";
 import Image from "next/image";
 import Jekz from "./team/jekz";
 import Boehmerang from "./team/boehmerang";
+import Loma from "./team/loma";
 type Props = {};
 type State = {};
 export default class Team extends Component<Props, State> {
@@ -46,6 +47,7 @@ export default class Team extends Component<Props, State> {
             <Seqsee />
             <Jekz />
             <Boehmerang />
+            <Loma />
           </div>
         </div>
         <Image

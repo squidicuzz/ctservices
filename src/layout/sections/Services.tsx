@@ -183,7 +183,7 @@ export default class Services extends Component<Props, State> {
                 <Image
           className="sales-1-land-pic"
           alt="front-logo"
-          src="/images/to-center-up-right.webp"
+          src="/images/sales-312-up-up.webp"
           width="3620"
           height="1377"
         />
