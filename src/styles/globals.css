@@ -3198,7 +3198,7 @@ li {
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .seqsee,
   .jekz,
   .valor,
@@ -3206,7 +3206,7 @@ li {
   .ercknard {
     display: none;
   }
-}
+} */
 
 .containers {
   max-width: 100%;
