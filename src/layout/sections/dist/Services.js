@@ -24,19 +24,19 @@ var Services = /** @class */ (function (_super) {
         return _this;
     }
     Services.prototype.render = function () {
-        return (react_1["default"].createElement("section", { className: "services-container", id: "services", "data-color": "rgb(110, 240, 188)" },
+        return (react_1["default"].createElement("section", { className: "services-container", id: "services", "data-color": "rgb(182, 67, 174)" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", { className: "to-left" },
-                    react_1["default"].createElement("div", { className: "text-motion section-title-logo to-quinary" }, " \u2756 "),
+                    react_1["default"].createElement("div", { className: "text-motion section-title-logo to-primary" }, " \u2756 "),
                     react_1["default"].createElement("div", { className: "title-security" },
-                        react_1["default"].createElement("div", { className: "text-motion section-title to-quinary" },
+                        react_1["default"].createElement("div", { className: "text-motion section-title to-primary" },
                             " ",
                             "SECURITY SERVICES",
                             " ")),
                     react_1["default"].createElement("div", { className: "section-desc-1" },
                         " ",
                         "For ",
-                        react_1["default"].createElement("span", { className: "we-logo-fifth to-bold" }, "SECURITY"),
+                        react_1["default"].createElement("span", { className: "we-logo-first to-bold" }, "SECURITY"),
                         " ",
                         "service packages we offer:",
                         " ")),

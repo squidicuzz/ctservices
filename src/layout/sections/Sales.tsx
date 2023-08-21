@@ -18,7 +18,7 @@ export default class Sales extends Component<Props, State> {
       <section
         id="offers"
         className="sales-container"
-        data-color="rgb(86, 71, 204)"
+        data-color="rgb(44, 104, 208)"
       >
         <div className="to-width to-height to-center to-flex norno">
           <div

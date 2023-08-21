@@ -134,28 +134,23 @@ main {
   transition: 1s;
 }
 
-#serv:active,
-#serv:hover {
+#serv:active {
   color: rgb(var(--quaternary-secon));
 }
 
-#secu:active,
-#secu:hover {
+#secu:active {
   color: rgb(var(--quinary-secon));
 }
 
-#teas:active,
-#teas:hover {
+#teas:active {
   color: rgb(var(--secondary-secon));
 }
 
-#met:active,
-#met:hover {
+#met:active {
   color: rgb(var(--primary-secon));
 }
 
-#cryp:active,
-#cryp:hover {
+#cryp:active {
   color: rgb(var(--tertiary-secon));
 }
 
@@ -2237,6 +2232,23 @@ li {
   }
 }
 
+.skew-1 {
+  transform: scale(0.5) !important;
+  filter: drop-shadow(0px 0px 15px rgb(var(--primary-secon)));
+}
+
+@media (max-width: 1920px) {
+  .skew-1 {
+    transform: scale(0.4) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .skew-1 {
+    transform: scale(0.8) !important;
+  }
+}
+
 .service-package-1 {
   position: relative;
   padding: 1.5rem;
@@ -3035,6 +3047,20 @@ li {
   font-weight: 700;
 }
 
+.title-metrix-mobile {
+  display: flex;
+}
+
+.title-metrix-mobile::before {
+  content: "METRIMASK MOBILE";
+  position: absolute;
+  margin-top: -3rem;
+  color: wheat !important;
+  font-size: var(--primary-font);
+  opacity: 15%;
+  font-weight: 700;
+}
+
 .title-cryptech {
   display: flex;
 }
@@ -3067,6 +3093,7 @@ li {
   .title-email::before,
   .title-cryptech::before,
   .title-metrix::before,
+  .title-metrix-mobile::before,
   .title-security::before,
   .title-support::before,
   .title-team::before {

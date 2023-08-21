@@ -38,15 +38,15 @@ var Support = /** @class */ (function (_super) {
         return _this;
     }
     Support.prototype.render = function () {
-        return (react_1["default"].createElement("section", { className: "support-container", id: "sales", "data-color": "rgb(92, 194, 228)" },
+        return (react_1["default"].createElement("section", { className: "support-container", id: "sales", "data-color": "rgb(182, 67, 174)" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
                 react_1["default"].createElement("div", { className: "to-left" },
-                    react_1["default"].createElement("div", { className: "text-motion section-title-logo to-quaternary" },
+                    react_1["default"].createElement("div", { className: "text-motion section-title-logo to-primary" },
                         " ",
                         "\u2756",
                         " "),
                     react_1["default"].createElement("div", { className: "title-support" },
-                        react_1["default"].createElement("div", { className: "text-motion section-title to-quaternary" },
+                        react_1["default"].createElement("div", { className: "text-motion section-title to-primary" },
                             " ",
                             "CRYPTECH SERVICES",
                             " "),

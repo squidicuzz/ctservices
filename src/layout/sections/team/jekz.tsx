@@ -18,7 +18,7 @@ export default class Jekz extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/valor.webp"
+                src="/images/jekz5.webp"
                 width="512"
                 height="512"
               />

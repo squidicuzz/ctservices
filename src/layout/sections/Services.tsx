@@ -10,20 +10,20 @@ export default class Services extends Component<Props, State> {
       <section
         className="services-container"
         id="services"
-        data-color="rgb(110, 240, 188)"
+        data-color="rgb(182, 67, 174)"
       >
         <div className="to-width to-height to-center to-flex-column">
           <div className="to-left">
-            <div className="text-motion section-title-logo to-quinary"> ❖ </div>
+            <div className="text-motion section-title-logo to-primary"> ❖ </div>
             <div className="title-security">
-              <div className="text-motion section-title to-quinary">
+              <div className="text-motion section-title to-primary">
                 {" "}
                 SECURITY SERVICES{" "}
               </div>
             </div>
             <div className="section-desc-1">
               {" "}
-              For <span className="we-logo-fifth to-bold">SECURITY</span>{" "}
+              For <span className="we-logo-first to-bold">SECURITY</span>{" "}
               service packages we offer:{" "}
             </div>
           </div>

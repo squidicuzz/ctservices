@@ -29,16 +29,16 @@ export default class Support extends Component<Props, State> {
       <section
         className="support-container"
         id="sales"
-        data-color="rgb(92, 194, 228)"
+        data-color="rgb(182, 67, 174)"
       >
         <div className="to-width to-height to-center to-flex-column">
           <div className="to-left">
-            <div className="text-motion section-title-logo to-quaternary">
+            <div className="text-motion section-title-logo to-primary">
               {" "}
               ❖{" "}
             </div>
             <div className="title-support">
-              <div className="text-motion section-title to-quaternary">
+              <div className="text-motion section-title to-primary">
                 {" "}
                 CRYPTECH SERVICES{" "}
               </div>{" "}

@@ -92,7 +92,11 @@ export default function ContactUs() {
     console.log(fullname, email, subject, message);
   };
   return (
-    <section id="contact" className="contact-container">
+    <section
+      id="contact"
+      className="contact-container"
+      data-color="rgb(123, 143, 252)"
+    >
       <div className="contact-container to-index to-width to-center to-height to-align">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:h-96 to-align">
           <div
@@ -101,7 +105,7 @@ export default function ContactUs() {
             data-aos-anchor-placement="bottom-bottom"
           >
             <div className="title-email">
-              <div className="text-motion section-title project-title to-sixth">
+              <div className="text-motion section-title project-title to-tertiary">
                 {" "}
                 CONTACT US{" "}
               </div>
