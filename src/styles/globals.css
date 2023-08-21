@@ -805,6 +805,7 @@ li {
 @media (max-width: 768px) {
   .sales-container {
     margin-bottom: 4rem;
+    background: unset;
   }
 }
 
@@ -825,6 +826,7 @@ li {
 @media (max-width: 768px) {
   .support-container {
     min-height: 130vh;
+    background: unset;
   }
   /* .sales-container::before {
     display: none;
@@ -874,6 +876,7 @@ li {
 @media (max-width: 768px) {
   .services-container {
     margin-bottom: 4rem;
+    background: unset;
   }
 
   .services-container::before {
