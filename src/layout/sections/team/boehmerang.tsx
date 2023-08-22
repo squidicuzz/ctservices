@@ -18,23 +18,23 @@ export default class Boehmerang extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/valor.webp"
+                src="/images/ercknard.webp"
                 width="512"
                 height="512"
               />
               <div className="details-bg">
-                <div className="contact-name ercknard-name"> Boehmerang </div>
+                <div className="contact-name ercknard-name"> Ercknard </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="ercknard-list"> CAD Designer </li>
-                    <li className="ercknard-list"> Consultant </li>
+                    <li className="ercknard-list"> Web Designer </li>
+                    <li className="ercknard-list"> Graphic Designer </li>
                     <li className="ercknard-list"> Developer </li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap z">
                   <a
                     className="contact-button ercknard"
-                    href="https://discord.com/users/161986311832600576"
+                    href="https://discord.com/users/615741889366458369"
                     target="_blank"
                   >
                     <div>
@@ -45,7 +45,7 @@ export default class Boehmerang extends Component<Props, State> {
                   </a>
                   <a
                     className="contact-button ercknard t"
-                    href="mailto:boehmerang@cryptech.services"
+                    href="mailto:ercknard@cryptech.services"
                     target="_blank"
                   >
                     <div>

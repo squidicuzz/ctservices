@@ -18,23 +18,23 @@ export default class Squid extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/ercknard.webp"
+                src="/images/valor.webp"
                 width="512"
                 height="512"
               />
               <div className="details-bg">
-                <div className="contact-name squid-name"> Ercknard </div>
+                <div className="contact-name squid-name"> Boehmerang </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="squid-list"> Web Designer </li>
-                    <li className="squid-list"> Graphic Designer </li>
+                    <li className="squid-list"> CAD Designer </li>
+                    <li className="squid-list"> Consultant </li>
                     <li className="squid-list"> Developer </li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap z">
                   <a
                     className="contact-button squid"
-                    href="https://discord.com/users/615741889366458369"
+                    href="https://discord.com/users/161986311832600576"
                     target="_blank"
                   >
                     <div>
@@ -45,7 +45,7 @@ export default class Squid extends Component<Props, State> {
                   </a>
                   <a
                     className="contact-button squid t"
-                    href="mailto:ercknard@cryptech.services"
+                    href="mailto:boehmerang@cryptech.services"
                     target="_blank"
                   >
                     <div>
