@@ -18,23 +18,23 @@ export default class Seqsee extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/seqsee.webp"
+                src="/images/jekz7.webp"
                 width="512"
                 height="512"
               />
               <div className="details-bg">
-                <div className="contact-name seq-name"> SeqSee </div>
+                <div className="contact-name seq-name"> Jekz </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="seqsee-list"> Admin </li>
-                    <li className="seqsee-list"> Consultant </li>
-                    <li className="seqsee-list"> Developer </li>
+                    <li className="seqsee-list"> Security Researcher </li>
+                    <li className="seqsee-list"> Graphic Artist </li>
+                    <li className="seqsee-list"> Penetration Tester </li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap z">
                   <a
                     className="contact-button seqsee"
-                    href="https://discord.com/users/412122437954830337"
+                    href="https://discord.com/users/943186466744463421"
                     target="_blank"
                   >
                     <div>
@@ -45,7 +45,7 @@ export default class Seqsee extends Component<Props, State> {
                   </a>
                   <a
                     className="contact-button seqsee t"
-                    href="mailto:seqsee@cryptech.services"
+                    href="mailto:jekz@cryptech.services"
                     target="_blank"
                   >
                     <div>

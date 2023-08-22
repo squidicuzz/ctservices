@@ -18,15 +18,15 @@ export default class Loma extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/loma3.webp"
+                src="/images/squid.webp"
                 width="512"
                 height="512"
               />
               <div className="details-bg">
-                <div className="contact-name loma-name"> Baydroid </div>
+                <div className="contact-name loma-name"> Squidicuz </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="loma-list"> Cryptographer</li>
+                    <li className="loma-list"> Admin</li>
                     <li className="loma-list"> Consultant </li>
                     <li className="loma-list"> Developer </li>
                   </ul>
@@ -34,7 +34,7 @@ export default class Loma extends Component<Props, State> {
                 <div className="to-flex to-gap z">
                   <a
                     className="contact-button loma"
-                    href="https://discord.com/users/426261793426636804"
+                    href="https://discord.com/users/294414250376429569"
                     target="_blank"
                   >
                     <div>
@@ -45,7 +45,7 @@ export default class Loma extends Component<Props, State> {
                   </a>
                   <a
                     className="contact-button loma t"
-                    href="mailto:baydroid@cryptech.services"
+                    href="mailto:squid@cryptech.services"
                     target="_blank"
                   >
                     <div>

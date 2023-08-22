@@ -18,23 +18,23 @@ export default class Jekz extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/jekz7.webp"
+                src="/images/seqsee.webp"
                 width="512"
                 height="512"
               />
               <div className="details-bg">
-                <div className="contact-name jekz-name"> Jekz </div>
+                <div className="contact-name jekz-name"> SeqSee </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="jekz-list"> Security Researcher </li>
-                    <li className="jekz-list"> Graphic Artist </li>
-                    <li className="jekz-list"> Penetration Tester</li>
+                    <li className="jekz-list"> Admin </li>
+                    <li className="jekz-list"> Consultant </li>
+                    <li className="jekz-list"> Developer</li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap z">
                   <a
                     className="contact-button jekz"
-                    href="https://discord.com/users/943186466744463421"
+                    href="https://discord.com/users/412122437954830337"
                     target="_blank"
                   >
                     <div>
@@ -45,7 +45,7 @@ export default class Jekz extends Component<Props, State> {
                   </a>
                   <a
                     className="contact-button jekz t"
-                    href="mailto:jekz@cryptech.services"
+                    href="mailto:seqsee@cryptech.services"
                     target="_blank"
                   >
                     <div>

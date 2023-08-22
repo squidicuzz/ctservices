@@ -18,23 +18,23 @@ export default class Ercknard extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/ercknard.webp"
+                src="/images/loma3.webp"
                 width="512"
                 height="512"
               />
               <div className="details-bg">
-                <div className="contact-name valor-name"> Ercknard </div>
+                <div className="contact-name valor-name"> Baydroid </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="valor-list"> Web Designer</li>
-                    <li className="valor-list"> Graphic Designer</li>
+                    <li className="valor-list"> Cryptographer</li>
+                    <li className="valor-list"> Consultant</li>
                     <li className="valor-list"> Developer</li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap z">
                   <a
                     className="contact-button valor"
-                    href="https://discord.com/users/615741889366458369"
+                    href="https://discord.com/users/426261793426636804"
                     target="_blank"
                   >
                     <div>
@@ -45,7 +45,7 @@ export default class Ercknard extends Component<Props, State> {
                   </a>
                   <a
                     className="contact-button valor t"
-                    href="mailto:ercknard@cryptech.services"
+                    href="mailto:baydroid@cryptech.services"
                     target="_blank"
                   >
                     <div>
