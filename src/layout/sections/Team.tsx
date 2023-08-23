@@ -22,7 +22,7 @@ export default class Team extends Component<Props, State> {
       >
         <div className="to-width to-height to-center to-flex-column">
           <div>
-            <div className="text-motion section-title-logo to-secondary">
+            <div className="text-motion section-title-logo to-secondary team-title">
               {" "}
               ❖{" "}
             </div>
@@ -41,7 +41,7 @@ export default class Team extends Component<Props, State> {
               team member if you have an urgent request. Thank you.
             </div>
           </div>
-          <div className="to-flex to-flex-evenly width-team koto">
+          <div className="to-flex to-flex-evenly width-team koto to-large">
             <Squid />
             <Ercknard />
             <Seqsee />
