@@ -364,7 +364,7 @@ export default class Support extends Component<Props, State> {
         {/* <Image
           className="sales-land-pic"
           alt="front-logo"
-          src="/images/observe-down.png"
+          src="/images/to-center-down-right.webp"
           width="3620"
           height="1671"
         /> */}
@@ -372,10 +372,18 @@ export default class Support extends Component<Props, State> {
                 {/* <Image
           className="sales-1-land-pic"
           alt="front-logo"
-          src="/images/sales-312-up-up.webp"
+          src="/images/to-center-up-left.webp"
           width="3620"
           height="1377"
         /> */}
+
+                        <Image
+          className="sales-1-land-pic"
+          alt="front-logo"
+          src="/images/observe-up.webp"
+          width="3620"
+          height="1377"
+        />
 
       </section>
     );

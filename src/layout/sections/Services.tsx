@@ -131,7 +131,7 @@ export default class Services extends Component<Props, State> {
               data-aos-anchor-placement="bottom-bottom"
               className="service-package-4"
             >
-              <div>
+              <div className="service-package-sub">
                 {/* <div className='contact-name-1 to-bold'> Legends: ⇒ <span className='we-logo-fourth to-bold'> (superscript) </span></div> */}
                 <div className="contact-description">
                   <ul>
@@ -178,15 +178,15 @@ export default class Services extends Component<Props, State> {
           src="/images/observe-down.png"
           width="3620"
           height="1671"
-        />
+        /> */}
 
                 <Image
           className="sales-1-land-pic"
           alt="front-logo"
-          src="/images/sales-312-up-up.webp"
+          src="/images/observe-up.webp"
           width="3620"
           height="1377"
-        /> */}
+        />
 
 
       </section>
