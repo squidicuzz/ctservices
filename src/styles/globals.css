@@ -1947,7 +1947,7 @@ li {
 }
 
 .contact-button:hover {
-  transform: translateY(-3px);
+  transform: translateY(-1px);
   filter: saturate(150%);
 }
 
