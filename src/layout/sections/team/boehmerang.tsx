@@ -18,7 +18,7 @@ export default class Boehmerang extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/ercknard.webp"
+                src="/images/ercknard3.webp"
                 width="512"
                 height="512"
               />

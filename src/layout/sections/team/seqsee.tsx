@@ -18,7 +18,7 @@ export default class Seqsee extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/jekz7.webp"
+                src="/images/jekz8.webp"
                 width="512"
                 height="512"
               />
