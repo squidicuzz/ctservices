@@ -248,12 +248,19 @@ export default function ContactUs() {
           </form>
         </div>
       </div>
-      <Image
+      {/* <Image
         className="contact-land-pic bgs-sen"
         alt="front-logo"
         src="/images/lights-a.webp"
         width="3620"
         height="1671"
+      /> */}
+      <Image
+        className="sales-1-land-pic contact-land-pic bgs-sen"
+        alt="front-logo"
+        src="/images/to-center-up.webp"
+        width="3620"
+        height="1377"
       />
     </section>
   );
