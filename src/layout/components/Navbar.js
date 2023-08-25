@@ -4,6 +4,7 @@ import ContactPageOutlinedIcon from "@mui/icons-material/ContactPageOutlined";
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { StyledEngineProvider } from "@mui/material/styles";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 function NavLink({ to, children }) {
   return (
@@ -145,11 +146,23 @@ export default function Navbar() {
                 <span id="teas">TEAM</span>
               </NavLink>
             </span>
-            <span className="kek">
-              <NavLink to="#metrix">
-                <span id="met">METRIX.PLACE</span>
-              </NavLink>
-            </span>
+            <div class="dropdown">
+              <button class="dropbtn">
+                METRIX <ArrowDropDownIcon />{" "}
+              </button>
+              <div class="dropdown-content">
+                <span className="kek">
+                  <NavLink to="#metrix">
+                    <span id="met">METRIX.PLACE</span>
+                  </NavLink>
+                </span>
+                <span className="kek">
+                  <NavLink to="#metrimask">
+                    <span id="met">METRIMASK MOBILE</span>
+                  </NavLink>
+                </span>
+              </div>
+            </div>
             <span className="kek">
               <NavLink to="#cryptechtest">
                 <span id="cryp">CRYPTECHTEST</span>

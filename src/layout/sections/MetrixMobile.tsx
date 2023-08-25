@@ -12,6 +12,7 @@ export default class MetrixMobile extends Component<Props, State> {
   render() {
     return (
       <section
+        id="metrimask"
         className="metrix-container"
         data-color="rgb(182, 67, 174)"
       >
