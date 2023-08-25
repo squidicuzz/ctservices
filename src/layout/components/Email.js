@@ -44,8 +44,6 @@ export default function ContactUs() {
     return isValid;
   };
 
-  //   const [form, setForm] = useState(false);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -73,7 +71,6 @@ export default function ContactUs() {
         setShowFailureMessage(true);
         setButtonText("Send");
 
-        // Reset form fields
         setFullname("");
         setEmail("");
         setMessage("");
@@ -83,7 +80,6 @@ export default function ContactUs() {
       setShowSuccessMessage(true);
       setShowFailureMessage(false);
       setButtonText("Send");
-      // Reset form fields
       setFullname("");
       setEmail("");
       setMessage("");
