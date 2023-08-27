@@ -9,8 +9,6 @@ sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 // sendgrid.setApiKey(SENDGRID_API_KEY);
 
 async function sendEmail(req, res) {
-  // NOTE: Uncomment the below lines to make the code work
-
   try {
     await sendgrid.send({
       to: "inquiries@cryptech.services", // Your email where you'll receive emails

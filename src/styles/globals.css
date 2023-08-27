@@ -160,6 +160,10 @@ main {
   font-weight: 500 !important;
 }
 
+.kek:hover {
+  color: rgb(var(--seventh-secon)) !important;
+}
+
 .actives {
   filter: drop-shadow(0px 0px 5px #2c68d0);
   font-weight: 900 !important;

@@ -146,11 +146,11 @@ export default function Navbar() {
                 <span id="teas">TEAM</span>
               </NavLink>
             </span>
-            <div class="dropdown">
+            <div className="dropdown">
               <button class="dropbtn">
                 METRIX <ArrowDropDownIcon />{" "}
               </button>
-              <div class="dropdown-content">
+              <div className="dropdown-content">
                 <span className="kek">
                   <NavLink to="#metrix">
                     <span id="met">METRIX.PLACE</span>
