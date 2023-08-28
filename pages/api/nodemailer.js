@@ -3,7 +3,8 @@ import nodemailer from "nodemailer";
 const transporter = nodemailer.createTransport({
   host: `${process.env.SMTP_HOST}`,
   port: Number(process.env.SMTP_PORT),
-  secure: true,
+  secure: false,
+  requireTLS: true,
   auth: {
     user: `${process.env.SMTP_USERNAME}`,
     pass: `${process.env.SMTP_PASSWORD}`,
@@ -12,6 +13,7 @@ const transporter = nodemailer.createTransport({
 
 async function sendEmail(req, res) {
   try {
+
       // send mail with defined transport object
       const info = await transporter.sendMail({
         from: 'noreply@cryptech.services', // sender address
@@ -47,14 +49,14 @@ async function sendEmail(req, res) {
         </html>`, // html body
       });
         
-      console.log("Message sent: %s", info.messageId);
+      //console.log("Message sent: %s", info.messageId);
 
   } catch (error) {
     // console.log(error);
     return res.status(error.statusCode || 500).json({ error: error.message });
   }
 
-  return res.status(200).json({ error: "" });
+  return res.status(200).json({ error: undefined });
 }
 
 export default sendEmail;

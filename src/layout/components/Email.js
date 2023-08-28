@@ -49,6 +49,7 @@ export default function ContactUs() {
 
     let isValidForm = handleValidation();
 
+    console.log(`isValidForm: ${isValidForm}`);
     if (isValidForm) {
       setButtonText("Sending");
       const res = await fetch("/api/nodemailer", {
@@ -63,6 +64,8 @@ export default function ContactUs() {
         },
         method: "POST",
       });
+
+      console.log(res);
 
       const { error } = await res.json();
       if (error) {
