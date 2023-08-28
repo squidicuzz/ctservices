@@ -147,7 +147,7 @@ export default function Navbar() {
               </NavLink>
             </span>
             <div className="dropdown">
-              <button class="dropbtn">
+              <button className="dropbtn">
                 METRIX <ArrowDropDownIcon />{" "}
               </button>
               <div className="dropdown-content">
