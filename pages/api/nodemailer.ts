@@ -114,13 +114,13 @@ async function sendEmail(
 
   try {
 
-      // send mail with defined transport object
-      const info = await transporter.sendMail({
-        from: 'noreply@cryptech.services', // sender address
-        to: "inquiries@cryptech.services", // list of receivers
-        subject: `[CT Services] : ${req.body.subject}`, // Subject line
-        text: `${req.body.message}`, // plain text body
-        html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    // send mail with defined transport object
+    const info = await transporter.sendMail({
+      from: 'noreply@cryptech.services', // sender address
+      to: "inquiries@cryptech.services", // list of receivers
+      subject: `[CT Services] : ${req.body.subject}`, // Subject line
+      text: `${req.body.message}`, // plain text body
+      html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
         <html lang="en">
         <head>
           <meta charset="utf-8">
@@ -147,9 +147,9 @@ async function sendEmail(
                 </div>
         </body>
         </html>`, // html body
-      });
-        
-      //console.log("Message sent: %s", info.messageId);
+    });
+
+    //console.log("Message sent: %s", info.messageId);
 
   } catch (error) {
     // console.log(error);
