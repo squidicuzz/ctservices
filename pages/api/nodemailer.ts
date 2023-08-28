@@ -116,7 +116,7 @@ async function sendEmail(
 
     // send mail with defined transport object
     const info = await transporter.sendMail({
-      from: 'noreply@cryptech.services', // sender address
+      from: `${process.env.SMTP_USERNAME}`, // sender address
       to: "inquiries@cryptech.services", // list of receivers
       subject: `[CT Services] : ${req.body.subject}`, // Subject line
       text: `${req.body.message}`, // plain text body
