@@ -10,7 +10,7 @@ export default function ContactUs() {
   const [message, setMessage] = useState("");
 
   //   Form validation
-  const [errors, setErrors] = useState({});
+  const [errors, setErrors] = useState({} as any);
 
   //   Setting button text
   const [buttonText, setButtonText] = useState("Send");
@@ -19,7 +19,7 @@ export default function ContactUs() {
   const [showFailureMessage, setShowFailureMessage] = useState(false);
 
   const handleValidation = () => {
-    let tempErrors = {};
+    let tempErrors: any = {};
     let isValid = true;
 
     if (fullname.length <= 0) {
@@ -44,7 +44,7 @@ export default function ContactUs() {
     return isValid;
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
 
     let isValidForm = handleValidation();
