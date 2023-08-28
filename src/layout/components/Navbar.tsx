@@ -2,11 +2,9 @@
 import { useState } from "react";
 import ContactPageOutlinedIcon from "@mui/icons-material/ContactPageOutlined";
 import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-import { StyledEngineProvider } from "@mui/material/styles";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
-function NavLink({ to, children }) {
+function NavLink({ to, children }: any): React.JSX.Element {
   return (
     <a href={to} className={`mx-4`}>
       {children}
@@ -14,12 +12,11 @@ function NavLink({ to, children }) {
   );
 }
 
-function MobileNav({ open, setOpen }) {
+function MobileNav({ open, setOpen }: any): React.JSX.Element {
   return (
     <div
-      className={`absolute top-0 left-0 h-screen w-screen bg-black transform ${
-        open ? "-translate-x-0" : "-translate-x-full"
-      } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
+      className={`absolute top-0 left-0 h-screen w-screen bg-black transform ${open ? "-translate-x-0" : "-translate-x-full"
+        } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >
       <div className="flex items-center justify-center filter drop-shadow-md h-20">
         {" "}
@@ -114,19 +111,16 @@ export default function Navbar() {
           >
             {/* hamburger button */}
             <span
-              className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
-                open ? "rotate-45 translate-y-3.5" : ""
-              }`}
+              className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""
+                }`}
             />
             <span
-              className={`h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${
-                open ? "w-0" : "w-full"
-              }`}
+              className={`h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"
+                }`}
             />
             <span
-              className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
-                open ? "-rotate-45 -translate-y-3.5" : ""
-              }`}
+              className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""
+                }`}
             />
           </div>
 

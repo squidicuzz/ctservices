@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/layout/components/Navbar.js",
+    "src/layout/components/Navbar.tsx",
     "src/layout/components/Email.tsx",
     "src/layout/components/scripts.js"
   ],

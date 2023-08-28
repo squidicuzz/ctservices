@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
-const ImageSlider = ({ images }) => {
+const ImageSlider = ({ images }: any) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const ImageSlider = ({ images }) => {
 
   return (
     <div className="image-slider lests">
-      {images.map((image, index) => (
+      {images.map((image: string, index: number) => (
         <div
           key={index}
           className={`slide ${index === currentSlide ? "active" : ""}`}

@@ -3,7 +3,6 @@ import { Inter } from 'next/font/google';
 import '@fontsource/ysabeau';
 import AOScall from '@/layout/components/Aos';
 import Head from 'next/head';
-import Script from 'next/script';
 import React, { useEffect } from "react";
 
 const inter = Inter({ subsets: ['latin'] })
