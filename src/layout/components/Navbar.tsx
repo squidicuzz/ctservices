@@ -72,6 +72,17 @@ function MobileNav({ open, setOpen }: any): React.JSX.Element {
         </a>
         <a
           className="text-xl font-normal my-4"
+          href="#metrimask"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          MetrixMask Mobile
+        </a>
+        <a
+          className="text-xl font-normal my-4"
           href="#cryptechtest"
           onClick={() =>
             setTimeout(() => {
