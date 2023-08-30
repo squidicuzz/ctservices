@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import Image from "next/image";
 import ExtensionOutlinedIcon from "@mui/icons-material/ExtensionOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import AndroidIcon from '@mui/icons-material/Android';
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import AndroidIcon from "@mui/icons-material/Android";
 type Props = {};
 type State = {};
 export default class MetrixMobile extends Component<Props, State> {
@@ -36,12 +36,14 @@ export default class MetrixMobile extends Component<Props, State> {
                 className="section-desc"
               >
                 {" "}
-                Metrixcoin Web3 wallet with embedded browser. Use to send/receive MRX and MRC20 based tokens.
-Interact with Web3 websites that support the
+                Metrixcoin Web3 wallet with embedded browser. Use to
+                send/receive MRX and MRC20 based tokens. Interact with Web3
+                websites that support the
                 <a href="https://www.metrixcoin.com/" target="_blank">
                   <span className="we-logo-first to-bold"> Metrix chain</span>.
                 </a>{" "}
-                Use MetriMask to interact with Metrixcoin Web3 apps from your mobile device.
+                Use MetriMask to interact with Metrixcoin Web3 apps from your
+                mobile device.
               </div>
               <div className="to-flex to-gap-1">
                 <a
@@ -80,42 +82,44 @@ Interact with Web3 websites that support the
                 height="1100"
               /> */}
               <div className="gallery-1">
-  <Image
-    src="/images/unnamed0.webp"
-    alt="many clothes and pictures"
-    width="1100"
-    height="1100"
-  />
-  <Image
-    src="/images/unnamed1.webp"
-    alt="someone preparing artisanal coffee"
-    width="1100"
-    height="1100"
-  />
-  <Image src="/images/unnamed2.webp" alt="some tee"
+                <Image
+                  src="/images/unnamed0.webp"
+                  alt="many clothes and pictures"
                   width="1100"
-                  height="1100" />
-  <Image
-    src="/images/unnamed3.webp"
-    alt="an empty table in a restaurant"
-    width="1100"
-    height="1100"
-  />
-  <Image
-    src="/images/unnamed4.webp"
-    alt="a laptop with a notebook"
-    width="1100"
-    height="1100"
-  />
+                  height="1100"
+                />
+                <Image
+                  src="/images/unnamed1.webp"
+                  alt="someone preparing artisanal coffee"
+                  width="1100"
+                  height="1100"
+                />
+                <Image
+                  src="/images/unnamed2.webp"
+                  alt="some tee"
+                  width="1100"
+                  height="1100"
+                />
+                <Image
+                  src="/images/unnamed3.webp"
+                  alt="an empty table in a restaurant"
+                  width="1100"
+                  height="1100"
+                />
+                <Image
+                  src="/images/unnamed4.webp"
+                  alt="a laptop with a notebook"
+                  width="1100"
+                  height="1100"
+                />
 
-<Image
-    src="/images/unnamed3.webp"
-    alt="a laptop with a notebook"
-    width="1100"
-    height="1100"
-  />
-
-</div>
+                <Image
+                  src="/images/unnamed3.webp"
+                  alt="a laptop with a notebook"
+                  width="1100"
+                  height="1100"
+                />
+              </div>
             </div>
           </div>
           <div></div>

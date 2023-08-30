@@ -78,23 +78,43 @@ export default class Metrix extends Component<Props, State> {
                 height="1100"
               /> */}
               <div className="gallery">
-  <Image src="/images/metrixboard.webp" alt="a hot air balloon" width="1100"
-                height="1100" />
-  <Image src="/images/metrixboard.webp" alt="a clock" width="1100"
-                height="1100"/>
-  <Image
-    src="/images/metrixboard.webp"
-    alt="a sky photo of an old city"
-    width="1100"
-                height="1100"
-  />
-  <Image src="/images/metrixboard.webp" alt="a small boat" width="1100"
-                height="1100"/>
-  <Image src="/images/metrixboard.webp" alt="a lonely man :(" width="1100"
-                height="1100"/>
-  <Image src="/images/metrixboard.webp" alt="a forest" width="1100"
-                height="1100"/>
-</div>
+                <Image
+                  src="/images/metrixboard.webp"
+                  alt="a hot air balloon"
+                  width="1100"
+                  height="1100"
+                />
+                <Image
+                  src="/images/metrixboard.webp"
+                  alt="a clock"
+                  width="1100"
+                  height="1100"
+                />
+                <Image
+                  src="/images/metrixboard.webp"
+                  alt="a sky photo of an old city"
+                  width="1100"
+                  height="1100"
+                />
+                <Image
+                  src="/images/metrixboard.webp"
+                  alt="a small boat"
+                  width="1100"
+                  height="1100"
+                />
+                <Image
+                  src="/images/metrixboard.webp"
+                  alt="a lonely man :("
+                  width="1100"
+                  height="1100"
+                />
+                <Image
+                  src="/images/metrixboard.webp"
+                  alt="a forest"
+                  width="1100"
+                  height="1100"
+                />
+              </div>
             </div>
           </div>
           <div></div>
