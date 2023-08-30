@@ -2335,7 +2335,7 @@ li {
   margin-bottom: unset !important;
 }
 
-.skew {
+/* .skew {
   transform: scale(0.65) !important;
   filter: drop-shadow(10px 10px 5px rgb(var(--primary-secon)));
 }
@@ -2344,11 +2344,13 @@ li {
   .skew {
     transform: scale(0.5) !important;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .skew {
     transform: scale(0.9) !important;
+    filter: drop-shadow(10px 10px 5px rgb(var(--primary-secon)));
+    width: 100vw !important;
   }
 }
 
@@ -3612,4 +3614,120 @@ li {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: rgb(var(--primary-secon));
+}
+
+.gallery {
+  --s: 400px; /* the size */
+  
+  display: grid;
+  transform-style: preserve-3d;
+  --_p: perspective(calc(2.5*var(--s)));
+  animation: r 30s infinite cubic-bezier(.5,-0.5,.5,1.5);
+}
+
+@media (max-width: 1600px) {
+  .gallery {
+    --s: 250px; /* the size */
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.gallery img {
+  grid-area: 1/1;
+  width: var(--s);
+  aspect-ratio: 1;
+  object-fit: cover;
+  transform: var(--_t,) translateZ(calc(var(--s)/2));
+}
+.gallery img:nth-child(2) {--_t: rotateX(-90deg)}
+.gallery img:nth-child(3) {--_t: rotateY( 90deg)}
+.gallery img:nth-child(4) {--_t: rotateX(180deg) rotate( 90deg)}
+.gallery img:nth-child(5) {--_t: rotateX( 90deg)}
+.gallery img:nth-child(6) {--_t: rotateY(-90deg)}
+
+@keyframes r {
+  0%,3%   {transform: var(--_p) rotate3d(0, 0, 0, 0deg)}
+  14%,19% {transform: var(--_p) rotate3d(-1, 1, 0, 180deg)}
+  31%,36% {transform: var(--_p) rotate3d(0, -1, 0, 90deg)}
+  47%,52% {transform: var(--_p) rotate3d(1, 0, 0, 90deg)}
+  64%,69% {transform: var(--_p) rotate3d(1, 0, 0, -90deg)}
+  81%,86% {transform: var(--_p) rotate3d(0, 1, 0, 90deg)}
+  97%,100%{transform: var(--_p) rotate3d(0, 0, 0, 0deg)}
+}
+
+.gallery-1 {
+  display: grid;
+  width: 160px;
+  transform-style: preserve-3d;
+  --_t: perspective(280px) rotateX(-90deg);
+  animation: r-1 12s cubic-bezier(0.5, -0.2, 0.5, 1.2) infinite;
+}
+
+@keyframes r-1 {
+  0%, 3% {
+    transform: var(--_t) rotate(0deg);
+  }
+  14.6666666667%, 19.6666666667% {
+    transform: var(--_t) rotate(60deg);
+  }
+  31.3333333333%, 36.3333333333% {
+    transform: var(--_t) rotate(120deg);
+  }
+  48%, 53% {
+    transform: var(--_t) rotate(180deg);
+  }
+  64.6666666667%, 69.6666666667% {
+    transform: var(--_t) rotate(240deg);
+  }
+  81.3333333333%, 86.3333333333% {
+    transform: var(--_t) rotate(300deg);
+  }
+  98%, 100% {
+    transform: var(--_t) rotate(360deg);
+  }
+}
+.gallery-1 > img {
+  grid-area: 1/1;
+  width: 100px;
+  object-fit: cover;
+}
+
+.gallery-1 > img:nth-child(1) {
+  transform: rotate(0deg) translateY(86.6025403784%) rotateX(90deg);
+}
+
+.gallery-1 > img:nth-child(2) {
+  transform: rotate(60deg) translateY(86.6025403784%) rotateX(90deg);
+}
+
+.gallery-1 > img:nth-child(3) {
+  transform: rotate(120deg) translateY(86.6025403784%) rotateX(90deg);
+}
+
+.gallery-1 > img:nth-child(4) {
+  transform: rotate(180deg) translateY(86.6025403784%) rotateX(90deg);
+}
+
+.gallery-1 > img:nth-child(5) {
+  transform: rotate(240deg) translateY(86.6025403784%) rotateX(90deg);
+}
+
+.gallery-1 > img:nth-child(6) {
+  transform: rotate(300deg) translateY(86.6025403784%) rotateX(90deg);
+}
+
+@media (max-width: 768px) {
+  .gallery-1 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
