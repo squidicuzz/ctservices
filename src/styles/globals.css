@@ -3660,7 +3660,8 @@ li {
 
 @media (max-width: 768px) {
   .gallery {
-    margin-top: 3rem;
+    --s: 200px; /* the size */
+    margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -3752,15 +3753,15 @@ li {
 
 @media (max-width: 768px) {
   .gallery-1 {
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
     margin-left: auto;
     margin-right: auto;
   }
 
   .gallery-1 > img {
     grid-area: 1/1;
-    width: 75px;
+    width: 60px;
     object-fit: cover;
   }
 }
