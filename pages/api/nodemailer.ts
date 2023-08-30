@@ -272,13 +272,13 @@ async function sendEmail(
     </html>` // html body
     });
 
-        // send mail to user with defined transport object
-        const infotoUser = await transporter.sendMail({
-          from: `${process.env.SMTP_USERNAME}`, // sender address
-          to: `${req.body.email}`, // list of receivers
-          subject: `Receipt Confirmation: Your Inquiry to Cryptech Services`, // Subject line
-          // text: `${req.body.message}`, // plain text body
-          html: `<html>
+    // send mail to user with defined transport object
+    const infotoUser = await transporter.sendMail({
+      from: `${process.env.SMTP_USERNAME}`, // sender address
+      to: `${req.body.email}`, // list of receivers
+      subject: `Receipt Confirmation: Your Inquiry to Cryptech Services`, // Subject line
+      // text: `${req.body.message}`, // plain text body
+      html: `<html>
           <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -429,8 +429,8 @@ async function sendEmail(
             </table>
           </body>
         </html>` // html body
-        });
-    
+    });
+
 
     //console.log("Message sent: %s", info.messageId);
 
