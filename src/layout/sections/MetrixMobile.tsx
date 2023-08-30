@@ -83,7 +83,7 @@ export default class MetrixMobile extends Component<Props, State> {
               /> */}
               <div className="gallery-1">
                 <Image
-                  src="/images/unnamed0.webp"
+                  src="/images/unnamed2.webp"
                   alt="mrx"
                   width="810"
                   height="1440"
@@ -95,7 +95,7 @@ export default class MetrixMobile extends Component<Props, State> {
                   height="1440"
                 />
                 <Image
-                  src="/images/unnamed2.webp"
+                  src="/images/unnamed0.webp"
                   alt="mrx"
                   width="810"
                   height="1440"
