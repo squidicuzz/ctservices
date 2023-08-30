@@ -1290,6 +1290,12 @@ li {
   filter: drop-shadow(0px 0px 5px rgb(var(--sixth)));
 }
 
+@media (max-width: 768px) {
+  .we-logo {
+    font-size: 2.5rem !important;
+  }
+}
+
 .we-do:first-child {
   /* background-color: rgb(182, 67, 174, 0.75);
   border: 3px solid;
@@ -1481,7 +1487,7 @@ li {
 
 @media (max-width: 768px) {
   .contacts-container {
-    min-width: 65% !important;
+    min-width: 90% !important;
     margin-bottom: 3rem !important;
   }
 }
@@ -2066,6 +2072,10 @@ li {
 
 @media (max-width: 768px) {
   .section-desc-1 {
+    width: 100%;
+  }
+
+  .section-desc {
     width: 100%;
   }
 }
@@ -2822,6 +2832,16 @@ li {
 .lest ul li .title {
   font-size: var(--quaternary-font);
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .lest ul li .title {
+    font-size: 1rem !important;
+    font-weight: 700;
+  }
+  .lest ul li .icon {
+    font-size: 5rem !important;
+  }
 }
 
 .lest ul li .descr {
