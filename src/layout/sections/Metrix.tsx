@@ -80,37 +80,37 @@ export default class Metrix extends Component<Props, State> {
               <div className="gallery">
                 <Image
                   src="/images/metrixboard.webp"
-                  alt="a hot air balloon"
+                  alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
                   src="/images/metrixboard.webp"
-                  alt="a clock"
+                  alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
                   src="/images/metrixboard.webp"
-                  alt="a sky photo of an old city"
+                  alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
                   src="/images/metrixboard.webp"
-                  alt="a small boat"
+                  alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
                   src="/images/metrixboard.webp"
-                  alt="a lonely man :("
+                  alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
                   src="/images/metrixboard.webp"
-                  alt="a forest"
+                  alt="mrx"
                   width="1100"
                   height="1100"
                 />

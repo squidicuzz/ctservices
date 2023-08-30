@@ -2053,6 +2053,7 @@ li {
   font-size: var(--special-font);
   text-align: left;
   z-index: 5;
+  width: 90%;
 }
 
 .section-desc-1 {
@@ -3729,5 +3730,11 @@ li {
     margin-bottom: 5rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .gallery-1 > img {
+    grid-area: 1/1;
+    width: 75px;
+    object-fit: cover;
   }
 }

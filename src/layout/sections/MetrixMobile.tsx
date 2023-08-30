@@ -78,46 +78,46 @@ export default class MetrixMobile extends Component<Props, State> {
                 // data-aos-anchor-placement="bottom-bottom"
                 alt="ships"
                 src="/images/unnamed1.webp"
-                width="1100"
-                height="1100"
+                width="810"
+                height="1440"
               /> */}
               <div className="gallery-1">
                 <Image
                   src="/images/unnamed0.webp"
-                  alt="many clothes and pictures"
-                  width="1100"
-                  height="1100"
+                  alt="mrx"
+                  width="810"
+                  height="1440"
                 />
                 <Image
                   src="/images/unnamed1.webp"
-                  alt="someone preparing artisanal coffee"
-                  width="1100"
-                  height="1100"
+                  alt="mrx"
+                  width="810"
+                  height="1440"
                 />
                 <Image
                   src="/images/unnamed2.webp"
-                  alt="some tee"
-                  width="1100"
-                  height="1100"
+                  alt="mrx"
+                  width="810"
+                  height="1440"
                 />
                 <Image
                   src="/images/unnamed3.webp"
-                  alt="an empty table in a restaurant"
-                  width="1100"
-                  height="1100"
+                  alt="mrx"
+                  width="810"
+                  height="1440"
                 />
                 <Image
                   src="/images/unnamed4.webp"
-                  alt="a laptop with a notebook"
-                  width="1100"
-                  height="1100"
+                  alt="mrx"
+                  width="810"
+                  height="1440"
                 />
 
                 <Image
                   src="/images/unnamed3.webp"
-                  alt="a laptop with a notebook"
-                  width="1100"
-                  height="1100"
+                  alt="mrx"
+                  width="810"
+                  height="1440"
                 />
               </div>
             </div>
