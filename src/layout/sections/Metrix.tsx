@@ -67,7 +67,7 @@ export default class Metrix extends Component<Props, State> {
               </div>
             </div>
             <div className="we-do-container">
-              <Image
+              {/* <Image
                 className="ships skew"
                 // data-aos="fade"
                 // data-aos-duration="1500"
@@ -76,7 +76,25 @@ export default class Metrix extends Component<Props, State> {
                 src="/images/metrixboard.webp"
                 width="1100"
                 height="1100"
-              />
+              /> */}
+              <div className="gallery">
+  <Image src="/images/metrixboard.webp" alt="a hot air balloon" width="1100"
+                height="1100" />
+  <Image src="/images/metrixboard.webp" alt="a clock" width="1100"
+                height="1100"/>
+  <Image
+    src="/images/metrixboard.webp"
+    alt="a sky photo of an old city"
+    width="1100"
+                height="1100"
+  />
+  <Image src="/images/metrixboard.webp" alt="a small boat" width="1100"
+                height="1100"/>
+  <Image src="/images/metrixboard.webp" alt="a lonely man :(" width="1100"
+                height="1100"/>
+  <Image src="/images/metrixboard.webp" alt="a forest" width="1100"
+                height="1100"/>
+</div>
             </div>
           </div>
           <div></div>

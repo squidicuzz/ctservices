@@ -16,56 +16,56 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var react_1 = require("react");
 var image_1 = require("next/image");
+var ExtensionOutlined_1 = require("@mui/icons-material/ExtensionOutlined");
 var GitHub_1 = require("@mui/icons-material/GitHub");
-var Android_1 = require("@mui/icons-material/Android");
-var MetrixMobile = /** @class */ (function (_super) {
-    __extends(MetrixMobile, _super);
-    function MetrixMobile() {
+var Metrix = /** @class */ (function (_super) {
+    __extends(Metrix, _super);
+    function Metrix() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.state = {};
         return _this;
     }
-    MetrixMobile.prototype.render = function () {
-        return (react_1["default"].createElement("section", { id: "metrimask", className: "metrix-container", "data-color": "rgb(182, 67, 174)" },
+    Metrix.prototype.render = function () {
+        return (react_1["default"].createElement("section", { id: "metrix", className: "metrix-container", "data-color": "rgb(182, 67, 174)" },
             react_1["default"].createElement("div", { className: "to-width to-center to-column" },
                 react_1["default"].createElement("div", { className: "to-flex to-height to-align" },
                     react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
-                        react_1["default"].createElement("div", { className: "title-metrix-mobile" },
+                        react_1["default"].createElement("div", { className: "title-metrix" },
                             react_1["default"].createElement("div", { className: "text-motion section-title project-title to-primary" },
                                 " ",
-                                "METRIMASK MOBILE",
+                                "METRIX.PLACE",
                                 " ")),
                         react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: "section-desc" },
                             " ",
-                            "Metrixcoin Web3 wallet with embedded browser. Use to send/receive MRX and MRC20 based tokens. Interact with Web3 websites that support the",
-                            react_1["default"].createElement("a", { href: "https://www.metrixcoin.com/", target: "_blank" },
-                                react_1["default"].createElement("span", { className: "we-logo-first to-bold" }, " Metrix chain"),
-                                "."),
+                            "metrix.place is a communal grafitti board called a place, which any address can set a single pixel per",
                             " ",
-                            "Use MetriMask to interact with Metrixcoin Web3 apps from your mobile device."),
+                            react_1["default"].createElement("a", { href: "https://www.metrixcoin.com/", target: "_blank" },
+                                react_1["default"].createElement("span", { className: "we-logo-first to-bold" }, "Metrix Coin")),
+                            " ",
+                            "transaction by paying the gas fee for the transaction."),
                         react_1["default"].createElement("div", { className: "to-flex to-gap-1" },
-                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://play.google.com/store/apps/details?id=com.metrimask_mobile", target: "_blank" },
+                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://metrix.place/", target: "_blank" },
                                 react_1["default"].createElement("div", null,
                                     react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
-                                        react_1["default"].createElement(Android_1["default"], null),
-                                        " Playstore"))),
-                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://github.com/TheLindaProjectInc/MetriMask-Mobile", target: "_blank" },
+                                        react_1["default"].createElement(ExtensionOutlined_1["default"], null),
+                                        " Play!"))),
+                            react_1["default"].createElement("a", { className: "project-button to-primary", href: "https://github.com/SeqSEE/metrix.place", target: "_blank" },
                                 react_1["default"].createElement("div", null,
                                     react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                         react_1["default"].createElement(GitHub_1["default"], null),
                                         " Github"))))),
                     react_1["default"].createElement("div", { className: "we-do-container" },
-                        react_1["default"].createElement("div", { className: "gallery-1" },
-                            react_1["default"].createElement(image_1["default"], { src: "/images/unnamed0.webp", alt: "many clothes and pictures", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/unnamed1.webp", alt: "someone preparing artisanal coffee", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/unnamed2.webp", alt: "some tee", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/unnamed3.webp", alt: "an empty table in a restaurant", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/unnamed4.webp", alt: "a laptop with a notebook", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/unnamed3.webp", alt: "a laptop with a notebook", width: "1100", height: "1100" })))),
+                        react_1["default"].createElement("div", { className: "gallery" },
+                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "a hot air balloon", width: "1100", height: "1100" }),
+                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "a clock", width: "1100", height: "1100" }),
+                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "a sky photo of an old city", width: "1100", height: "1100" }),
+                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "a small boat", width: "1100", height: "1100" }),
+                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "a lonely man :(", width: "1100", height: "1100" }),
+                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "a forest", width: "1100", height: "1100" })))),
                 react_1["default"].createElement("div", null)),
             react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: "front-logo", src: "/images/metrixbs.webp", width: "3620", height: "1670" }),
             react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: "front-logo", src: "/images/team3-up.webp", width: "3620", height: "1671" })));
     };
-    return MetrixMobile;
+    return Metrix;
 }(react_1.Component));
-exports["default"] = MetrixMobile;
+exports["default"] = Metrix;
