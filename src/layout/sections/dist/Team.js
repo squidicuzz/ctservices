@@ -42,7 +42,7 @@ var Team = /** @class */ (function (_super) {
                             " ",
                             "CRYPTECH SERVICES TEAM",
                             " ")),
-                    react_1["default"].createElement("div", { className: "section-desc" },
+                    react_1["default"].createElement("div", { className: "section-desc-2" },
                         " ",
                         "Please contact an",
                         " ",

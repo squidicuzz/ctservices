@@ -32,7 +32,7 @@ export default class Team extends Component<Props, State> {
                 CRYPTECH SERVICES TEAM{" "}
               </div>
             </div>
-            <div className="section-desc">
+            <div className="section-desc-2">
               {" "}
               Please contact an{" "}
               <a href="#contact">

@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import Image from "next/image";
 import ExtensionOutlinedIcon from "@mui/icons-material/ExtensionOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import ImagePicker from "../components/ImagePic";
+import Modals from "../components/Modal";
 type Props = {};
 type State = {};
 export default class Metrix extends Component<Props, State> {
@@ -64,6 +66,7 @@ export default class Metrix extends Component<Props, State> {
                     </button>
                   </div>
                 </a>
+                {/* <Modals /> */}
               </div>
             </div>
             <div className="we-do-container">
@@ -77,48 +80,49 @@ export default class Metrix extends Component<Props, State> {
                 width="1100"
                 height="1100"
               /> */}
-              <div className="gallery">
-                <Image
+              {/* <div className="gallery">
+              <Image
                   src="/images/metrixboard.webp"
+                  alt="mrx"
+                  width="1100"
+                  height="1100"
+                /> */}
+              <ImagePicker />
+                {/* <Image
+                  src="https://metrix.place/plc/chunks/4-4.png"
                   alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
-                  src="/images/metrixboard.webp"
+                  src="https://metrix.place/plc/chunks/4-4.png"
                   alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
-                  src="/images/metrixboard.webp"
+                  src="https://metrix.place/plc/chunks/4-4.png"
                   alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
-                  src="/images/metrixboard.webp"
+                  src="https://metrix.place/plc/chunks/4-4.png"
                   alt="mrx"
                   width="1100"
                   height="1100"
                 />
                 <Image
-                  src="/images/metrixboard.webp"
+                  src="https://metrix.place/plc/chunks/4-4.png"
                   alt="mrx"
                   width="1100"
                   height="1100"
-                />
-                <Image
-                  src="/images/metrixboard.webp"
-                  alt="mrx"
-                  width="1100"
-                  height="1100"
-                />
+                /> */}
               </div>
             </div>
           </div>
           <div></div>
-        </div>
+        {/* </div> */}
         <Image
           className="team-land-pic"
           alt="front-logo"
