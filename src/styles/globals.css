@@ -2068,6 +2068,13 @@ li {
   width: 90%;
 }
 
+.section-desc-2 {
+  position: relative;
+  font-size: var(--special-font);
+  text-align: left;
+  z-index: 5;
+}
+
 .section-desc-1 {
   position: relative;
   font-size: var(--special-font);

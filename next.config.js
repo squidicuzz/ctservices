@@ -5,6 +5,6 @@ module.exports = nextConfig;
 
 module.exports = {
     images: {
-      domains: ['localhost','metrix.place'],
+      domains: ['localhost','metrix.place','thispersondoesnotexist.com'],
     },
   };
