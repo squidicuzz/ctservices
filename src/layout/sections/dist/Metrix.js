@@ -18,6 +18,7 @@ var react_1 = require("react");
 var image_1 = require("next/image");
 var ExtensionOutlined_1 = require("@mui/icons-material/ExtensionOutlined");
 var GitHub_1 = require("@mui/icons-material/GitHub");
+var ImagePic_1 = require("../components/ImagePic");
 var Metrix = /** @class */ (function (_super) {
     __extends(Metrix, _super);
     function Metrix() {
@@ -55,14 +56,8 @@ var Metrix = /** @class */ (function (_super) {
                                         react_1["default"].createElement(GitHub_1["default"], null),
                                         " Github"))))),
                     react_1["default"].createElement("div", { className: "we-do-container" },
-                        react_1["default"].createElement("div", { className: "gallery" },
-                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "mrx", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "mrx", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "mrx", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "mrx", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "mrx", width: "1100", height: "1100" }),
-                            react_1["default"].createElement(image_1["default"], { src: "/images/metrixboard.webp", alt: "mrx", width: "1100", height: "1100" })))),
-                react_1["default"].createElement("div", null)),
+                        react_1["default"].createElement(ImagePic_1["default"], null)))),
+            react_1["default"].createElement("div", null),
             react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: "front-logo", src: "/images/metrixbs.webp", width: "3620", height: "1670" }),
             react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: "front-logo", src: "/images/team3-up.webp", width: "3620", height: "1671" })));
     };

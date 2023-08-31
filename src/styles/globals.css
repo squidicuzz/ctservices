@@ -3673,6 +3673,17 @@ li {
   aspect-ratio: 1;
   object-fit: cover;
   transform: var(--_t,) translateZ(calc(var(--s)/2));
+  background-image: url("/images/board.png");
+  background-position: center center;
+  background-size: 180%;
+  border: 3px solid black;
+  image-rendering: optimizeSpeed;             
+  image-rendering: -moz-crisp-edges;          
+  image-rendering: -o-crisp-edges;            
+  image-rendering: -webkit-optimize-contrast; 
+  image-rendering: pixelated;                 
+  image-rendering: optimize-contrast;         
+  -ms-interpolation-mode: nearest-neighbor; 
 }
 .gallery img:nth-child(2) {--_t: rotateX(-90deg)}
 .gallery img:nth-child(3) {--_t: rotateY( 90deg)}
@@ -3764,4 +3775,15 @@ li {
     width: 60px;
     object-fit: cover;
   }
+}
+
+.modal-metrix {
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000090;
+  cursor: default !important;
 }
